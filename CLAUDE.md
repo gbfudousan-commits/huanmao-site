@@ -17,8 +17,8 @@ Final domain (not live yet): huanmaofurniture.com. Owner: Channing (prefers Trad
 
 ## Facts that must not be changed or invented
 Established 2024 · ~100 employees · Taiwanese management · annual sales ~US$10M · ISO 9001 and
-ISO 14001 · FSC board only via FSC-certified suppliers (no own FSC CoC) · customers Lakeshore Learning
-and Branch Furniture (public naming still awaiting customer approval) · phone +84 369 686 820 ·
+ISO 14001 · FSC board only via FSC-certified suppliers (no own FSC CoC) · formaldehyde certificates come from board suppliers, not our own · MOQ and lead time depend on the product · customer names are confidential
+(customer names must NEVER appear on the site) · phone +84 369 686 820 ·
 email sales@huanmaofurniture.com · tax code 0801449372. Never publish bank accounts.
 Do not invent capacities, MOQ, lead times, certifications, machine counts or customer names.
 Red dashed `.note` boxes mark items waiting for the owner; leave them until he answers.

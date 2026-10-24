@@ -301,3 +301,39 @@ T += [
  "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330Sパネルソー、自動搬入出付きNCルーター、NC加工センター、NCボーリングマシンを備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。",
  "Phần lớn dây chuyền là thiết bị CNC của Nanxing Machinery: máy cưa panel NPC330S có cấp liệu tự động, máy CNC nesting tự động nạp xả liệu, trung tâm gia công CNC điểm-điểm và máy khoan CNC. Cạnh được hoàn thiện trên máy dán cạnh tự động, máy dán cạnh hai đầu và máy bọc cạnh định hình; ngoài ra còn có máy lăn keo và máy ép nguội thủy lực 60 tấn."),
 ]
+
+# ---------- 2026-10-24 (2): owner answers ----------
+_REMOVED2 = {
+ "Supplying U.S. brands",
+ "We supply U.S. furniture brands, including Lakeshore Learning (classroom and early-education furniture) and Branch Furniture (office furniture). Annual sales are around US$10 million.",
+ '<span class="k">Formaldehyde</span><span>CARB Phase 2 / TSCA Title VI compliant board',
+ 'alt="Rotary-table profile edge wrapping machine with glue tank"',
+ '<span class="k">WRAP</span><h3>Rotary-table edge wrapper</h3>',
+ "Turns small shaped parts on a table so the edging head can wrap all four sides without re-clamping.",
+ "Roller glue spreader and 60-ton hydraulic cold press bond veneer, HPL or film to panels for custom surfaces.",
+}
+T = [r for r in T if r[0] not in _REMOVED2]
+T += [
+("We supply established U.S. furniture brands in the education and office furniture markets. Customer names are kept confidential. Annual sales are around US$10 million.",
+ "我們為美國教育家具與辦公家具市場的知名品牌供貨，客戶名稱依約保密。年營業額約 1,000 萬美元。",
+ "米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は守秘としています。年間売上は約1,000万米ドルです。",
+ "Chúng tôi cung cấp cho các thương hiệu nội thất Mỹ uy tín trong thị trường nội thất giáo dục và văn phòng. Tên khách hàng được bảo mật. Doanh thu hằng năm khoảng 10 triệu USD."),
+('<span class="k">Formaldehyde</span><span>Board from suppliers certified to CARB Phase 2 / TSCA Title VI; supplier certificates available on request</span>',
+ '<span class="k">甲醛</span><span>板材來自通過 CARB Phase 2 / TSCA Title VI 認證的供應商，可依需求提供供應商證書</span>',
+ '<span class="k">ホルムアルデヒド</span><span>CARB Phase 2 / TSCA Title VI 認証を受けたサプライヤーの板材を使用。サプライヤーの証明書はご要望に応じて提出可能</span>',
+ '<span class="k">Formaldehyde</span><span>Ván từ nhà cung cấp đạt chứng nhận CARB Phase 2 / TSCA Title VI; có thể cung cấp chứng chỉ của nhà cung cấp theo yêu cầu</span>'),
+("Minimum order quantity and lead time depend on the product, materials and order size. Send us your drawings or product list and we will quote the MOQ and lead time together with the price.",
+ "最小訂購量與交期依產品、材料與訂單數量而定。請提供圖面或產品清單，我們會在報價時一併提供最小訂購量與交期。",
+ "最小発注数量と納期は、製品・材料・数量によって異なります。図面または製品リストをお送りいただければ、お見積もりと合わせて最小発注数量と納期をご案内します。",
+ "Số lượng đặt hàng tối thiểu và thời gian giao hàng tùy theo sản phẩm, vật liệu và số lượng đơn hàng. Hãy gửi bản vẽ hoặc danh sách sản phẩm, chúng tôi sẽ báo MOQ và thời gian giao hàng cùng với giá."),
+('alt="Shaped-edge banding machine with rotary table and glue tank"', 'alt="附轉盤與膠桶的異形封邊機"', 'alt="回転テーブルと接着剤タンク付きの異形エッジバンダー"', 'alt="Máy dán cạnh định hình có bàn xoay và bình keo"'),
+('<span class="k">SHAPED</span><h3>Shaped-edge banding machine</h3>', '<span class="k">異形</span><h3>異形封邊機</h3>', '<span class="k">異形</span><h3>異形エッジバンダー</h3>', '<span class="k">ĐỊNH HÌNH</span><h3>Máy dán cạnh định hình</h3>'),
+("Bands curved and irregular edges on shaped parts, turning each part on a rotary table so the whole outline is edged in one clamping.",
+ "替異形件的弧邊與不規則邊封邊，板件放在轉盤上旋轉，一次夾料就能封完整圈。",
+ "異形部材の曲線や不規則な木口をエッジ貼りします。回転テーブルで部材を回し、一度の固定で外周全体を仕上げます。",
+ "Dán cạnh cong và cạnh không đều cho chi tiết định hình; chi tiết xoay trên bàn xoay để dán toàn bộ đường viền trong một lần kẹp."),
+("Roller glue spreader and 60-ton hydraulic cold press laminate film onto panels and bond panels together, particleboard to particleboard or MDF to MDF, for thicker tops and parts.",
+ "滾筒過膠機搭配 60 噸油壓冷壓機，可壓貼膜料，也可將塑合板與塑合板、MDF 與 MDF 對貼，做成加厚桌板與板件。",
+ "ローラー糊付け機と60トン油圧コールドプレスで、フィルムを板材に貼り合わせるほか、パーティクルボード同士・MDF同士を接着して厚物の天板や部材を製作します。",
+ "Máy lăn keo và máy ép nguội thủy lực 60 tấn dán phim lên ván và ép dán ván với nhau (ván dăm với ván dăm, MDF với MDF) để làm mặt bàn và chi tiết dày."),
+]
