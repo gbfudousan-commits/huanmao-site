@@ -36,7 +36,7 @@
     "addressCountry": "VN"
   },
   "areaServed": "US",
-  "knowsAbout": ["ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
+  "knowsAbout": ["Nanxing CNC panel saw", "CNC nesting", "edge banding", "profile edge wrapping", "ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
 }
 </script>
 <script type="application/ld+json">
@@ -48,6 +48,7 @@
     {"@type": "Question", "name": "What does Huan Mao International manufacture?", "acceptedAnswer": {"@type": "Answer", "text": "We manufacture wood panel furniture from melamine-faced particleboard and MDF: classroom cubby storage, mobile storage carts, coat lockers, book displays, storage cabinets, office credenzas, consoles, sliding-door cabinets and standing-desk tops, packed flat with hardware kits."}},
     {"@type": "Question", "name": "Do you offer OEM and ODM?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Most of our work is OEM, built to the customer's drawings and bill of materials. We also propose our own designs (ODM) for customers who want a ready-developed product range."}},
     {"@type": "Question", "name": "Which markets do you supply?", "acceptedAnswer": {"@type": "Answer", "text": "Our main market is the United States. Products are packed flat as ready-to-assemble kits for container shipping."}},
+    {"@type": "Question", "name": "What equipment does Huan Mao International use?", "acceptedAnswer": {"@type": "Answer", "text": "Most of our line is Nanxing Machinery CNC equipment: NPC330S computer panel saws with automatic loaders, CNC nesting centres with automatic loading and unloading, a CNC point-to-point machining centre and CNC boring machines. Edges are finished on automatic and double-end edge banders and profile edge wrapping machines, and we also run a glue spreader with a 60-ton hydraulic cold press."}},
     {"@type": "Question", "name": "Is Huan Mao International certified?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Huan Mao International holds ISO 9001 (quality management) and ISO 14001 (environmental management) certification. FSC-certified board is available on request through our FSC-certified suppliers."}},
     {"@type": "Question", "name": "Who are your customers?", "acceptedAnswer": {"@type": "Answer", "text": "We supply U.S. furniture brands, including Lakeshore Learning (classroom and early-education furniture) and Branch Furniture (office furniture). Annual sales are around US$10 million."}},
     {"@type": "Question", "name": "Who manages the factory?", "acceptedAnswer": {"@type": "Answer", "text": "Huan Mao International was established in Vietnam in 2024 under Taiwanese management and employs about 100 people."}}
@@ -155,6 +156,15 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 @media (max-width:480px){.prods{grid-template-columns:1fr!important}}
 .clients{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;padding-block:18px;border-bottom:1px solid var(--line)}
 .clients .cl{font:600 1.15rem/1 var(--display);color:var(--muted)}
+.equip{display:grid;grid-template-columns:repeat(4,1fr);gap:24px 20px}
+.eq{margin:0;display:grid;gap:10px;align-content:start;min-width:0}
+.eq img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;background:var(--maple)}
+.eq figcaption{display:grid;gap:5px}
+.eq .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;color:var(--accent)}
+.eq .model{font:400 .76rem/1.4 var(--mono);color:var(--ink)}
+.eq p{color:var(--muted);font-size:.9rem}
+@media (max-width:980px){.equip{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.equip{grid-template-columns:1fr}}
 .langbar{border-bottom:1px solid var(--line);font:500 .78rem/1 var(--body)}.langbar nav{display:flex;justify-content:flex-end;gap:16px;padding-block:7px;flex-wrap:wrap}.langbar a{text-decoration:none;color:var(--muted)}.langbar a:hover{color:var(--ink)}.langbar a[aria-current]{color:var(--accent);font-weight:600}
 /* fact strip */
 .facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -251,7 +261,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
     </a>
     <ul>
       <li><a href="#capabilities">Capabilities</a></li>
-      <li><a href="#materials">Materials</a></li>
+      <li><a href="#equipment">Equipment</a></li>
       <li><a href="#products">Products</a></li>
       <li><a href="#oem-odm">OEM &amp; ODM</a></li>
       <li><a href="#factory">Factory</a></li>
@@ -297,11 +307,32 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
       </div>
       <div class="caps">
         <div class="cap"><img src="img/board-stock.jpg" width="1600" height="1200" loading="lazy" alt="Pallets of particleboard and MDF sheets in the Huan Mao raw-material warehouse"><span class="k">01 · BOARD</span><h3>Board intake</h3><p>Particleboard and MDF bought from qualified mills, checked and logged per order.</p><div class="spec">9 mm, 16 mm, 18 mm stock<br>2440 × 1220 mm sheets</div></div>
-        <div class="cap"><img src="img/cnc-nesting.jpg" width="1600" height="1200" loading="lazy" alt="CNC nesting router cutting panel parts"><span class="k">02 · CUT</span><h3>CNC nesting</h3><p>Parts nested and cut from full sheets, including shaped tops and cut-outs.</p><div class="spec">Nanxing CNC nesting router</div></div>
-        <div class="cap"><img src="img/cnc-boring.jpg" width="1600" height="1200" loading="lazy" alt="Multi-head CNC boring machine drilling furniture panels"><span class="k">03 · BORE</span><h3>CNC drilling</h3><p>Cam, dowel and shelf-pin holes drilled in one pass from the drawing.</p><div class="spec">Nanxing multi-head boring line</div></div>
-        <div class="cap"><img src="img/panel-detail.jpg" width="1100" height="1085" loading="lazy" alt="Close-up of edge-banded white melamine panels with drilled holes and grooves"><span class="k">04 · EDGE</span><h3>Edge banding &amp; grooving</h3><p>Exposed edges sealed in PVC; back-panel grooves cut to size.</p><div class="spec">PVC band, colour-matched</div></div>
+        <div class="cap"><img src="img/panel-saw-operator.jpg" width="1600" height="1200" loading="lazy" alt="Operator at a Nanxing NPC330S computer panel saw cutting white melamine particleboard"><span class="k">02 · CUT</span><h3>Panel saw &amp; CNC nesting</h3><p>Straight parts are cut in stacks on computer panel saws; shaped parts and cut-outs go to CNC nesting.</p><div class="spec">Nanxing NPC330S panel saws<br>Nanxing CNC nesting centres</div></div>
+        <div class="cap"><img src="img/cnc-drilling-nd.jpg" width="1600" height="1200" loading="lazy" alt="Nanxing ND-series CNC boring machine drilling white furniture panels"><span class="k">03 · BORE</span><h3>CNC drilling</h3><p>Cam, dowel and shelf-pin holes drilled in one pass from the drawing.</p><div class="spec">Nanxing CNC boring<br>Nanxing CNC PTP centre</div></div>
+        <div class="cap"><img src="img/edgebander-lift.jpg" width="1600" height="1200" loading="lazy" alt="Nanxing automatic edge banding machine fed from a lift table of white panels"><span class="k">04 · EDGE</span><h3>Edge banding &amp; grooving</h3><p>Straight edges run through automatic and double-end edge banders; curved edges are wrapped on profile machines.</p><div class="spec">PVC band, colour-matched</div></div>
         <div class="cap"><img src="img/packing-line.jpg" width="1600" height="1200" loading="lazy" alt="Packing line where panels and hardware kits are boxed as ready-to-assemble furniture"><span class="k">05 · PACK</span><h3>RTA packing</h3><p>Panels, hardware kit and instructions boxed per set, with EPS protection.</p><div class="spec">Customer cartons &amp; labels<br>Palletised for containers</div></div>
       </div>
+    </div>
+  </section>
+
+  <section id="equipment" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Equipment</span>
+        <h2>CNC panel lines, mostly from Nanxing Machinery</h2>
+        <p class="lede">Most of our production line runs on Nanxing Machinery CNC equipment, from sheet cutting to edge finishing. These are the machines on our floor in Hai Phong.</p>
+      </div>
+      <div class="equip">
+        <figure class="eq"><img src="img/panel-saw-loader.jpg" width="1600" height="1200" loading="lazy" alt="Nanxing NPC330S computer panel saw with a ZGSL2512R gantry loader"><figcaption><span class="k">CUT</span><h3>Computer panel saws with automatic loader</h3><p class="model">Nanxing NPC330S · ZGSL2512R loader</p><p>Cut stacks of 2440 × 1220 mm boards into straight parts. A gantry loader lifts each board from the pallet onto the saw.</p></figcaption></figure>
+        <figure class="eq"><img src="img/nesting-walnut.jpg" width="1600" height="1200" loading="lazy" alt="Nanxing CNC nesting centre cutting walnut woodgrain desk panels"><figcaption><span class="k">NEST</span><h3>CNC nesting centres</h3><p class="model">Nanxing · automatic loading and unloading</p><p>Cut shaped tops, grommet holes and cut-outs from full sheets in one program. Conveyors load boards and carry finished parts off.</p></figcaption></figure>
+        <figure class="eq"><img src="img/cnc-ptp.jpg" width="1600" height="1200" loading="lazy" alt="Nanxing NCP-series CNC point-to-point machining centre with vacuum pods"><figcaption><span class="k">PTP</span><h3>CNC point-to-point machining centre</h3><p class="model">Nanxing NCP series</p><p>Vacuum pods hold single parts for edge drilling, pocketing and routing that a flat-bed router cannot reach.</p></figcaption></figure>
+        <figure class="eq"><img src="img/edgebander-twin.jpg" width="1600" height="1200" loading="lazy" alt="Two Nanxing automatic edge banding lines with roller return conveyors"><figcaption><span class="k">EDGE</span><h3>Automatic edge banding lines</h3><p class="model">Nanxing · roller return conveyors</p><p>Glue, trim, scrape and buff PVC edges in one pass. Return conveyors bring panels back to the operator for the next edge.</p></figcaption></figure>
+        <figure class="eq"><img src="img/double-end-edgebander.jpg" width="1600" height="1200" loading="lazy" alt="Double-end edge banding machine on floor rails"><figcaption><span class="k">EDGE ×2</span><h3>Double-end edge bander</h3><p class="model">Width set on floor rails</p><p>Bands both long edges of a panel in one pass. One side travels on rails to match the panel width.</p></figcaption></figure>
+        <figure class="eq"><img src="img/profile-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="MF120 automatic profile glue-injection edge wrapping machine"><figcaption><span class="k">WRAP</span><h3>Profile edge wrapping</h3><p class="model">MF120 automatic glue-injection wrapper</p><p>Follows curved and shaped outlines to wrap PVC edging around rounded tabletops and cut-out parts.</p></figcaption></figure>
+        <figure class="eq"><img src="img/rotary-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="Rotary-table profile edge wrapping machine with glue tank"><figcaption><span class="k">WRAP</span><h3>Rotary-table edge wrapper</h3><p class="model">Turntable with pressure glue tank</p><p>Turns small shaped parts on a table so the edging head can wrap all four sides without re-clamping.</p></figcaption></figure>
+        <figure class="eq"><img src="img/cold-press.jpg" width="1600" height="1200" loading="lazy" alt="Xinjuncheng MH3248 60-ton hydraulic cold press"><figcaption><span class="k">PRESS</span><h3>Glue spreader &amp; cold press</h3><p class="model">Xinjuncheng MH3248 × 60 t</p><p>Roller glue spreader and 60-ton hydraulic cold press bond veneer, HPL or film to panels for custom surfaces.</p></figcaption></figure>
+      </div>
+      <span class="note">待確認：機器名稱、型號與壓膠機的實際用途</span>
     </div>
   </section>
 
@@ -416,6 +447,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <details><summary>What does Huan Mao International manufacture?</summary><p>Wood panel furniture from melamine-faced particleboard and MDF: classroom cubby storage, mobile storage carts, coat lockers, book displays, storage cabinets, office credenzas, consoles, sliding-door cabinets and standing-desk tops, packed flat with hardware kits.</p></details>
         <details><summary>Do you offer OEM and ODM?</summary><p>Yes. Most of our work is OEM, built to the customer's drawings and bill of materials. We also propose our own designs (ODM) for customers who want a ready-developed product range.</p></details>
         <details><summary>Which markets do you supply?</summary><p>Our main market is the United States. Products are packed flat as ready-to-assemble kits for container shipping.</p></details>
+        <details><summary>What equipment does Huan Mao International use?</summary><p>Most of our line is Nanxing Machinery CNC equipment: NPC330S computer panel saws with automatic loaders, CNC nesting centres with automatic loading and unloading, a CNC point-to-point machining centre and CNC boring machines. Edges are finished on automatic and double-end edge banders and profile edge wrapping machines, and we also run a glue spreader with a 60-ton hydraulic cold press.</p></details>
         <details><summary>Is Huan Mao International certified?</summary><p>Yes. Huan Mao International holds ISO 9001 (quality management) and ISO 14001 (environmental management) certification. FSC-certified board is available on request through our FSC-certified suppliers.</p></details>
         <details><summary>Who are your customers?</summary><p>We supply U.S. furniture brands, including Lakeshore Learning (classroom and early-education furniture) and Branch Furniture (office furniture). Annual sales are around US$10 million.</p></details>
         <details><summary>Who manages the factory?</summary><p>Huan Mao International was established in Vietnam in 2024 under Taiwanese management and employs about 100 people.</p></details>

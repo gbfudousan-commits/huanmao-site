@@ -36,7 +36,7 @@
     "addressCountry": "VN"
   },
   "areaServed": "US",
-  "knowsAbout": ["ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
+  "knowsAbout": ["Nanxing CNC panel saw", "CNC nesting", "edge banding", "profile edge wrapping", "ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
 }
 </script>
 <script type="application/ld+json">
@@ -48,6 +48,7 @@
     {"@type": "Question", "name": "環貿國際生產哪些產品？", "acceptedAnswer": {"@type": "Answer", "text": "我們以三聚氰胺貼面塑合板與 MDF 生產板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃及升降桌桌板，連同五金包平板包裝出貨。"}},
     {"@type": "Question", "name": "有提供 OEM 和 ODM 嗎？", "acceptedAnswer": {"@type": "Answer", "text": "有。我們的訂單以 OEM 為主，依客戶的圖面與 BOM 生產；也為需要現成產品線的客戶提出自有設計方案（ODM）。"}},
     {"@type": "Question", "name": "主要市場在哪裡？", "acceptedAnswer": {"@type": "Answer", "text": "主要市場為美國。產品以組裝式（RTA）平板包裝，以貨櫃出口。"}},
+    {"@type": "Question", "name": "環貿國際使用哪些生產設備？", "acceptedAnswer": {"@type": "Answer", "text": "生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330S 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 加工中心與 CNC 鑽孔機。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。"}},
     {"@type": "Question", "name": "環貿國際有哪些認證？", "acceptedAnswer": {"@type": "Answer", "text": "環貿國際已取得 ISO 9001（品質管理）與 ISO 14001（環境管理）認證。如有需要，可透過具 FSC 認證的供應商提供 FSC 認證板材。"}},
     {"@type": "Question", "name": "主要客戶有哪些？", "acceptedAnswer": {"@type": "Answer", "text": "我們為美國家具品牌供貨，包括 Lakeshore Learning（教室與幼教家具）及 Branch Furniture（辦公家具）。年營業額約 1,000 萬美元。"}},
     {"@type": "Question", "name": "工廠由誰管理？", "acceptedAnswer": {"@type": "Answer", "text": "環貿國際於 2024 年在越南成立，由台灣籍經營團隊管理，員工約 100 人。"}}
@@ -155,6 +156,15 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 @media (max-width:480px){.prods{grid-template-columns:1fr!important}}
 .clients{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;padding-block:18px;border-bottom:1px solid var(--line)}
 .clients .cl{font:600 1.15rem/1 var(--display);color:var(--muted)}
+.equip{display:grid;grid-template-columns:repeat(4,1fr);gap:24px 20px}
+.eq{margin:0;display:grid;gap:10px;align-content:start;min-width:0}
+.eq img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;background:var(--maple)}
+.eq figcaption{display:grid;gap:5px}
+.eq .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;color:var(--accent)}
+.eq .model{font:400 .76rem/1.4 var(--mono);color:var(--ink)}
+.eq p{color:var(--muted);font-size:.9rem}
+@media (max-width:980px){.equip{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.equip{grid-template-columns:1fr}}
 .langbar{border-bottom:1px solid var(--line);font:500 .78rem/1 var(--body)}.langbar nav{display:flex;justify-content:flex-end;gap:16px;padding-block:7px;flex-wrap:wrap}.langbar a{text-decoration:none;color:var(--muted)}.langbar a:hover{color:var(--ink)}.langbar a[aria-current]{color:var(--accent);font-weight:600}
 /* fact strip */
 .facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -252,7 +262,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
     </a>
     <ul>
       <li><a href="#capabilities">製程能力</a></li>
-      <li><a href="#materials">材料</a></li>
+      <li><a href="#equipment">生產設備</a></li>
       <li><a href="#products">產品</a></li>
       <li><a href="#oem-odm">OEM 與 ODM</a></li>
       <li><a href="#factory">工廠</a></li>
@@ -298,11 +308,32 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
       </div>
       <div class="caps">
         <div class="cap"><img src="../img/board-stock.jpg" width="1600" height="1200" loading="lazy" alt="環貿原料倉庫中的塑合板與 MDF 板材"><span class="k">01 · 進料</span><h3>板材進料</h3><p>向合格板廠採購塑合板與 MDF，依訂單檢驗並登記。</p><div class="spec">9 mm、16 mm、18 mm 板厚<br>2440 × 1220 mm 標準板</div></div>
-        <div class="cap"><img src="../img/cnc-nesting.jpg" width="1600" height="1200" loading="lazy" alt="CNC 開料機裁切板件"><span class="k">02 · 開料</span><h3>CNC 開料</h3><p>整張板排版開料，可做異形桌板與開孔。</p><div class="spec">南興 CNC 開料機</div></div>
-        <div class="cap"><img src="../img/cnc-boring.jpg" width="1600" height="1200" loading="lazy" alt="多排鑽 CNC 鑽孔機加工家具板件"><span class="k">03 · 鑽孔</span><h3>CNC 排鑽</h3><p>依圖面一次完成三合一、木榫與層板粒孔位。</p><div class="spec">南興多排鑽孔線</div></div>
-        <div class="cap"><img src="../img/panel-detail.jpg" width="1100" height="1085" loading="lazy" alt="白色三聚氰胺板封邊、鑽孔與開槽特寫"><span class="k">04 · 封邊</span><h3>封邊與開槽</h3><p>外露邊以 PVC 封邊，背板槽依尺寸開槽。</p><div class="spec">PVC 封邊條，同色搭配</div></div>
+        <div class="cap"><img src="../img/panel-saw-operator.jpg" width="1600" height="1200" loading="lazy" alt="作業員操作南興 NPC330S 電腦裁板鋸裁切白色三聚氰胺塑合板"><span class="k">02 · 開料</span><h3>電腦裁板鋸與 CNC 開料</h3><p>直料以電腦裁板鋸疊板裁切；異形件與開孔交給 CNC 開料中心。</p><div class="spec">南興 NPC330S 電腦裁板鋸<br>南興 CNC 開料中心</div></div>
+        <div class="cap"><img src="../img/cnc-drilling-nd.jpg" width="1600" height="1200" loading="lazy" alt="南興 ND 系列 CNC 鑽孔機加工白色家具板件"><span class="k">03 · 鑽孔</span><h3>CNC 排鑽</h3><p>依圖面一次完成三合一、木榫與層板粒孔位。</p><div class="spec">南興 CNC 鑽孔機<br>南興 CNC 加工中心</div></div>
+        <div class="cap"><img src="../img/edgebander-lift.jpg" width="1600" height="1200" loading="lazy" alt="南興全自動封邊機與白色板件升降台"><span class="k">04 · 封邊</span><h3>封邊與開槽</h3><p>直邊以全自動封邊機與雙端封邊機加工；弧邊與異形邊以仿形包邊機處理。</p><div class="spec">PVC 封邊條，同色搭配</div></div>
         <div class="cap"><img src="../img/packing-line.jpg" width="1600" height="1200" loading="lazy" alt="包裝線：板件與五金包裝箱成組裝式家具"><span class="k">05 · 包裝</span><h3>RTA 平板包裝</h3><p>板件、五金包與說明書按套裝箱，以保麗龍保護。</p><div class="spec">客戶指定紙箱與標籤<br>打板上貨櫃</div></div>
       </div>
+    </div>
+  </section>
+
+  <section id="equipment" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">生產設備</span>
+        <h2>以南興裝備為主的 CNC 板式生產線</h2>
+        <p class="lede">從開料到封邊，我們的生產線大多採用南興裝備的 CNC 設備。以下是海防工廠現場的機台。</p>
+      </div>
+      <div class="equip">
+        <figure class="eq"><img src="../img/panel-saw-loader.jpg" width="1600" height="1200" loading="lazy" alt="南興 NPC330S 電腦裁板鋸與 ZGSL2512R 龍門自動上料機"><figcaption><span class="k">裁板</span><h3>電腦裁板鋸（自動上料）</h3><p class="model">南興 NPC330S · ZGSL2512R 上料機</p><p>將 2440 × 1220 mm 板材疊板裁成直料，龍門上料機自動把板材從棧板送上鋸台。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nesting-walnut.jpg" width="1600" height="1200" loading="lazy" alt="南興 CNC 開料中心裁切胡桃木紋桌板"><figcaption><span class="k">開料</span><h3>CNC 開料中心</h3><p class="model">南興 · 自動上下料</p><p>整張板一次加工異形桌板、走線孔與開孔，輸送帶自動上料並送出成品。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/cnc-ptp.jpg" width="1600" height="1200" loading="lazy" alt="附真空吸盤的南興 NCP 系列 CNC 加工中心"><figcaption><span class="k">加工中心</span><h3>CNC 點對點加工中心</h3><p class="model">南興 NCP 系列</p><p>以真空吸盤固定單件，進行側孔、銑槽等平台式開料機做不到的加工。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/edgebander-twin.jpg" width="1600" height="1200" loading="lazy" alt="兩條南興全自動封邊線與滾筒回流輸送線"><figcaption><span class="k">封邊</span><h3>全自動封邊線</h3><p class="model">南興 · 滾筒回流線</p><p>一次完成 PVC 封邊的上膠、修邊、刮邊與拋光，回流線把板件送回作業員繼續封下一邊。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/double-end-edgebander.jpg" width="1600" height="1200" loading="lazy" alt="架設於地軌上的雙端封邊機"><figcaption><span class="k">雙邊</span><h3>雙端封邊機</h3><p class="model">地軌調整寬度</p><p>一次封好板件兩條長邊，一側機身沿地軌移動以配合板寬。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/profile-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="MF120 自動仿形注膠包邊機"><figcaption><span class="k">包邊</span><h3>仿形包邊</h3><p class="model">MF120 自動仿形注膠包邊機</p><p>沿弧形與異形輪廓走刀，替圓角桌板與開孔件包上 PVC 封邊。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/rotary-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="附壓力膠桶的轉盤式包邊機"><figcaption><span class="k">包邊</span><h3>轉盤式包邊機</h3><p class="model">轉盤 + 壓力膠桶</p><p>以轉盤旋轉小型異形件，不必重新夾料就能包好四邊。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/cold-press.jpg" width="1600" height="1200" loading="lazy" alt="信俊成 MH3248 60 噸油壓冷壓機"><figcaption><span class="k">壓合</span><h3>過膠機與冷壓機</h3><p class="model">信俊成 MH3248 × 60 噸</p><p>滾筒過膠機搭配 60 噸油壓冷壓機，可將木皮、美耐板或膜料壓貼於板材，做客製表面。</p></figcaption></figure>
+      </div>
+      <span class="note">待確認：機器名稱、型號與壓膠機的實際用途</span>
     </div>
   </section>
 
@@ -417,6 +448,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <details><summary>環貿國際生產哪些產品？</summary><p>以三聚氰胺貼面塑合板與 MDF 製成的板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃及升降桌桌板，連同五金包平板包裝出貨。</p></details>
         <details><summary>有提供 OEM 和 ODM 嗎？</summary><p>有。我們的訂單以 OEM 為主，依客戶的圖面與 BOM 生產；也為需要現成產品線的客戶提出自有設計方案（ODM）。</p></details>
         <details><summary>主要市場在哪裡？</summary><p>主要市場為美國。產品以組裝式（RTA）平板包裝，以貨櫃出口。</p></details>
+        <details><summary>環貿國際使用哪些生產設備？</summary><p>生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330S 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 加工中心與 CNC 鑽孔機。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。</p></details>
         <details><summary>環貿國際有哪些認證？</summary><p>環貿國際已取得 ISO 9001（品質管理）與 ISO 14001（環境管理）認證。如有需要，可透過具 FSC 認證的供應商提供 FSC 認證板材。</p></details>
         <details><summary>主要客戶有哪些？</summary><p>我們為美國家具品牌供貨，包括 Lakeshore Learning（教室與幼教家具）及 Branch Furniture（辦公家具）。年營業額約 1,000 萬美元。</p></details>
         <details><summary>工廠由誰管理？</summary><p>環貿國際於 2024 年在越南成立，由台灣籍經營團隊管理，員工約 100 人。</p></details>

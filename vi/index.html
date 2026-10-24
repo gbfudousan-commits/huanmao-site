@@ -36,7 +36,7 @@
     "addressCountry": "VN"
   },
   "areaServed": "US",
-  "knowsAbout": ["ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
+  "knowsAbout": ["Nanxing CNC panel saw", "CNC nesting", "edge banding", "profile edge wrapping", "ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
 }
 </script>
 <script type="application/ld+json">
@@ -48,6 +48,7 @@
     {"@type": "Question", "name": "Huan Mao International sản xuất những sản phẩm gì?", "acceptedAnswer": {"@type": "Answer", "text": "Chúng tôi sản xuất đồ nội thất từ ván dăm phủ melamine và MDF: kệ ô lớp học, xe đẩy lưu trữ, tủ để áo, kệ sách, tủ lưu trữ, tủ văn phòng, tủ console, tủ cửa lùa và mặt bàn nâng hạ, đóng gói phẳng kèm bộ phụ kiện."}},
     {"@type": "Question", "name": "Công ty có nhận OEM và ODM không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Phần lớn đơn hàng là OEM, sản xuất theo bản vẽ và BOM của khách hàng. Chúng tôi cũng đề xuất thiết kế riêng (ODM) cho khách hàng cần dòng sản phẩm có sẵn."}},
     {"@type": "Question", "name": "Thị trường chính của công ty là đâu?", "acceptedAnswer": {"@type": "Answer", "text": "Thị trường chính là Hoa Kỳ. Sản phẩm được đóng gói phẳng dạng lắp ráp (RTA) và xuất khẩu bằng container."}},
+    {"@type": "Question", "name": "Huan Mao International sử dụng những thiết bị nào?", "acceptedAnswer": {"@type": "Answer", "text": "Phần lớn dây chuyền là thiết bị CNC của Nanxing Machinery: máy cưa panel NPC330S có cấp liệu tự động, máy CNC nesting tự động nạp xả liệu, trung tâm gia công CNC điểm-điểm và máy khoan CNC. Cạnh được hoàn thiện trên máy dán cạnh tự động, máy dán cạnh hai đầu và máy bọc cạnh định hình; ngoài ra còn có máy lăn keo và máy ép nguội thủy lực 60 tấn."}},
     {"@type": "Question", "name": "Huan Mao International có những chứng nhận nào?", "acceptedAnswer": {"@type": "Answer", "text": "Huan Mao International đạt chứng nhận ISO 9001 (quản lý chất lượng) và ISO 14001 (quản lý môi trường). Ván đạt chứng nhận FSC có thể cung cấp theo yêu cầu thông qua các nhà cung cấp có chứng nhận FSC."}},
     {"@type": "Question", "name": "Khách hàng của công ty là ai?", "acceptedAnswer": {"@type": "Answer", "text": "Chúng tôi cung cấp cho các thương hiệu nội thất Mỹ, trong đó có Lakeshore Learning (nội thất lớp học và mầm non) và Branch Furniture (nội thất văn phòng). Doanh thu hằng năm khoảng 10 triệu USD."}},
     {"@type": "Question", "name": "Ai quản lý nhà máy?", "acceptedAnswer": {"@type": "Answer", "text": "Huan Mao International được thành lập tại Việt Nam năm 2024, do đội ngũ quản lý người Đài Loan điều hành, với khoảng 100 nhân viên."}}
@@ -155,6 +156,15 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 @media (max-width:480px){.prods{grid-template-columns:1fr!important}}
 .clients{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;padding-block:18px;border-bottom:1px solid var(--line)}
 .clients .cl{font:600 1.15rem/1 var(--display);color:var(--muted)}
+.equip{display:grid;grid-template-columns:repeat(4,1fr);gap:24px 20px}
+.eq{margin:0;display:grid;gap:10px;align-content:start;min-width:0}
+.eq img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;background:var(--maple)}
+.eq figcaption{display:grid;gap:5px}
+.eq .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;color:var(--accent)}
+.eq .model{font:400 .76rem/1.4 var(--mono);color:var(--ink)}
+.eq p{color:var(--muted);font-size:.9rem}
+@media (max-width:980px){.equip{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.equip{grid-template-columns:1fr}}
 .langbar{border-bottom:1px solid var(--line);font:500 .78rem/1 var(--body)}.langbar nav{display:flex;justify-content:flex-end;gap:16px;padding-block:7px;flex-wrap:wrap}.langbar a{text-decoration:none;color:var(--muted)}.langbar a:hover{color:var(--ink)}.langbar a[aria-current]{color:var(--accent);font-weight:600}
 /* fact strip */
 .facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -252,7 +262,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
     </a>
     <ul>
       <li><a href="#capabilities">Năng lực</a></li>
-      <li><a href="#materials">Vật liệu</a></li>
+      <li><a href="#equipment">Thiết bị</a></li>
       <li><a href="#products">Sản phẩm</a></li>
       <li><a href="#oem-odm">OEM &amp; ODM</a></li>
       <li><a href="#factory">Nhà máy</a></li>
@@ -298,11 +308,32 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
       </div>
       <div class="caps">
         <div class="cap"><img src="../img/board-stock.jpg" width="1600" height="1200" loading="lazy" alt="Pallet ván dăm và MDF trong kho nguyên liệu Huan Mao"><span class="k">01 · VÁN</span><h3>Nhập ván</h3><p>Ván dăm và MDF mua từ các nhà máy đạt chuẩn, kiểm tra và ghi nhận theo từng đơn hàng.</p><div class="spec">Độ dày 9 mm, 16 mm, 18 mm<br>Tấm 2440 × 1220 mm</div></div>
-        <div class="cap"><img src="../img/cnc-nesting.jpg" width="1600" height="1200" loading="lazy" alt="Máy CNC cắt chi tiết ván"><span class="k">02 · CẮT</span><h3>Cắt CNC nesting</h3><p>Sắp xếp và cắt chi tiết từ tấm nguyên, kể cả mặt bàn định hình và lỗ khoét.</p><div class="spec">Máy CNC nesting Nanxing</div></div>
-        <div class="cap"><img src="../img/cnc-boring.jpg" width="1600" height="1200" loading="lazy" alt="Máy khoan CNC nhiều đầu khoan chi tiết nội thất"><span class="k">03 · KHOAN</span><h3>Khoan CNC</h3><p>Khoan lỗ cam, chốt gỗ và chốt kệ một lần theo bản vẽ.</p><div class="spec">Dây chuyền khoan nhiều đầu Nanxing</div></div>
-        <div class="cap"><img src="../img/panel-detail.jpg" width="1100" height="1085" loading="lazy" alt="Cận cảnh ván melamine trắng đã dán cạnh, khoan lỗ và soi rãnh"><span class="k">04 · DÁN CẠNH</span><h3>Dán cạnh &amp; soi rãnh</h3><p>Các cạnh lộ được dán PVC; rãnh hậu được soi đúng kích thước.</p><div class="spec">Nẹp PVC cùng màu</div></div>
+        <div class="cap"><img src="../img/panel-saw-operator.jpg" width="1600" height="1200" loading="lazy" alt="Công nhân vận hành máy cưa panel Nanxing NPC330S cắt ván melamine trắng"><span class="k">02 · CẮT</span><h3>Cưa panel &amp; cắt CNC</h3><p>Chi tiết thẳng được cưa theo chồng trên máy cưa panel; chi tiết định hình và lỗ khoét chuyển sang máy CNC nesting.</p><div class="spec">Cưa panel Nanxing NPC330S<br>Máy CNC nesting Nanxing</div></div>
+        <div class="cap"><img src="../img/cnc-drilling-nd.jpg" width="1600" height="1200" loading="lazy" alt="Máy khoan CNC Nanxing dòng ND khoan chi tiết nội thất trắng"><span class="k">03 · KHOAN</span><h3>Khoan CNC</h3><p>Khoan lỗ cam, chốt gỗ và chốt kệ một lần theo bản vẽ.</p><div class="spec">Máy khoan CNC Nanxing<br>Trung tâm gia công CNC Nanxing</div></div>
+        <div class="cap"><img src="../img/edgebander-lift.jpg" width="1600" height="1200" loading="lazy" alt="Máy dán cạnh tự động Nanxing cấp ván trắng từ bàn nâng"><span class="k">04 · DÁN CẠNH</span><h3>Dán cạnh &amp; soi rãnh</h3><p>Cạnh thẳng chạy qua máy dán cạnh tự động và máy dán cạnh hai đầu; cạnh cong được bọc trên máy dán cạnh định hình.</p><div class="spec">Nẹp PVC cùng màu</div></div>
         <div class="cap"><img src="../img/packing-line.jpg" width="1600" height="1200" loading="lazy" alt="Dây chuyền đóng gói ván và bộ phụ kiện thành nội thất lắp ráp"><span class="k">05 · ĐÓNG GÓI</span><h3>Đóng gói RTA</h3><p>Ván, bộ phụ kiện và hướng dẫn được đóng thùng theo bộ, bảo vệ bằng xốp EPS.</p><div class="spec">Thùng &amp; nhãn theo khách hàng<br>Xếp pallet đóng container</div></div>
       </div>
+    </div>
+  </section>
+
+  <section id="equipment" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Thiết bị</span>
+        <h2>Dây chuyền CNC chủ yếu của Nanxing Machinery</h2>
+        <p class="lede">Từ cắt ván đến hoàn thiện cạnh, phần lớn dây chuyền của chúng tôi dùng thiết bị CNC của Nanxing Machinery. Dưới đây là các máy đang vận hành tại nhà máy Hải Phòng.</p>
+      </div>
+      <div class="equip">
+        <figure class="eq"><img src="../img/panel-saw-loader.jpg" width="1600" height="1200" loading="lazy" alt="Máy cưa panel Nanxing NPC330S với bộ cấp liệu ZGSL2512R"><figcaption><span class="k">CƯA</span><h3>Máy cưa panel có cấp liệu tự động</h3><p class="model">Nanxing NPC330S · bộ cấp ZGSL2512R</p><p>Cưa chồng ván 2440 × 1220 mm thành chi tiết thẳng. Cẩu cấp liệu nâng từng tấm từ pallet lên máy.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nesting-walnut.jpg" width="1600" height="1200" loading="lazy" alt="Máy CNC nesting Nanxing cắt mặt bàn vân óc chó"><figcaption><span class="k">NESTING</span><h3>Máy CNC nesting</h3><p class="model">Nanxing · tự động nạp và xả liệu</p><p>Cắt mặt bàn định hình, lỗ đi dây và lỗ khoét từ tấm nguyên trong một chương trình. Băng tải nạp ván và đưa chi tiết ra.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/cnc-ptp.jpg" width="1600" height="1200" loading="lazy" alt="Trung tâm gia công CNC Nanxing dòng NCP với đế hút chân không"><figcaption><span class="k">PTP</span><h3>Trung tâm gia công CNC điểm-điểm</h3><p class="model">Nanxing dòng NCP</p><p>Đế hút chân không giữ từng chi tiết để khoan cạnh, phay hốc và gia công mà máy nesting không làm được.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/edgebander-twin.jpg" width="1600" height="1200" loading="lazy" alt="Hai dây chuyền dán cạnh tự động Nanxing với băng tải hồi"><figcaption><span class="k">DÁN CẠNH</span><h3>Dây chuyền dán cạnh tự động</h3><p class="model">Nanxing · băng tải hồi con lăn</p><p>Dán keo, xén, cạo và đánh bóng cạnh PVC trong một lần chạy. Băng tải hồi đưa ván về cho công nhân dán cạnh tiếp theo.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/double-end-edgebander.jpg" width="1600" height="1200" loading="lazy" alt="Máy dán cạnh hai đầu trên ray sàn"><figcaption><span class="k">HAI CẠNH</span><h3>Máy dán cạnh hai đầu</h3><p class="model">Chỉnh bề rộng trên ray sàn</p><p>Dán hai cạnh dài của tấm ván trong một lần. Một bên máy chạy trên ray để khớp bề rộng ván.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/profile-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="Máy bọc cạnh định hình bơm keo tự động MF120"><figcaption><span class="k">BỌC CẠNH</span><h3>Bọc cạnh định hình</h3><p class="model">Máy bọc cạnh bơm keo tự động MF120</p><p>Chạy theo đường cong và đường định hình để bọc nẹp PVC quanh mặt bàn bo góc và chi tiết khoét.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/rotary-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="Máy bọc cạnh bàn xoay có bình keo"><figcaption><span class="k">BỌC CẠNH</span><h3>Máy bọc cạnh bàn xoay</h3><p class="model">Bàn xoay · bình keo áp lực</p><p>Xoay chi tiết nhỏ trên bàn để đầu bọc cạnh xử lý cả bốn cạnh mà không cần kẹp lại.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/cold-press.jpg" width="1600" height="1200" loading="lazy" alt="Máy ép nguội thủy lực 60 tấn Xinjuncheng MH3248"><figcaption><span class="k">ÉP</span><h3>Máy lăn keo &amp; ép nguội</h3><p class="model">Xinjuncheng MH3248 × 60 tấn</p><p>Máy lăn keo và máy ép nguội thủy lực 60 tấn dán veneer, HPL hoặc phim lên ván để tạo bề mặt theo yêu cầu.</p></figcaption></figure>
+      </div>
+      <span class="note">待確認：機器名稱、型號與壓膠機的實際用途</span>
     </div>
   </section>
 
@@ -417,6 +448,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <details><summary>Huan Mao International sản xuất những sản phẩm gì?</summary><p>Đồ nội thất từ ván dăm phủ melamine và MDF: kệ ô lớp học, xe đẩy lưu trữ, tủ để áo, kệ sách, tủ lưu trữ, tủ văn phòng, tủ console, tủ cửa lùa và mặt bàn nâng hạ, đóng gói phẳng kèm bộ phụ kiện.</p></details>
         <details><summary>Công ty có nhận OEM và ODM không?</summary><p>Có. Phần lớn đơn hàng là OEM, sản xuất theo bản vẽ và BOM của khách hàng. Chúng tôi cũng đề xuất thiết kế riêng (ODM) cho khách hàng cần dòng sản phẩm có sẵn.</p></details>
         <details><summary>Thị trường chính của công ty là đâu?</summary><p>Thị trường chính là Hoa Kỳ. Sản phẩm được đóng gói phẳng dạng lắp ráp (RTA) và xuất khẩu bằng container.</p></details>
+        <details><summary>Huan Mao International sử dụng những thiết bị nào?</summary><p>Phần lớn dây chuyền là thiết bị CNC của Nanxing Machinery: máy cưa panel NPC330S có cấp liệu tự động, máy CNC nesting tự động nạp xả liệu, trung tâm gia công CNC điểm-điểm và máy khoan CNC. Cạnh được hoàn thiện trên máy dán cạnh tự động, máy dán cạnh hai đầu và máy bọc cạnh định hình; ngoài ra còn có máy lăn keo và máy ép nguội thủy lực 60 tấn.</p></details>
         <details><summary>Huan Mao International có những chứng nhận nào?</summary><p>Huan Mao International đạt chứng nhận ISO 9001 (quản lý chất lượng) và ISO 14001 (quản lý môi trường). Ván đạt chứng nhận FSC có thể cung cấp theo yêu cầu thông qua các nhà cung cấp có chứng nhận FSC.</p></details>
         <details><summary>Khách hàng của công ty là ai?</summary><p>Chúng tôi cung cấp cho các thương hiệu nội thất Mỹ, trong đó có Lakeshore Learning (nội thất lớp học và mầm non) và Branch Furniture (nội thất văn phòng). Doanh thu hằng năm khoảng 10 triệu USD.</p></details>
         <details><summary>Ai quản lý nhà máy?</summary><p>Huan Mao International được thành lập tại Việt Nam năm 2024, do đội ngũ quản lý người Đài Loan điều hành, với khoảng 100 nhân viên.</p></details>

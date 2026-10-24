@@ -36,7 +36,7 @@
     "addressCountry": "VN"
   },
   "areaServed": "US",
-  "knowsAbout": ["ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
+  "knowsAbout": ["Nanxing CNC panel saw", "CNC nesting", "edge banding", "profile edge wrapping", "ISO 9001", "ISO 14001", "CNC nesting", "office furniture", "OEM furniture manufacturing", "ODM furniture design", "melamine particleboard", "MDF", "PVC edge banding", "CNC panel drilling", "ready-to-assemble furniture", "classroom storage furniture", "CARB Phase 2"]
 }
 </script>
 <script type="application/ld+json">
@@ -48,6 +48,7 @@
     {"@type": "Question", "name": "環貿国際は何を製造していますか？", "acceptedAnswer": {"@type": "Answer", "text": "メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドボード、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。"}},
     {"@type": "Question", "name": "OEMとODMの両方に対応していますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。"}},
     {"@type": "Question", "name": "主な販売先はどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。"}},
+    {"@type": "Question", "name": "環貿国際はどのような設備を使っていますか？", "acceptedAnswer": {"@type": "Answer", "text": "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330Sパネルソー、自動搬入出付きNCルーター、NC加工センター、NCボーリングマシンを備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。"}},
     {"@type": "Question", "name": "環貿国際はどのような認証を取得していますか？", "acceptedAnswer": {"@type": "Answer", "text": "ISO 9001（品質マネジメント）とISO 14001（環境マネジメント）の認証を取得しています。ご要望に応じて、FSC認証サプライヤーからFSC認証材を調達できます。"}},
     {"@type": "Question", "name": "主な取引先はどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "米国の家具ブランドに供給しており、Lakeshore Learning（教室・幼児教育用家具）やBranch Furniture（オフィス家具）などが含まれます。年間売上は約1,000万米ドルです。"}},
     {"@type": "Question", "name": "工場の経営体制は？", "acceptedAnswer": {"@type": "Answer", "text": "環貿国際は2024年にベトナムで設立され、台湾人経営陣のもと約100名の従業員が働いています。"}}
@@ -155,6 +156,15 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 @media (max-width:480px){.prods{grid-template-columns:1fr!important}}
 .clients{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;padding-block:18px;border-bottom:1px solid var(--line)}
 .clients .cl{font:600 1.15rem/1 var(--display);color:var(--muted)}
+.equip{display:grid;grid-template-columns:repeat(4,1fr);gap:24px 20px}
+.eq{margin:0;display:grid;gap:10px;align-content:start;min-width:0}
+.eq img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:4px;background:var(--maple)}
+.eq figcaption{display:grid;gap:5px}
+.eq .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;color:var(--accent)}
+.eq .model{font:400 .76rem/1.4 var(--mono);color:var(--ink)}
+.eq p{color:var(--muted);font-size:.9rem}
+@media (max-width:980px){.equip{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.equip{grid-template-columns:1fr}}
 .langbar{border-bottom:1px solid var(--line);font:500 .78rem/1 var(--body)}.langbar nav{display:flex;justify-content:flex-end;gap:16px;padding-block:7px;flex-wrap:wrap}.langbar a{text-decoration:none;color:var(--muted)}.langbar a:hover{color:var(--ink)}.langbar a[aria-current]{color:var(--accent);font-weight:600}
 /* fact strip */
 .facts{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
@@ -252,7 +262,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
     </a>
     <ul>
       <li><a href="#capabilities">生産能力</a></li>
-      <li><a href="#materials">材料</a></li>
+      <li><a href="#equipment">設備</a></li>
       <li><a href="#products">製品</a></li>
       <li><a href="#oem-odm">OEM・ODM</a></li>
       <li><a href="#factory">工場</a></li>
@@ -298,11 +308,32 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
       </div>
       <div class="caps">
         <div class="cap"><img src="../img/board-stock.jpg" width="1600" height="1200" loading="lazy" alt="環貿国際の原材料倉庫に積まれたパーティクルボードとMDF"><span class="k">01 · 原板</span><h3>原板の受け入れ</h3><p>認定工場からパーティクルボードとMDFを調達し、注文ごとに検品・記録します。</p><div class="spec">厚さ 9 mm・16 mm・18 mm<br>2440 × 1220 mm 定尺板</div></div>
-        <div class="cap"><img src="../img/cnc-nesting.jpg" width="1600" height="1200" loading="lazy" alt="NCルーターによる部材の切削"><span class="k">02 · 切削</span><h3>NCルーター加工</h3><p>定尺板から部材をネスティングで切り出し、異形天板や切り欠きにも対応します。</p><div class="spec">南興（Nanxing）NCルーター</div></div>
-        <div class="cap"><img src="../img/cnc-boring.jpg" width="1600" height="1200" loading="lazy" alt="多軸NCボーリングマシンによる家具部材の穴あけ"><span class="k">03 · 穴あけ</span><h3>NC穴あけ</h3><p>偏心金具、ダボ、棚ダボの穴を図面どおり一度で加工します。</p><div class="spec">南興（Nanxing）多軸ボーリングライン</div></div>
-        <div class="cap"><img src="../img/panel-detail.jpg" width="1100" height="1085" loading="lazy" alt="エッジ貼り・穴あけ・溝加工済みの白色メラミン板のクローズアップ"><span class="k">04 · エッジ</span><h3>エッジ貼り・溝加工</h3><p>露出する木口をPVCで封じ、背板用の溝を寸法どおりに加工します。</p><div class="spec">PVCエッジ材（同色）</div></div>
+        <div class="cap"><img src="../img/panel-saw-operator.jpg" width="1600" height="1200" loading="lazy" alt="南興NPC330Sパネルソーで白色メラミン板を裁断するオペレーター"><span class="k">02 · 切削</span><h3>パネルソー・NCルーター</h3><p>直線部材はパネルソーで重ね切りし、異形部材や切り欠きはNCルーターで加工します。</p><div class="spec">南興 NPC330S パネルソー<br>南興 NCルーター</div></div>
+        <div class="cap"><img src="../img/cnc-drilling-nd.jpg" width="1600" height="1200" loading="lazy" alt="南興NDシリーズのNCボーリングマシンで白色部材を穴あけ"><span class="k">03 · 穴あけ</span><h3>NC穴あけ</h3><p>偏心金具、ダボ、棚ダボの穴を図面どおり一度で加工します。</p><div class="spec">南興 NCボーリング<br>南興 NC加工センター</div></div>
+        <div class="cap"><img src="../img/edgebander-lift.jpg" width="1600" height="1200" loading="lazy" alt="昇降テーブルから白色部材を送る南興自動エッジバンダー"><span class="k">04 · エッジ</span><h3>エッジ貼り・溝加工</h3><p>直線の木口は自動エッジバンダーと両端エッジバンダーで、曲線の木口は倣いエッジ機で巻き付けます。</p><div class="spec">PVCエッジ材（同色）</div></div>
         <div class="cap"><img src="../img/packing-line.jpg" width="1600" height="1200" loading="lazy" alt="部材と金具セットを組立式家具として箱詰めする梱包ライン"><span class="k">05 · 梱包</span><h3>RTA梱包</h3><p>部材・金具セット・説明書をセットごとに箱詰めし、発泡スチロールで保護します。</p><div class="spec">お客様指定の箱・ラベル<br>パレット積みでコンテナ出荷</div></div>
       </div>
+    </div>
+  </section>
+
+  <section id="equipment" style="padding-top:0">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">設備</span>
+        <h2>南興製を中心としたNC板材加工ライン</h2>
+        <p class="lede">裁断から木口仕上げまで、生産ラインの大半に南興（Nanxing）のNC設備を導入しています。以下はハイフォン工場で稼働中の機械です。</p>
+      </div>
+      <div class="equip">
+        <figure class="eq"><img src="../img/panel-saw-loader.jpg" width="1600" height="1200" loading="lazy" alt="ZGSL2512Rガントリーローダー付き南興NPC330Sパネルソー"><figcaption><span class="k">裁断</span><h3>自動供給付きパネルソー</h3><p class="model">南興 NPC330S · ZGSL2512R ローダー</p><p>2440 × 1220 mmの板を重ねて直線部材に裁断します。ガントリーローダーがパレットから1枚ずつ供給します。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nesting-walnut.jpg" width="1600" height="1200" loading="lazy" alt="ウォールナット木目の天板を切削する南興NCルーター"><figcaption><span class="k">ネスティング</span><h3>NCルーター</h3><p class="model">南興 · 自動ローディング／アンローディング</p><p>異形天板、配線穴、切り欠きを定尺板から1プログラムで加工。コンベヤーで板を供給し、加工済み部材を搬出します。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/cnc-ptp.jpg" width="1600" height="1200" loading="lazy" alt="バキュームポッド付き南興NCPシリーズNC加工センター"><figcaption><span class="k">PTP</span><h3>NCポイント・トゥ・ポイント加工機</h3><p class="model">南興 NCPシリーズ</p><p>バキュームポッドで部材を1枚ずつ固定し、側面穴あけやポケット加工など平板ルーターでは難しい加工を行います。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/edgebander-twin.jpg" width="1600" height="1200" loading="lazy" alt="ローラー返送コンベヤー付きの南興自動エッジバンダー2ライン"><figcaption><span class="k">エッジ</span><h3>自動エッジバンダー</h3><p class="model">南興 · ローラー返送コンベヤー</p><p>PVCエッジの接着・トリム・スクレーパー・バフを一工程で行い、返送コンベヤーで次の辺の作業へ戻します。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/double-end-edgebander.jpg" width="1600" height="1200" loading="lazy" alt="床レール上の両端エッジバンダー"><figcaption><span class="k">両端</span><h3>両端エッジバンダー</h3><p class="model">床レールで幅調整</p><p>部材の長辺2辺を一度にエッジ貼りします。片側の機体がレール上を移動して板幅に合わせます。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/profile-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="MF120 自動倣い注入式エッジ巻き機"><figcaption><span class="k">巻き</span><h3>倣いエッジ巻き</h3><p class="model">MF120 自動注入式エッジ巻き機</p><p>曲線や異形の輪郭に沿って、角丸天板や切り欠き部材にPVCエッジを巻き付けます。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/rotary-edge-wrap.jpg" width="1600" height="1200" loading="lazy" alt="圧送接着剤タンク付きの回転テーブル式エッジ巻き機"><figcaption><span class="k">巻き</span><h3>回転テーブル式エッジ巻き機</h3><p class="model">回転テーブル・圧送タンク</p><p>小型の異形部材をテーブルごと回転させ、掴み直さずに4辺を巻き付けます。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/cold-press.jpg" width="1600" height="1200" loading="lazy" alt="信俊成 MH3248 60トン油圧コールドプレス"><figcaption><span class="k">プレス</span><h3>糊付け機・コールドプレス</h3><p class="model">信俊成 MH3248 × 60 t</p><p>ローラー糊付け機と60トン油圧コールドプレスで、突板・メラミン化粧板・フィルムを板材に貼り合わせ、特注の表面に仕上げます。</p></figcaption></figure>
+      </div>
+      <span class="note">待確認：機器名稱、型號與壓膠機的實際用途</span>
     </div>
   </section>
 
@@ -417,6 +448,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <details><summary>環貿国際は何を製造していますか？</summary><p>メラミン化粧パーティクルボードとMDFによる板材家具です。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドボード、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。</p></details>
         <details><summary>OEMとODMの両方に対応していますか？</summary><p>はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。</p></details>
         <details><summary>主な販売先はどこですか？</summary><p>主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。</p></details>
+        <details><summary>環貿国際はどのような設備を使っていますか？</summary><p>生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330Sパネルソー、自動搬入出付きNCルーター、NC加工センター、NCボーリングマシンを備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。</p></details>
         <details><summary>環貿国際はどのような認証を取得していますか？</summary><p>ISO 9001（品質マネジメント）とISO 14001（環境マネジメント）の認証を取得しています。ご要望に応じて、FSC認証サプライヤーからFSC認証材を調達できます。</p></details>
         <details><summary>主な取引先はどこですか？</summary><p>米国の家具ブランドに供給しており、Lakeshore Learning（教室・幼児教育用家具）やBranch Furniture（オフィス家具）などが含まれます。年間売上は約1,000万米ドルです。</p></details>
         <details><summary>工場の経営体制は？</summary><p>環貿国際は2024年にベトナムで設立され、台湾人経営陣のもと約100名の従業員が働いています。</p></details>

@@ -1,0 +1,9 @@
+<g><rect class="pt" x="0" y="0" width="1180" height="400"/><line class="eb" x1="0" y1="400" x2="1180" y2="400"/><text class="pl" x="24" y="70">TOP</text><text class="pd" x="24" y="130">1180 × 400</text></g>
+<g><rect class="pt" x="1184" y="0" width="1180" height="400"/><line class="eb" x1="1184" y1="400" x2="2364" y2="400"/><text class="pl" x="1208" y="70">BOTTOM</text><text class="pd" x="1208" y="130">1180 × 400</text></g>
+<g><rect class="pt" x="0" y="404" width="740" height="400"/><line class="eb" x1="0" y1="804" x2="740" y2="804"/><text class="pl" x="24" y="474">SIDE L</text><text class="pd" x="24" y="534">740 × 400</text></g>
+<g><rect class="pt" x="744" y="404" width="740" height="400"/><line class="eb" x1="744" y1="804" x2="1484" y2="804"/><text class="pl" x="768" y="474">SIDE R</text><text class="pd" x="768" y="534">740 × 400</text></g>
+<g><rect class="pt" x="1488" y="404" width="704" height="380"/><line class="eb" x1="1488" y1="784" x2="2192" y2="784"/><text class="pl" x="1512" y="474">DIVIDER</text><text class="pd" x="1512" y="534">704 × 380</text></g>
+<g><rect class="pt" x="0" y="808" width="576" height="380"/><line class="eb" x1="0" y1="1188" x2="576" y2="1188"/><text class="pl" x="24" y="878">SHELF</text><text class="pd" x="24" y="938">576 × 380</text></g>
+<g><rect class="pt" x="580" y="808" width="576" height="380"/><line class="eb" x1="580" y1="1188" x2="1156" y2="1188"/><text class="pl" x="604" y="878">SHELF</text><text class="pd" x="604" y="938">576 × 380</text></g>
+<g><rect class="pt" x="1160" y="808" width="576" height="380"/><line class="eb" x1="1160" y1="1188" x2="1736" y2="1188"/><text class="pl" x="1184" y="878">SHELF</text><text class="pd" x="1184" y="938">576 × 380</text></g>
+<g><rect class="pt" x="1740" y="808" width="576" height="380"/><line class="eb" x1="1740" y1="1188" x2="2316" y2="1188"/><text class="pl" x="1764" y="878">SHELF</text><text class="pd" x="1764" y="938">576 × 380</text></g>

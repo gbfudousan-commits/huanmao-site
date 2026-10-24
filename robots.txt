@@ -1,16 +1,2 @@
 User-agent: *
-Allow: /
-
-# AI crawlers welcome
-User-agent: GPTBot
-Allow: /
-User-agent: OAI-SearchBot
-Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: Google-Extended
-Allow: /
-
-Sitemap: https://huanmaofurniture.com/sitemap.xml
+Disallow: /
