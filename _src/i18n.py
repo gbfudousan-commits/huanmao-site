@@ -337,3 +337,23 @@ T += [
  "ローラー糊付け機と60トン油圧コールドプレスで、フィルムを板材に貼り合わせるほか、パーティクルボード同士・MDF同士を接着して厚物の天板や部材を製作します。",
  "Máy lăn keo và máy ép nguội thủy lực 60 tấn dán phim lên ván và ép dán ván với nhau (ván dăm với ván dăm, MDF với MDF) để làm mặt bàn và chi tiết dày."),
 ]
+
+# ---------- 2026-10-24 (3): daily check ----------
+T += [
+# cutting-diagram part labels (cut.svg.txt)
+(">TOP</text>", ">頂板</text>", ">天板</text>", ">NÓC</text>"),
+(">BOTTOM</text>", ">底板</text>", ">底板</text>", ">ĐÁY</text>"),
+(">SIDE L</text>", ">左側板</text>", ">左側板</text>", ">HÔNG TRÁI</text>"),
+(">SIDE R</text>", ">右側板</text>", ">右側板</text>", ">HÔNG PHẢI</text>"),
+(">SHELF</text>", ">層板</text>", ">棚板</text>", ">ĐỢT</text>"),
+(">DIVIDER</text>", ">隔板</text>", ">仕切板</text>", ">VÁCH NGĂN</text>"),
+# FAQ: formaldehyde
+("Does your board meet U.S. formaldehyde rules?",
+ "板材符合美國甲醛法規嗎？",
+ "板材は米国のホルムアルデヒド規制に適合していますか？",
+ "Ván có đáp ứng quy định về formaldehyde của Mỹ không?"),
+("Yes. We use board from suppliers certified to CARB Phase 2 / TSCA Title VI. The formaldehyde certificates are issued to our board suppliers, and we can provide copies on request.",
+ "符合。我們使用通過 CARB Phase 2 / TSCA Title VI 認證之供應商的板材；甲醛證書由板材供應商出具，可依需求提供副本。",
+ "はい。CARB Phase 2 / TSCA Title VI 認証を受けたサプライヤーの板材を使用しています。ホルムアルデヒドの証明書は板材サプライヤーに発行されたもので、ご要望に応じて写しを提出できます。",
+ "Có. Chúng tôi sử dụng ván từ các nhà cung cấp đạt chứng nhận CARB Phase 2 / TSCA Title VI. Chứng chỉ formaldehyde được cấp cho nhà cung cấp ván; chúng tôi có thể gửi bản sao theo yêu cầu."),
+]
