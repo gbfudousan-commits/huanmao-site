@@ -180,7 +180,6 @@ T = [
 # ---------- factory ----------
 ('<span class="eyebrow">Factory</span>', '<span class="eyebrow">工廠</span>', '<span class="eyebrow">工場</span>', '<span class="eyebrow">Nhà máy</span>'),
 ("Northern Vietnam, close to the port", "越南北部，緊鄰港口", "ベトナム北部、港のすぐ近く", "Miền Bắc Việt Nam, gần cảng biển"),
-("Our plant is in Ke Sat Commune, Hai Phong City. Hai Phong is northern Vietnam&#x27;s main seaport", "", "", ""),  # placeholder (not used)
 ("Our plant is in Ke Sat Commune, Hai Phong City. Hai Phong is northern Vietnam's main seaport, so finished containers reach the quay in hours, not days. The plant is run by a Taiwanese management team with long experience in export furniture.",
  "工廠位於海防市 Ke Sat 社。海防是越南北部最大的海港，成品貨櫃幾小時內就能抵達碼頭。工廠由具多年外銷家具經驗的台灣經營團隊管理。",
  "工場はハイフォン市ケーサット社にあります。ハイフォンはベトナム北部最大の港で、完成したコンテナは数時間で岸壁に届きます。輸出家具の経験が豊富な台湾人経営陣が工場を運営しています。",
