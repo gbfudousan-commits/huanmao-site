@@ -357,3 +357,23 @@ T += [
  "はい。CARB Phase 2 / TSCA Title VI 認証を受けたサプライヤーの板材を使用しています。ホルムアルデヒドの証明書は板材サプライヤーに発行されたもので、ご要望に応じて写しを提出できます。",
  "Có. Chúng tôi sử dụng ván từ các nhà cung cấp đạt chứng nhận CARB Phase 2 / TSCA Title VI. Chứng chỉ formaldehyde được cấp cho nhà cung cấp ván; chúng tôi có thể gửi bản sao theo yêu cầu."),
 ]
+
+# ---------- 2026-10-25: owner approved adding unused photos to the factory gallery ----------
+T += [
+('alt="CNC nesting centre with automatic loading and unloading tables on the factory floor"',
+ 'alt="廠內附自動上下料平台的 CNC 開料中心"',
+ 'alt="工場内の自動搬入・搬出テーブル付きNCルーター"',
+ 'alt="Máy CNC nesting có bàn nạp và xả liệu tự động trong nhà máy"'),
+('alt="Second CNC nesting line with infeed and outfeed conveyor tables"',
+ 'alt="另一條附進料與出料輸送平台的 CNC 開料線"',
+ 'alt="搬入・搬出コンベヤテーブル付きの2台目のNCルーターライン"',
+ 'alt="Dây chuyền CNC nesting thứ hai với bàn băng tải nạp và xả liệu"'),
+('alt="Nanxing CNC boring line with operators feeding stacks of woodgrain panels"',
+ 'alt="南興 CNC 鑽孔線，作業員正在送入整疊木紋板件"',
+ 'alt="木目調の部材を投入する作業員と南興（Nanxing）NCボーリングライン"',
+ 'alt="Dây chuyền khoan CNC Nanxing, công nhân đang đưa chồng ván vân gỗ vào máy"'),
+('alt="Close-up of white melamine particleboard panels with machined grooves and drilled holes"',
+ 'alt="白色三聚氰胺塑合板板件的開槽與鑽孔特寫"',
+ 'alt="溝加工と穴あけを施した白色メラミン化粧パーティクルボード部材のクローズアップ"',
+ 'alt="Cận cảnh chi tiết ván dăm phủ melamine trắng đã soi rãnh và khoan lỗ"'),
+]

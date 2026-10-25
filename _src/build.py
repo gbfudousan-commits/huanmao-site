@@ -18,6 +18,7 @@ from i18n import T, LANGS
 STAGING = True
 DOMAIN = 'https://huanmaofurniture.com/'
 ORDER = [('en', 'EN'), ('zh', '中文'), ('ja', '日本語'), ('vi', 'Tiếng Việt')]
+NAV_LABEL = {'en': 'Language', 'zh': '語言', 'ja': '言語', 'vi': 'Ngôn ngữ'}
 
 src = open(f'{SRC}/template.html', encoding='utf-8').read()
 src = src.replace('{{MARK}}', open(f'{SRC}/mark-copper.b64').read()).replace('{{CUT}}', open(f'{SRC}/cut.svg.txt').read())
@@ -51,7 +52,7 @@ def page(lang):
         cur = ' aria-current="true"' if c == lang else ''
         hl = 'zh-Hant' if c == 'zh' else c
         links.append(f'<a href="{href}" hreflang="{hl}" lang="{hl}"{cur}>{name}</a>')
-    bar = '<div class="langbar"><div class="wrap"><nav aria-label="Language">' + ''.join(links) + '</nav></div></div>\n'
+    bar = '<div class="langbar"><div class="wrap"><nav aria-label="' + NAV_LABEL[lang] + '">' + ''.join(links) + '</nav></div></div>\n'
     t = t.replace('<header>', '<header>\n' + bar, 1)
     css = ('.langbar{border-bottom:1px solid var(--line);font:500 .78rem/1 var(--body)}'
            '.langbar nav{display:flex;justify-content:flex-end;gap:16px;padding-block:7px;flex-wrap:wrap}'
