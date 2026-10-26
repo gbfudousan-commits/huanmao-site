@@ -6,3 +6,4 @@
 - 2026-10-25：依老闆指示：語言選單的無障礙標籤改為各語言（語言／言語／Ngôn ngữ）；工廠相簿加入 4 張原未使用的照片（CNC 開料線×2、CNC 鑽孔線、板件開槽鑽孔特寫）；__pycache__ 移出版本控制。
 - 2026-10-25：每日檢查：結構化資料移除重複的關鍵字「CNC nesting」，FAQ 結構化資料順序改為與頁面一致，刪除 i18n 中未使用的佔位列。首屏工廠照片加上 fetchpriority="high"，加快電腦版首屏載入。
 - 2026-10-26：網域改為 huanmao.co（新增 CNAME），網站內信箱改為 sales@huanmao.co。
+- 2026-10-26：每日檢查：移除前一天誤提交到網站根目錄的測試截圖 en390dark.png（並在 .gitignore 防止再發生）。英文版網頁標題由「Huan Mao International」改為「Huan Mao International | OEM/ODM Furniture Manufacturer in Vietnam」，有助搜尋結果顯示（中日越文標題不變）。

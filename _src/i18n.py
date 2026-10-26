@@ -1,6 +1,10 @@
 # (en, zh-Hant, ja, vi) — exact source segments from template.html
 T = [
 # ---------- head ----------
+("<title>Huan Mao International | OEM/ODM Furniture Manufacturer in Vietnam</title>",
+ "<title>環貿國際 Huan Mao International｜越南海防 OEM/ODM 板式家具製造</title>",
+ "<title>環貿国際 Huan Mao International｜ベトナム・ハイフォンのOEM/ODM家具メーカー</title>",
+ "<title>Huan Mao International – Nhà sản xuất nội thất OEM/ODM tại Hải Phòng</title>"),
 ("Huan Mao International is an OEM/ODM manufacturer of melamine particleboard and MDF furniture in Hai Phong, Vietnam, building classroom and office storage furniture for U.S. brands.",
  "環貿國際是位於越南海防的 OEM/ODM 家具製造商，以三聚氰胺貼面塑合板與 MDF 為美國品牌生產教室與辦公收納家具。",
  "環貿国際（Huan Mao International）はベトナム・ハイフォンのOEM/ODM家具メーカーです。メラミン化粧パーティクルボードとMDFで、米国ブランド向けの教室用・オフィス用収納家具を製造しています。",
