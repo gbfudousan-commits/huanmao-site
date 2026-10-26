@@ -14,9 +14,9 @@ ROOT = os.path.dirname(SRC)
 sys.path.insert(0, SRC)
 from i18n import T, LANGS
 
-# Staging: keep True until the site moves to huanmaofurniture.com and the owner approves going public.
+# Staging: keep True until the site moves to huanmao.co and the owner approves going public.
 STAGING = True
-DOMAIN = 'https://huanmaofurniture.com/'
+DOMAIN = 'https://huanmao.co/'
 ORDER = [('en', 'EN'), ('zh', '中文'), ('ja', '日本語'), ('vi', 'Tiếng Việt')]
 NAV_LABEL = {'en': 'Language', 'zh': '語言', 'ja': '言語', 'vi': 'Ngôn ngữ'}
 
@@ -92,7 +92,7 @@ open(f'{ROOT}/llms.txt', 'w', encoding='utf-8').write(
     "- Equipment: Nanxing computer panel saws with automatic loaders, Nanxing CNC nesting centres with automatic loading/unloading, "
     "Nanxing CNC point-to-point machining centre, Nanxing CNC boring, automatic and double-end edge banders, profile edge wrapping, "
     "glue spreader and 60-ton hydraulic cold press\n"
-    "- Contact: sales@huanmaofurniture.com, +84 369 686 820\n\n"
+    "- Contact: sales@huanmao.co, +84 369 686 820\n\n"
     f"## Pages\n- [English]({DOMAIN})\n- [中文]({DOMAIN}zh/)\n- [日本語]({DOMAIN}ja/)\n- [Tiếng Việt]({DOMAIN}vi/)\n")
 
 if problems:

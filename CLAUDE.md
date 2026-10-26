@@ -2,7 +2,7 @@
 
 Staging site for Huan Mao International Company Limited (環貿國際有限公司), an OEM/ODM wood-panel
 furniture factory in Hai Phong, Vietnam. Served by GitHub Pages from `main` (root).
-Final domain (not live yet): huanmaofurniture.com. Owner: Channing (prefers Traditional Chinese).
+Final domain (not live yet): huanmao.co. Owner: Channing (prefers Traditional Chinese).
 
 ## How the site is built
 - Edit **only** `_src/template.html` (English master) and `_src/i18n.py` (en / zh-Hant / ja / vi table).
@@ -19,7 +19,7 @@ Final domain (not live yet): huanmaofurniture.com. Owner: Channing (prefers Trad
 Established 2024 · ~100 employees · Taiwanese management · annual sales ~US$10M · ISO 9001 and
 ISO 14001 · FSC board only via FSC-certified suppliers (no own FSC CoC) · formaldehyde certificates come from board suppliers, not our own · MOQ and lead time depend on the product · customer names are confidential
 (customer names must NEVER appear on the site) · phone +84 369 686 820 ·
-email sales@huanmaofurniture.com · tax code 0801449372. Never publish bank accounts.
+email sales@huanmao.co · tax code 0801449372. Never publish bank accounts.
 Do not invent capacities, MOQ, lead times, certifications, machine counts or customer names.
 Red dashed `.note` boxes mark items waiting for the owner; leave them until he answers.
 
