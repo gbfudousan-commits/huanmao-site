@@ -100,6 +100,7 @@ a{color:inherit}
 .note{display:inline-block;font:500 .72rem/1.3 var(--mono);color:var(--note);border:1px dashed currentColor;padding:3px 7px;border-radius:3px;margin-top:8px}
 
 /* header */
+.skip{position:absolute;left:12px;top:-80px;z-index:30;padding:10px 16px;border-radius:6px;background:var(--ink);color:var(--bg);font-weight:600;text-decoration:none}.skip:focus{top:12px}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;gap:24px;padding-block:12px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
@@ -251,6 +252,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
 @media (prefers-reduced-motion:no-preference){.pt{transition:fill .2s}.sheet g:hover .pt{fill:color-mix(in srgb,var(--maple) 70%,var(--accent))}}
 </style>
 
+<a class="skip" href="#top">Skip to main content</a>
 </head>
 <body>
 <header>

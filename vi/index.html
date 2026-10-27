@@ -100,6 +100,7 @@ a{color:inherit}
 .note{display:inline-block;font:500 .72rem/1.3 var(--mono);color:var(--note);border:1px dashed currentColor;padding:3px 7px;border-radius:3px;margin-top:8px}
 
 /* header */
+.skip{position:absolute;left:12px;top:-80px;z-index:30;padding:10px 16px;border-radius:6px;background:var(--ink);color:var(--bg);font-weight:600;text-decoration:none}.skip:focus{top:12px}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .nav{display:flex;align-items:center;gap:24px;padding-block:12px}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
@@ -252,6 +253,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
 :root{--display:"Roboto Slab", Georgia, serif;--body:"Be Vietnam Pro", "Segoe UI", sans-serif}
 </style>
 
+<a class="skip" href="#top">Chuyển đến nội dung chính</a>
 </head>
 <body>
 <header>
@@ -326,7 +328,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
       </div>
       <div class="equip">
         <figure class="eq"><img src="../img/panel-saw-loader.jpg" width="1600" height="1200" loading="lazy" alt="Máy cưa panel Nanxing NPC330S với bộ cấp liệu ZGSL2512R"><figcaption><span class="k">CƯA</span><h3>Máy cưa panel có cấp liệu tự động</h3><p class="model">Nanxing NPC330S · bộ cấp ZGSL2512R</p><p>Cưa chồng ván 2440 × 1220 mm thành chi tiết thẳng. Cẩu cấp liệu nâng từng tấm từ pallet lên máy.</p></figcaption></figure>
-        <figure class="eq"><img src="../img/nesting-walnut.jpg" width="1600" height="1200" loading="lazy" alt="Máy CNC nesting Nanxing cắt mặt bàn vân óc chó"><figcaption><span class="k">NESTING</span><h3>Máy CNC nesting</h3><p class="model">Nanxing · tự động nạp và xả liệu</p><p>Cắt mặt bàn định hình, lỗ đi dây và lỗ khoét từ tấm nguyên trong một chương trình. Băng tải nạp ván và đưa chi tiết ra.</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nesting-walnut.jpg" width="1600" height="1200" loading="lazy" alt="Máy CNC nesting Nanxing cắt mặt bàn vân óc chó"><figcaption><span class="k">CẮT CNC</span><h3>Máy CNC nesting</h3><p class="model">Nanxing · tự động nạp và xả liệu</p><p>Cắt mặt bàn định hình, lỗ đi dây và lỗ khoét từ tấm nguyên trong một chương trình. Băng tải nạp ván và đưa chi tiết ra.</p></figcaption></figure>
         <figure class="eq"><img src="../img/cnc-ptp.jpg" width="1600" height="1200" loading="lazy" alt="Trung tâm gia công CNC Nanxing dòng NCP với đế hút chân không"><figcaption><span class="k">PTP</span><h3>Trung tâm gia công CNC điểm-điểm</h3><p class="model">Nanxing dòng NCP</p><p>Đế hút chân không giữ từng chi tiết để khoan cạnh, phay hốc và gia công mà máy nesting không làm được.</p></figcaption></figure>
         <figure class="eq"><img src="../img/edgebander-twin.jpg" width="1600" height="1200" loading="lazy" alt="Hai dây chuyền dán cạnh tự động Nanxing với băng tải hồi"><figcaption><span class="k">DÁN CẠNH</span><h3>Dây chuyền dán cạnh tự động</h3><p class="model">Nanxing · băng tải hồi con lăn</p><p>Dán keo, xén, cạo và đánh bóng cạnh PVC trong một lần chạy. Băng tải hồi đưa ván về cho công nhân dán cạnh tiếp theo.</p></figcaption></figure>
         <figure class="eq"><img src="../img/double-end-edgebander.jpg" width="1600" height="1200" loading="lazy" alt="Máy dán cạnh hai đầu trên ray sàn"><figcaption><span class="k">HAI CẠNH</span><h3>Máy dán cạnh hai đầu</h3><p class="model">Chỉnh bề rộng trên ray sàn</p><p>Dán hai cạnh dài của tấm ván trong một lần. Một bên máy chạy trên ray để khớp bề rộng ván.</p></figcaption></figure>

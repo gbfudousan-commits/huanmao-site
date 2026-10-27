@@ -60,6 +60,7 @@ T = [
  "Huan Mao International được thành lập tại Việt Nam năm 2024, do đội ngũ quản lý người Đài Loan điều hành, với khoảng 100 nhân viên."),
 ("What is your minimum order and lead time?", "最小訂購量與交期是多少？", "最小発注数量と納期を教えてください。", "Số lượng đặt hàng tối thiểu và thời gian giao hàng?"),
 # ---------- nav ----------
+("Skip to main content", "跳至主要內容", "本文へスキップ", "Chuyển đến nội dung chính"),
 ('aria-label="Huan Mao International home"', 'aria-label="環貿國際 首頁"', 'aria-label="環貿国際 ホーム"', 'aria-label="Trang chủ Huan Mao International"'),
 (">Capabilities</a>", ">製程能力</a>", ">生産能力</a>", ">Năng lực</a>"),
 (">Materials</a>", ">材料</a>", ">材料</a>", ">Vật liệu</a>"),
@@ -270,7 +271,7 @@ T += [
 ("Nanxing NPC330S · ZGSL2512R loader", "南興 NPC330S · ZGSL2512R 上料機", "南興 NPC330S · ZGSL2512R ローダー", "Nanxing NPC330S · bộ cấp ZGSL2512R"),
 ("Cut stacks of 2440 × 1220 mm boards into straight parts. A gantry loader lifts each board from the pallet onto the saw.", "將 2440 × 1220 mm 板材疊板裁成直料，龍門上料機自動把板材從棧板送上鋸台。", "2440 × 1220 mmの板を重ねて直線部材に裁断します。ガントリーローダーがパレットから1枚ずつ供給します。", "Cưa chồng ván 2440 × 1220 mm thành chi tiết thẳng. Cẩu cấp liệu nâng từng tấm từ pallet lên máy."),
 ('alt="Nanxing CNC nesting centre cutting walnut woodgrain desk panels"', 'alt="南興 CNC 開料中心裁切胡桃木紋桌板"', 'alt="ウォールナット木目の天板を切削する南興NCルーター"', 'alt="Máy CNC nesting Nanxing cắt mặt bàn vân óc chó"'),
-('<span class="k">NEST</span><h3>CNC nesting centres</h3>', '<span class="k">開料</span><h3>CNC 開料中心</h3>', '<span class="k">ネスティング</span><h3>NCルーター</h3>', '<span class="k">NESTING</span><h3>Máy CNC nesting</h3>'),
+('<span class="k">NEST</span><h3>CNC nesting centres</h3>', '<span class="k">開料</span><h3>CNC 開料中心</h3>', '<span class="k">ネスティング</span><h3>NCルーター</h3>', '<span class="k">CẮT CNC</span><h3>Máy CNC nesting</h3>'),
 ("Nanxing · automatic loading and unloading", "南興 · 自動上下料", "南興 · 自動ローディング／アンローディング", "Nanxing · tự động nạp và xả liệu"),
 ("Cut shaped tops, grommet holes and cut-outs from full sheets in one program. Conveyors load boards and carry finished parts off.", "整張板一次加工異形桌板、走線孔與開孔，輸送帶自動上料並送出成品。", "異形天板、配線穴、切り欠きを定尺板から1プログラムで加工。コンベヤーで板を供給し、加工済み部材を搬出します。", "Cắt mặt bàn định hình, lỗ đi dây và lỗ khoét từ tấm nguyên trong một chương trình. Băng tải nạp ván và đưa chi tiết ra."),
 ('alt="Nanxing NCP-series CNC point-to-point machining centre with vacuum pods"', 'alt="附真空吸盤的南興 NCP 系列 CNC 加工中心"', 'alt="バキュームポッド付き南興NCPシリーズNC加工センター"', 'alt="Trung tâm gia công CNC Nanxing dòng NCP với đế hút chân không"'),
