@@ -222,8 +222,6 @@ T = [
  "<option>OEM – sản xuất theo thiết kế của tôi</option><option>ODM – xem thiết kế của công ty</option><option>Chưa xác định</option>"),
 ('>Products and quantities<textarea', '>產品與數量<textarea', '>製品と数量<textarea', '>Sản phẩm và số lượng<textarea'),
 ('placeholder="e.g. 3 SKUs of classroom cubby storage, about 2,000 sets per year"', 'placeholder="例如：教室置物格櫃 3 款，每年約 2,000 套"', 'placeholder="例：教室用小分け収納棚 3品番、年間約2,000セット"', 'placeholder="VD: 3 mã kệ ô lớp học, khoảng 2.000 bộ mỗi năm"'),
-("Preview only. The form will be connected to the company inbox on the live site.", "預覽版。正式上線後，表單會寄到公司信箱。", "プレビュー版です。公開後はフォームが会社のメールに届きます。", "Bản xem trước. Khi chạy chính thức, biểu mẫu sẽ gửi đến hộp thư công ty."),
-("Preview only: nothing was sent. On the live site this form delivers to the company inbox.", "預覽版：未實際送出。正式上線後，表單會寄到公司信箱。", "プレビュー版のため送信されていません。公開後は会社のメールに届きます。", "Bản xem trước: chưa gửi đi. Khi chạy chính thức, biểu mẫu sẽ gửi đến hộp thư công ty."),
 # ---------- footer ----------
 ("Tax code (MST) 0801449372", "稅號（MST）0801449372", "税番号（MST）0801449372", "Mã số thuế 0801449372"),
 ]
@@ -380,4 +378,13 @@ T += [
  'alt="白色三聚氰胺塑合板板件的開槽與鑽孔特寫"',
  'alt="溝加工と穴あけを施した白色メラミン化粧パーティクルボード部材のクローズアップ"',
  'alt="Cận cảnh chi tiết ván dăm phủ melamine trắng đã soi rãnh và khoan lỗ"'),
+]
+
+# ---------- 2026-10-28: live quote form (Web3Forms -> sales@huanmao.co) ----------
+T += [
+("Your request goes straight to sales@huanmao.co.", "您的詢價會直接寄到 sales@huanmao.co。", "お問い合わせは sales@huanmao.co に直接届きます。", "Yêu cầu của bạn sẽ được gửi thẳng đến sales@huanmao.co."),
+("Sending your request…", "正在送出…", "送信中です…", "Đang gửi yêu cầu…"),
+("Thank you. Your request has reached sales@huanmao.co and we will reply within one business day.", "感謝您的詢價，資料已寄到 sales@huanmao.co，我們會在一個工作天內回覆。", "お問い合わせありがとうございます。sales@huanmao.co に届きました。1営業日以内にご返信します。", "Cảm ơn bạn. Yêu cầu đã được gửi đến sales@huanmao.co, chúng tôi sẽ phản hồi trong vòng một ngày làm việc."),
+("Please enter your name and a valid work email.", "請填寫姓名與正確的電子郵件。", "お名前と正しいメールアドレスを入力してください。", "Vui lòng nhập họ tên và email hợp lệ."),
+("Sending failed. Please try again or email us at sales@huanmao.co.", "送出失敗，請再試一次，或直接寄信到 sales@huanmao.co。", "送信できませんでした。もう一度お試しいただくか、sales@huanmao.co へ直接メールしてください。", "Gửi không thành công. Vui lòng thử lại hoặc gửi email đến sales@huanmao.co."),
 ]

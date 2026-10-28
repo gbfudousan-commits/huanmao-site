@@ -242,6 +242,7 @@ form{display:grid;gap:14px;background:var(--surface);border:1px solid var(--line
 label{display:grid;gap:6px;font-size:.85rem;font-weight:500}
 input,select,textarea{font:inherit;font-size:.95rem;padding:10px 12px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink);width:100%}
 textarea{min-height:110px;resize:vertical}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .formmsg{font-size:.88rem;color:var(--muted)}
 @media (max-width:860px){.contact{grid-template-columns:1fr}}
 @media (max-width:480px){.row{grid-template-columns:1fr}}
@@ -477,6 +478,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         </ul>
       </div>
       <form id="quote" novalidate>
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="row">
           <label for="f-name">姓名<input id="f-name" name="name" autocomplete="name" required></label>
           <label for="f-company">公司<input id="f-company" name="company" autocomplete="organization"></label>
@@ -487,7 +489,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         </div>
         <label for="f-msg">產品與數量<textarea id="f-msg" name="message" placeholder="例如：教室置物格櫃 3 款，每年約 2,000 套"></textarea></label>
         <button class="btn" type="submit">索取報價</button>
-        <p class="formmsg" id="formmsg" aria-live="polite">預覽版。正式上線後，表單會寄到公司信箱。</p>
+        <p class="formmsg" id="formmsg" aria-live="polite" data-sending="正在送出…" data-ok="感謝您的詢價，資料已寄到 sales@huanmao.co，我們會在一個工作天內回覆。" data-missing="請填寫姓名與正確的電子郵件。" data-err="送出失敗，請再試一次，或直接寄信到 sales@huanmao.co。">您的詢價會直接寄到 sales@huanmao.co。</p>
       </form>
     </div>
   </section>
@@ -500,10 +502,27 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
   </div>
 </footer>
 <script>
-document.getElementById('quote').addEventListener('submit',function(e){
-  e.preventDefault();
-  document.getElementById('formmsg').textContent='預覽版：未實際送出。正式上線後，表單會寄到公司信箱。';
-});
+(function(){
+  var f=document.getElementById('quote'),m=document.getElementById('formmsg'),b=f.querySelector('button[type=submit]');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    if(f.botcheck.checked)return;
+    var name=f.name.value.trim(),email=f.email.value.trim();
+    if(!name||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){m.textContent=m.dataset.missing;return;}
+    var lang=document.documentElement.lang||'en';
+    var data={access_key:'e6959387-b764-4eda-874d-8ff9f6c19b7f',
+      subject:'Website quote request ['+lang+'] – '+(f.company.value.trim()||name),
+      from_name:'Huan Mao website',replyto:email,
+      name:name,company:f.company.value.trim(),email:email,
+      project_type:f.type.value,message:f.message.value.trim(),page_language:lang};
+    b.disabled=true;m.textContent=m.dataset.sending;
+    fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(data)})
+      .then(function(r){return r.json();})
+      .then(function(j){if(j.success){m.textContent=m.dataset.ok;f.reset();}else{m.textContent=m.dataset.err;}})
+      .catch(function(){m.textContent=m.dataset.err;})
+      .then(function(){b.disabled=false;});
+  });
+})();
 </script>
 
 </body>
