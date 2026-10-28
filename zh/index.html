@@ -244,6 +244,7 @@ input,select,textarea{font:inherit;font-size:.95rem;padding:10px 12px;border:1px
 textarea{min-height:110px;resize:vertical}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
 .formmsg{font-size:.88rem;color:var(--muted)}
+[aria-invalid="true"]{border-color:var(--accent)}
 @media (max-width:860px){.contact{grid-template-columns:1fr}}
 @media (max-width:480px){.row{grid-template-columns:1fr}}
 
@@ -508,7 +509,9 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
     e.preventDefault();
     if(f.botcheck.checked)return;
     var name=f.name.value.trim(),email=f.email.value.trim();
-    if(!name||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){m.textContent=m.dataset.missing;return;}
+    var badName=!name,badEmail=!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email);
+    f.name.setAttribute('aria-invalid',badName);f.email.setAttribute('aria-invalid',badEmail);
+    if(badName||badEmail){m.textContent=m.dataset.missing;(badName?f.name:f.email).focus();return;}
     var lang=document.documentElement.lang||'en';
     var data={access_key:'e6959387-b764-4eda-874d-8ff9f6c19b7f',
       subject:'Website quote request ['+lang+'] – '+(f.company.value.trim()||name),
