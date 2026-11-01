@@ -49,10 +49,6 @@ T = [
  "ISO 9001（品質マネジメント）とISO 14001（環境マネジメント）の認証を取得しています。ご要望に応じて、FSC認証サプライヤーからFSC認証材を調達できます。",
  "Huan Mao International đạt chứng nhận ISO 9001 (quản lý chất lượng) và ISO 14001 (quản lý môi trường). Ván đạt chứng nhận FSC có thể cung cấp theo yêu cầu thông qua các nhà cung cấp có chứng nhận FSC."),
 ("Who are your customers?", "主要客戶有哪些？", "主な取引先はどこですか？", "Khách hàng của công ty là ai?"),
-("We supply U.S. furniture brands, including Lakeshore Learning (classroom and early-education furniture) and Branch Furniture (office furniture). Annual sales are around US$10 million.",
- "我們為美國家具品牌供貨，包括 Lakeshore Learning（教室與幼教家具）及 Branch Furniture（辦公家具）。年營業額約 1,000 萬美元。",
- "米国の家具ブランドに供給しており、Lakeshore Learning（教室・幼児教育用家具）やBranch Furniture（オフィス家具）などが含まれます。年間売上は約1,000万米ドルです。",
- "Chúng tôi cung cấp cho các thương hiệu nội thất Mỹ, trong đó có Lakeshore Learning (nội thất lớp học và mầm non) và Branch Furniture (nội thất văn phòng). Doanh thu hằng năm khoảng 10 triệu USD."),
 ("Who manages the factory?", "工廠由誰管理？", "工場の経営体制は？", "Ai quản lý nhà máy?"),
 ("Huan Mao International was established in Vietnam in 2024 under Taiwanese management and employs about 100 people.",
  "環貿國際於 2024 年在越南成立，由台灣籍經營團隊管理，員工約 100 人。",
@@ -307,7 +303,6 @@ T += [
 # ---------- 2026-10-24 (2): owner answers ----------
 _REMOVED2 = {
  "Supplying U.S. brands",
- "We supply U.S. furniture brands, including Lakeshore Learning (classroom and early-education furniture) and Branch Furniture (office furniture). Annual sales are around US$10 million.",
  '<span class="k">Formaldehyde</span><span>CARB Phase 2 / TSCA Title VI compliant board',
  'alt="Rotary-table profile edge wrapping machine with glue tank"',
  '<span class="k">WRAP</span><h3>Rotary-table edge wrapper</h3>',
