@@ -13,6 +13,13 @@ T = [
  "通過 ISO 9001 與 ISO 14001 認證的越南海防 OEM/ODM 家具製造商，以三聚氰胺貼面塑合板與 MDF 為美國品牌生產教室收納、辦公邊櫃、矮櫃及組裝式（RTA）家具。",
  "ISO 9001・ISO 14001認証取得。ベトナム・ハイフォンのOEM/ODM家具メーカーとして、メラミン化粧パーティクルボードとMDFで、米国ブランド向けに教室用収納、オフィス用サイドボード、キャビネット、組立式（RTA）家具を製造しています。",
  "Nhà sản xuất OEM/ODM đạt chứng nhận ISO 9001 và ISO 14001 tại Hải Phòng, Việt Nam, sản xuất tủ kệ lớp học, tủ văn phòng, tủ console và đồ nội thất lắp ráp (RTA) bằng ván dăm phủ melamine và MDF cho các thương hiệu Mỹ."),
+# Open Graph (link previews)
+("Huan Mao International | OEM/ODM Furniture Manufacturer in Vietnam",
+ "環貿國際 Huan Mao International｜越南海防 OEM/ODM 板式家具製造",
+ "環貿国際 Huan Mao International｜ベトナム・ハイフォンのOEM/ODM家具メーカー",
+ "Huan Mao International – Nhà sản xuất nội thất OEM/ODM tại Hải Phòng"),
+('og:image:alt" content="Exterior of the Huan Mao International factory and loading bay in Hai Phong, Vietnam"', 'og:image:alt" content="環貿國際越南海防工廠外觀與裝卸區"', 'og:image:alt" content="ベトナム・ハイフォンの環貿国際工場の外観と荷捌き場"', 'og:image:alt" content="Bên ngoài nhà máy và khu bốc xếp của Huan Mao International tại Hải Phòng, Việt Nam"'),
+('<meta property="og:locale" content="en_US">', '<meta property="og:locale" content="zh_TW">', '<meta property="og:locale" content="ja_JP">', '<meta property="og:locale" content="vi_VN">'),
 # FAQ (JSON-LD + visible)
 ("Where is Huan Mao International&#x27;s factory?", "環貿國際的工廠在哪裡？", "環貿国際の工場はどこにありますか？", "Nhà máy của Huan Mao International ở đâu?"),
 ("Where is Huan Mao International's factory?", "環貿國際的工廠在哪裡？", "環貿国際の工場はどこにありますか？", "Nhà máy của Huan Mao International ở đâu?"),
