@@ -71,6 +71,7 @@ T = [
 ("What is your minimum order and lead time?", "最小訂購量與交期是多少？", "最小発注数量と納期を教えてください。", "Số lượng đặt hàng tối thiểu và thời gian giao hàng?"),
 # ---------- nav ----------
 ("Skip to main content", "跳至主要內容", "本文へスキップ", "Chuyển đến nội dung chính"),
+('aria-label="Page sections"', 'aria-label="頁面導覽"', 'aria-label="ページ内メニュー"', 'aria-label="Các mục trên trang"'),
 ('aria-label="Huan Mao International home"', 'aria-label="環貿國際 首頁"', 'aria-label="環貿国際 ホーム"', 'aria-label="Trang chủ Huan Mao International"'),
 (">Capabilities</a>", ">製程能力</a>", ">生産能力</a>", ">Năng lực</a>"),
 (">Materials</a>", ">材料</a>", ">材料</a>", ">Vật liệu</a>"),

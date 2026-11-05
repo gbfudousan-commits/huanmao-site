@@ -113,13 +113,14 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 .mark{width:30px;height:42px;background:var(--accent);-webkit-mask:url(data:image/png;base64,{{MARK}}) center/contain no-repeat;mask:url(data:image/png;base64,{{MARK}}) center/contain no-repeat;flex:none}
 .brand b{font:700 1.05rem/1 var(--display);letter-spacing:.04em;color:var(--accent)}
 .brand small{display:block;font:500 .6rem/1 var(--body);letter-spacing:.22em;color:var(--accent);margin-top:4px}
-.nav ul{display:flex;gap:22px;list-style:none;margin:0 0 0 auto;padding:0;font-size:.92rem}
+.nav>nav{margin-left:auto}
+.nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-size:.92rem}
 .nav ul a{text-decoration:none;color:var(--muted)}
 .nav ul a:hover{color:var(--ink)}
 .btn{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;font-size:.95rem;padding:11px 18px;border-radius:4px;border:0;cursor:pointer;font-family:var(--body)}
 .btn:hover{filter:brightness(1.08)}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
-@media (max-width:860px){.nav ul{display:none}.nav .btn{margin-left:auto}}
+@media (max-width:860px){.nav>nav{display:none}.nav .btn{margin-left:auto}}
 
 /* hero */
 .hero{padding-block:56px 40px;display:grid;grid-template-columns:1fr 1.15fr;gap:48px;align-items:center}
@@ -265,14 +266,14 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
       <span class="mark" aria-hidden="true"></span>
       <span><b>HUAN MAO</b><small>INTERNATIONAL</small></span>
     </a>
-    <ul>
+    <nav aria-label="Page sections"><ul>
       <li><a href="#capabilities">Capabilities</a></li>
       <li><a href="#equipment">Equipment</a></li>
       <li><a href="#products">Products</a></li>
       <li><a href="#oem-odm">OEM &amp; ODM</a></li>
       <li><a href="#factory">Factory</a></li>
       <li><a href="#faq">FAQ</a></li>
-    </ul>
+    </ul></nav>
     <a class="btn" href="#contact">Request a quote</a>
   </div>
 </header>
