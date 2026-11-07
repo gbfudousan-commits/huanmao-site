@@ -26,6 +26,7 @@ T = [
  "環貿國際 Huan Mao International｜越南海防 OEM/ODM 板式家具製造",
  "環貿国際 Huan Mao International｜ベトナム・ハイフォンのOEM/ODM家具メーカー",
  "Huan Mao International – Nhà sản xuất nội thất OEM/ODM tại Hải Phòng"),
+('<meta property="og:url" content="https://huanmao.co/">', '<meta property="og:url" content="https://huanmao.co/zh/">', '<meta property="og:url" content="https://huanmao.co/ja/">', '<meta property="og:url" content="https://huanmao.co/vi/">'),
 ('<meta property="og:locale" content="en_US">', '<meta property="og:locale" content="zh_TW">', '<meta property="og:locale" content="ja_JP">', '<meta property="og:locale" content="vi_VN">'),
 # FAQ (JSON-LD + visible)
 ("Where is Huan Mao International&#x27;s factory?", "環貿國際的工廠在哪裡？", "環貿国際の工場はどこにありますか？", "Nhà máy của Huan Mao International ở đâu?"),
