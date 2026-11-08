@@ -16,10 +16,6 @@ T = [
 # Stock photos (Unsplash License) — alt text
 ('alt="CNC router head cutting a wood-based panel"', 'alt="CNC 雕銑機切割木質板材"', 'alt="木質パネルを切削するNCルーターのヘッド"', 'alt="Đầu máy CNC router đang cắt tấm ván gỗ"'),
 ('og:image:alt" content="CNC router head cutting a wood-based panel"', 'og:image:alt" content="CNC 雕銑機切割木質板材"', 'og:image:alt" content="木質パネルを切削するNCルーターのヘッド"', 'og:image:alt" content="Đầu máy CNC router đang cắt tấm ván gỗ"'),
-('alt="Stack of wood-based panel sheets seen from the edge"', 'alt="從側面看堆疊的木質板材"', 'alt="積み重ねた木質ボードの断面"', 'alt="Chồng ván gỗ nhìn từ cạnh"'),
-('alt="Circular saw blade with wood chips"', 'alt="圓鋸片與木屑"', 'alt="丸ノコ刃と木くず"', 'alt="Lưỡi cưa đĩa và mùn gỗ"'),
-('alt="Drill bit boring a hole in a wooden board"', 'alt="鑽頭在木板上鑽孔"', 'alt="木の板に穴をあけるドリルビット"', 'alt="Mũi khoan đang khoan lỗ trên tấm gỗ"'),
-('alt="Light oak woodgrain surface"', 'alt="淺色橡木紋表面"', 'alt="明るいオーク木目の表面"', 'alt="Bề mặt vân gỗ sồi sáng màu"'),
 ('alt="Stacked corrugated shipping cartons"', 'alt="堆疊的瓦楞紙出貨箱"', 'alt="積み重ねた段ボール出荷箱"', 'alt="Các thùng carton vận chuyển xếp chồng"'),
 # Open Graph (link previews)
 ("Huan Mao International | OEM/ODM Furniture Manufacturer in Vietnam",
@@ -255,7 +251,7 @@ T += [
 (">Equipment</a>", ">生產設備</a>", ">設備</a>", ">Thiết bị</a>"),
 ("<h3>Panel saw &amp; CNC nesting</h3>", "<h3>電腦裁板鋸與 CNC 開料</h3>", "<h3>パネルソー・NCルーター</h3>", "<h3>Cưa panel &amp; cắt CNC</h3>"),
 ("Straight parts are cut in stacks on computer panel saws; shaped parts and cut-outs go to CNC nesting.", "直料以電腦裁板鋸疊板裁切；異形件與開孔交給 CNC 開料中心。", "直線部材はパネルソーで重ね切りし、異形部材や切り欠きはNCルーターで加工します。", "Chi tiết thẳng được cưa theo chồng trên máy cưa panel; chi tiết định hình và lỗ khoét chuyển sang máy CNC nesting."),
-("Nanxing NPC330S panel saws<br>Nanxing CNC nesting centres", "南興 NPC330S 電腦裁板鋸<br>南興 CNC 開料中心", "南興 NPC330S パネルソー<br>南興 NCルーター", "Cưa panel Nanxing NPC330S<br>Máy CNC nesting Nanxing"),
+("Nanxing NPC330 panel saws<br>Nanxing CNC nesting centres", "南興 NPC330 電腦裁板鋸<br>南興 CNC 開料中心", "南興 NPC330 パネルソー<br>南興 NCルーター", "Cưa panel Nanxing NPC330<br>Máy CNC nesting Nanxing"),
 ("Nanxing CNC boring<br>Nanxing CNC PTP centre", "南興 CNC 鑽孔機<br>南興 CNC 加工中心", "南興 NCボーリング<br>南興 NC加工センター", "Máy khoan CNC Nanxing<br>Trung tâm gia công CNC Nanxing"),
 ("Straight edges run through automatic and double-end edge banders; curved edges are wrapped on profile machines.", "直邊以全自動封邊機與雙端封邊機加工；弧邊與異形邊以仿形包邊機處理。", "直線の木口は自動エッジバンダーと両端エッジバンダーで、曲線の木口は倣いエッジ機で巻き付けます。", "Cạnh thẳng chạy qua máy dán cạnh tự động và máy dán cạnh hai đầu; cạnh cong được bọc trên máy dán cạnh định hình."),
 ('<span class="eyebrow">Equipment</span>', '<span class="eyebrow">生產設備</span>', '<span class="eyebrow">設備</span>', '<span class="eyebrow">Thiết bị</span>'),
@@ -263,19 +259,19 @@ T += [
 ("Most of our production line runs on Nanxing Machinery CNC equipment, from sheet cutting to edge finishing. These are the machines on our floor in Hai Phong.", "從開料到封邊，我們的生產線大多採用南興裝備的 CNC 設備。以下是海防工廠現場的機台。", "裁断から木口仕上げまで、生産ラインの大半に南興（Nanxing）のNC設備を導入しています。以下はハイフォン工場で稼働中の機械です。", "Từ cắt ván đến hoàn thiện cạnh, phần lớn dây chuyền của chúng tôi dùng thiết bị CNC của Nanxing Machinery. Dưới đây là các máy đang vận hành tại nhà máy Hải Phòng."),
 # machines
 ('<span class="k">CUT</span><h3>Computer panel saws with automatic loader</h3>', '<span class="k">裁板</span><h3>電腦裁板鋸（自動上料）</h3>', '<span class="k">裁断</span><h3>自動供給付きパネルソー</h3>', '<span class="k">CƯA</span><h3>Máy cưa panel có cấp liệu tự động</h3>'),
-("Nanxing NPC330S · ZGSL2512R loader", "南興 NPC330S · ZGSL2512R 上料機", "南興 NPC330S · ZGSL2512R ローダー", "Nanxing NPC330S · bộ cấp ZGSL2512R"),
+("Nanxing NPC330 · ZGSL2512 loader", "南興 NPC330 · ZGSL2512 上料機", "南興 NPC330 · ZGSL2512 ローダー", "Nanxing NPC330 · bộ cấp ZGSL2512"),
 ("Cut stacks of 2440 × 1220 mm boards into straight parts. A gantry loader lifts each board from the pallet onto the saw.", "將 2440 × 1220 mm 板材疊板裁成直料，龍門上料機自動把板材從棧板送上鋸台。", "2440 × 1220 mmの板を重ねて直線部材に裁断します。ガントリーローダーがパレットから1枚ずつ供給します。", "Cưa chồng ván 2440 × 1220 mm thành chi tiết thẳng. Cẩu cấp liệu nâng từng tấm từ pallet lên máy."),
 ('<span class="k">NEST</span><h3>CNC nesting centres</h3>', '<span class="k">開料</span><h3>CNC 開料中心</h3>', '<span class="k">ネスティング</span><h3>NCルーター</h3>', '<span class="k">CẮT CNC</span><h3>Máy CNC nesting</h3>'),
-("Nanxing · automatic loading and unloading", "南興 · 自動上下料", "南興 · 自動ローディング／アンローディング", "Nanxing · tự động nạp và xả liệu"),
+("Nanxing NCG2812E · NCG2812LE line", "南興 NCG2812E · NCG2812LE 生產線", "南興 NCG2812E · NCG2812LE ライン", "Nanxing NCG2812E · dây chuyền NCG2812LE"),
 ("Cut shaped tops, grommet holes and cut-outs from full sheets in one program. Conveyors load boards and carry finished parts off.", "整張板一次加工異形桌板、走線孔與開孔，輸送帶自動上料並送出成品。", "異形天板、配線穴、切り欠きを定尺板から1プログラムで加工。コンベヤーで板を供給し、加工済み部材を搬出します。", "Cắt mặt bàn định hình, lỗ đi dây và lỗ khoét từ tấm nguyên trong một chương trình. Băng tải nạp ván và đưa chi tiết ra."),
 ('<span class="k">PTP</span><h3>CNC point-to-point machining centre</h3>', '<span class="k">加工中心</span><h3>CNC 點對點加工中心</h3>', '<span class="k">PTP</span><h3>NCポイント・トゥ・ポイント加工機</h3>', '<span class="k">PTP</span><h3>Trung tâm gia công CNC điểm-điểm</h3>'),
-("Nanxing NCP series", "南興 NCP 系列", "南興 NCPシリーズ", "Nanxing dòng NCP"),
+("Nanxing NCP3312Z2", "南興 NCP3312Z2", "南興 NCP3312Z2", "Nanxing NCP3312Z2"),
 ("Vacuum pods hold single parts for edge drilling, pocketing and routing that a flat-bed router cannot reach.", "以真空吸盤固定單件，進行側孔、銑槽等平台式開料機做不到的加工。", "バキュームポッドで部材を1枚ずつ固定し、側面穴あけやポケット加工など平板ルーターでは難しい加工を行います。", "Đế hút chân không giữ từng chi tiết để khoan cạnh, phay hốc và gia công mà máy nesting không làm được."),
 ('<span class="k">EDGE</span><h3>Automatic edge banding lines</h3>', '<span class="k">封邊</span><h3>全自動封邊線</h3>', '<span class="k">エッジ</span><h3>自動エッジバンダー</h3>', '<span class="k">DÁN CẠNH</span><h3>Dây chuyền dán cạnh tự động</h3>'),
-("Nanxing · roller return conveyors", "南興 · 滾筒回流線", "南興 · ローラー返送コンベヤー", "Nanxing · băng tải hồi con lăn"),
+("Nanxing NB577DP · NB7X · NB6JN", "南興 NB577DP · NB7X · NB6JN", "南興 NB577DP · NB7X · NB6JN", "Nanxing NB577DP · NB7X · NB6JN"),
 ("Glue, trim, scrape and buff PVC edges in one pass. Return conveyors bring panels back to the operator for the next edge.", "一次完成 PVC 封邊的上膠、修邊、刮邊與拋光，回流線把板件送回作業員繼續封下一邊。", "PVCエッジの接着・トリム・スクレーパー・バフを一工程で行い、返送コンベヤーで次の辺の作業へ戻します。", "Dán keo, xén, cạo và đánh bóng cạnh PVC trong một lần chạy. Băng tải hồi đưa ván về cho công nhân dán cạnh tiếp theo."),
 ('<span class="k">EDGE ×2</span><h3>Double-end edge bander</h3>', '<span class="k">雙邊</span><h3>雙端封邊機</h3>', '<span class="k">両端</span><h3>両端エッジバンダー</h3>', '<span class="k">HAI CẠNH</span><h3>Máy dán cạnh hai đầu</h3>'),
-("Width set on floor rails", "地軌調整寬度", "床レールで幅調整", "Chỉnh bề rộng trên ray sàn"),
+("Nanxing NB6S2II", "南興 NB6S2II", "南興 NB6S2II", "Nanxing NB6S2II"),
 ("Bands both long edges of a panel in one pass. One side travels on rails to match the panel width.", "一次封好板件兩條長邊，一側機身沿地軌移動以配合板寬。", "部材の長辺2辺を一度にエッジ貼りします。片側の機体がレール上を移動して板幅に合わせます。", "Dán hai cạnh dài của tấm ván trong một lần. Một bên máy chạy trên ray để khớp bề rộng ván."),
 ('<span class="k">WRAP</span><h3>Profile edge wrapping</h3>', '<span class="k">包邊</span><h3>仿形包邊</h3>', '<span class="k">巻き</span><h3>倣いエッジ巻き</h3>', '<span class="k">BỌC CẠNH</span><h3>Bọc cạnh định hình</h3>'),
 ("MF120 automatic glue-injection wrapper", "MF120 自動仿形注膠包邊機", "MF120 自動注入式エッジ巻き機", "Máy bọc cạnh bơm keo tự động MF120"),
@@ -289,10 +285,10 @@ T += [
 ("Roller glue spreader and 60-ton hydraulic cold press bond veneer, HPL or film to panels for custom surfaces.", "滾筒過膠機搭配 60 噸油壓冷壓機，可將木皮、美耐板或膜料壓貼於板材，做客製表面。", "ローラー糊付け機と60トン油圧コールドプレスで、突板・メラミン化粧板・フィルムを板材に貼り合わせ、特注の表面に仕上げます。", "Máy lăn keo và máy ép nguội thủy lực 60 tấn dán veneer, HPL hoặc phim lên ván để tạo bề mặt theo yêu cầu."),
 # FAQ
 ("What equipment does Huan Mao International use?", "環貿國際使用哪些生產設備？", "環貿国際はどのような設備を使っていますか？", "Huan Mao International sử dụng những thiết bị nào?"),
-("Most of our line is Nanxing Machinery CNC equipment: NPC330S computer panel saws with automatic loaders, CNC nesting centres with automatic loading and unloading, a CNC point-to-point machining centre and CNC boring machines. Edges are finished on automatic and double-end edge banders and profile edge wrapping machines, and we also run a glue spreader with a 60-ton hydraulic cold press.",
- "生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330S 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 加工中心與 CNC 鑽孔機。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。",
- "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330Sパネルソー、自動搬入出付きNCルーター、NC加工センター、NCボーリングマシンを備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。",
- "Phần lớn dây chuyền là thiết bị CNC của Nanxing Machinery: máy cưa panel NPC330S có cấp liệu tự động, máy CNC nesting tự động nạp xả liệu, trung tâm gia công CNC điểm-điểm và máy khoan CNC. Cạnh được hoàn thiện trên máy dán cạnh tự động, máy dán cạnh hai đầu và máy bọc cạnh định hình; ngoài ra còn có máy lăn keo và máy ép nguội thủy lực 60 tấn."),
+("Most of our line is Nanxing Machinery CNC equipment: NPC330 computer panel saws with automatic loaders, CNC nesting centres with automatic loading and unloading, a CNC point-to-point machining centre and six-sided CNC drilling centres. Edges are finished on automatic and double-end edge banders and profile edge wrapping machines, and we also run a glue spreader with a 60-ton hydraulic cold press.",
+ "生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 加工中心與六面數控鑽孔中心。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。",
+ "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NC加工センター、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。",
+ "Phần lớn dây chuyền là thiết bị CNC của Nanxing Machinery: máy cưa panel NPC330 có cấp liệu tự động, máy CNC nesting tự động nạp xả liệu, trung tâm gia công CNC điểm-điểm và trung tâm khoan CNC sáu mặt. Cạnh được hoàn thiện trên máy dán cạnh tự động, máy dán cạnh hai đầu và máy bọc cạnh định hình; ngoài ra còn có máy lăn keo và máy ép nguội thủy lực 60 tấn."),
 ]
 
 # ---------- 2026-10-24 (2): owner answers ----------
@@ -365,4 +361,25 @@ T += [
 ("Thank you. Your request has reached sales@huanmao.co and we will reply within one business day.", "感謝您的詢價，資料已寄到 sales@huanmao.co，我們會在一個工作天內回覆。", "お問い合わせありがとうございます。sales@huanmao.co に届きました。1営業日以内にご返信します。", "Cảm ơn bạn. Yêu cầu đã được gửi đến sales@huanmao.co, chúng tôi sẽ phản hồi trong vòng một ngày làm việc."),
 ("Please enter your name and a valid work email.", "請填寫姓名與正確的電子郵件。", "お名前と正しいメールアドレスを入力してください。", "Vui lòng nhập họ tên và email hợp lệ."),
 ("Sending failed. Please try again or email us at sales@huanmao.co.", "送出失敗，請再試一次，或直接寄信到 sales@huanmao.co。", "送信できませんでした。もう一度お試しいただくか、sales@huanmao.co へ直接メールしてください。", "Gửi không thành công. Vui lòng thử lại hoặc gửi email đến sales@huanmao.co."),
+]
+
+# ---------- 2026-11-08: Nanxing machine photos (owner: Nanxing permission obtained; models from owner's equipment list) ----------
+T += [
+('alt="Melamine particleboard sheets on the infeed rollers of a Nanxing CNC router (Nanxing product photo)"', 'alt="南興 CNC 開料機進料滾輪上的三聚氰胺塑合板（南興產品照）"', 'alt="南興NCルーターの供給ローラー上のメラミン化粧パーティクルボード（南興製品写真）"', 'alt="Ván dăm phủ melamine trên con lăn cấp liệu của máy CNC Nanxing (ảnh sản phẩm Nanxing)"'),
+('alt="Suction cups and dust hoods moving a panel on a Nanxing NCG2812E CNC router (Nanxing product photo)"', 'alt="南興 NCG2812E CNC 開料機以吸盤推送板材，附吸塵罩（南興產品照）"', 'alt="南興NCG2812E NCルーターの吸着カップと集じんフードによる板材の搬送（南興製品写真）"', 'alt="Giác hút và chụp hút bụi đẩy tấm ván trên máy CNC Nanxing NCG2812E (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing ND712DT double-station six-sided CNC drilling centre (Nanxing product photo)"', 'alt="南興 ND712DT 雙工位六面數控鑽孔中心（南興產品照）"', 'alt="南興ND712DT ダブルステーション六面NC穴あけ加工機（南興製品写真）"', 'alt="Trung tâm khoan CNC sáu mặt hai trạm Nanxing ND712DT (ảnh sản phẩm Nanxing)"'),
+('alt="Particleboard sample with a woodgrain edge band applied (Nanxing product photo)"', 'alt="貼上木紋封邊條的塑合板樣品（南興產品照）"', 'alt="木目エッジ材を貼ったパーティクルボードのサンプル（南興製品写真）"', 'alt="Mẫu ván dăm đã dán nẹp cạnh vân gỗ (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing NPC330 computer panel saw (Nanxing product photo)"', 'alt="南興 NPC330 高速電腦裁板鋸（南興產品照）"', 'alt="南興NPC330 パネルソー（南興製品写真）"', 'alt="Máy cưa panel Nanxing NPC330 (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing NCG2812LE CNC nesting line with infeed and outfeed conveyors (Nanxing product photo)"', 'alt="南興 NCG2812LE CNC 開料生產線，含進出料輸送帶（南興產品照）"', 'alt="供給・搬出コンベヤー付き南興NCG2812LE NCルーターライン（南興製品写真）"', 'alt="Dây chuyền CNC nesting Nanxing NCG2812LE có băng tải nạp và xả liệu (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing NCP3312Z2 CNC point-to-point machining centre (Nanxing product photo)"', 'alt="南興 NCP3312Z2 CNC 點對點加工中心（南興產品照）"', 'alt="南興NCP3312Z2 NCポイント・トゥ・ポイント加工機（南興製品写真）"', 'alt="Trung tâm gia công CNC điểm-điểm Nanxing NCP3312Z2 (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing ND712DTL double-station six-sided CNC drilling centre (Nanxing product photo)"', 'alt="南興 ND712DTL 雙工位六面數控鑽孔中心（南興產品照）"', 'alt="南興ND712DTL ダブルステーション六面NC穴あけ加工機（南興製品写真）"', 'alt="Trung tâm khoan CNC sáu mặt hai trạm Nanxing ND712DTL (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing NB7X automatic edge banding machine (Nanxing product photo)"', 'alt="南興 NB7X 全自動封邊機（南興產品照）"', 'alt="南興NB7X 自動エッジバンダー（南興製品写真）"', 'alt="Máy dán cạnh tự động Nanxing NB7X (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing NB6S2II double-end edge banding machine (Nanxing product photo)"', 'alt="南興 NB6S2II 雙端自動封邊機（南興產品照）"', 'alt="南興NB6S2II 両端エッジバンダー（南興製品写真）"', 'alt="Máy dán cạnh hai đầu Nanxing NB6S2II (ảnh sản phẩm Nanxing)"'),
+('<span class="k">DRILL</span><h3>Six-sided CNC drilling centres</h3>', '<span class="k">鑽孔</span><h3>六面數控鑽孔中心</h3>', '<span class="k">穴あけ</span><h3>六面NC穴あけ加工機</h3>', '<span class="k">KHOAN</span><h3>Trung tâm khoan CNC sáu mặt</h3>'),
+("Nanxing ND712DT · ND712DTL ×2", "南興 ND712DT · ND712DTL ×2", "南興 ND712DT · ND712DTL ×2", "Nanxing ND712DT · ND712DTL ×2"),
+("Drill the face, back and all four edges of each panel from the drawing file. Two machines work as an automatic drilling station with conveyors.",
+ "依圖檔一次完成板件正面、背面與四邊側孔加工。其中兩台搭配輸送線，組成自動鑽孔工作站。",
+ "図面データから、部材の表面・裏面・四辺の穴あけを行います。うち2台はコンベヤーと組み合わせ、自動穴あけステーションとして稼働しています。",
+ "Khoan mặt trước, mặt sau và cả bốn cạnh của tấm ván theo file bản vẽ. Hai máy kết hợp băng tải thành trạm khoan tự động."),
+("Machine images: Nanxing Machinery product photos, used with permission.", "機台圖片：南興裝備產品照，經授權使用。", "機械の画像：南興（Nanxing）の製品写真を許可を得て使用しています。", "Hình ảnh máy: ảnh sản phẩm của Nanxing Machinery, được sử dụng với sự cho phép."),
 ]

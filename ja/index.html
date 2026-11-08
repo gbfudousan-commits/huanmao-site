@@ -66,7 +66,7 @@
     {"@type": "Question", "name": "環貿国際は何を製造していますか？", "acceptedAnswer": {"@type": "Answer", "text": "メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドボード、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。"}},
     {"@type": "Question", "name": "OEMとODMの両方に対応していますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。"}},
     {"@type": "Question", "name": "主な販売先はどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。"}},
-    {"@type": "Question", "name": "環貿国際はどのような設備を使っていますか？", "acceptedAnswer": {"@type": "Answer", "text": "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330Sパネルソー、自動搬入出付きNCルーター、NC加工センター、NCボーリングマシンを備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。"}},
+    {"@type": "Question", "name": "環貿国際はどのような設備を使っていますか？", "acceptedAnswer": {"@type": "Answer", "text": "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NC加工センター、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。"}},
     {"@type": "Question", "name": "環貿国際はどのような認証を取得していますか？", "acceptedAnswer": {"@type": "Answer", "text": "ISO 9001（品質マネジメント）とISO 14001（環境マネジメント）の認証を取得しています。ご要望に応じて、FSC認証サプライヤーからFSC認証材を調達できます。"}},
     {"@type": "Question", "name": "板材は米国のホルムアルデヒド規制に適合していますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。CARB Phase 2 / TSCA Title VI 認証を受けたサプライヤーの板材を使用しています。ホルムアルデヒドの証明書は板材サプライヤーに発行されたもので、ご要望に応じて写しを提出できます。"}},
     {"@type": "Question", "name": "主な取引先はどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は守秘としています。年間売上は約1,000万米ドルです。"}},
@@ -181,6 +181,9 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 .clients .cl{font:600 1.15rem/1 var(--display);color:var(--muted)}
 .equip{display:grid;grid-template-columns:repeat(4,1fr);gap:24px 20px}
 .eq{margin:0;display:grid;gap:10px;align-content:start;min-width:0;padding:18px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.eq img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#fff;border-radius:4px}
+.cap img.render{object-fit:contain;background:#fff}
+.eq-credit{margin-top:18px;color:var(--muted);font-size:.8rem}
 .eq figcaption{display:grid;gap:5px}
 .eq .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;color:var(--accent)}
 .eq .model{font:400 .76rem/1.4 var(--mono);color:var(--ink)}
@@ -330,10 +333,10 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <p class="lede">パーティクルボードとMDFを、キャビネット、デスク、収納家具に仕上げます。以下の全工程をハイフォン工場内で行うため、寸法精度と仕上がりを自社で管理できます。</p>
       </div>
       <div class="caps">
-        <div class="cap"><img src="../img/stock-plywood-stack.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="積み重ねた木質ボードの断面"><span class="k">01 · 原板</span><h3>原板の受け入れ</h3><p>認定工場からパーティクルボードとMDFを調達し、注文ごとに検品・記録します。</p><div class="spec">厚さ 9 mm・16 mm・18 mm<br>2440 × 1220 mm 定尺板</div></div>
-        <div class="cap"><img src="../img/stock-saw-blade.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="丸ノコ刃と木くず"><span class="k">02 · 切削</span><h3>パネルソー・NCルーター</h3><p>直線部材はパネルソーで重ね切りし、異形部材や切り欠きはNCルーターで加工します。</p><div class="spec">南興 NPC330S パネルソー<br>南興 NCルーター</div></div>
-        <div class="cap"><img src="../img/stock-drill-bit.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="木の板に穴をあけるドリルビット"><span class="k">03 · 穴あけ</span><h3>NC穴あけ</h3><p>偏心金具、ダボ、棚ダボの穴を図面どおり一度で加工します。</p><div class="spec">南興 NCボーリング<br>南興 NC加工センター</div></div>
-        <div class="cap"><img src="../img/stock-woodgrain.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="明るいオーク木目の表面"><span class="k">04 · エッジ</span><h3>エッジ貼り・溝加工</h3><p>直線の木口は自動エッジバンダーと両端エッジバンダーで、曲線の木口は倣いエッジ機で巻き付けます。</p><div class="spec">PVCエッジ材（同色）</div></div>
+        <div class="cap"><img src="../img/nx-board-infeed.jpg" width="1388" height="896" loading="lazy" decoding="async" alt="南興NCルーターの供給ローラー上のメラミン化粧パーティクルボード（南興製品写真）"><span class="k">01 · 原板</span><h3>原板の受け入れ</h3><p>認定工場からパーティクルボードとMDFを調達し、注文ごとに検品・記録します。</p><div class="spec">厚さ 9 mm・16 mm・18 mm<br>2440 × 1220 mm 定尺板</div></div>
+        <div class="cap"><img src="../img/nx-nesting-closeup.jpg" width="1033" height="696" loading="lazy" decoding="async" alt="南興NCG2812E NCルーターの吸着カップと集じんフードによる板材の搬送（南興製品写真）"><span class="k">02 · 切削</span><h3>パネルソー・NCルーター</h3><p>直線部材はパネルソーで重ね切りし、異形部材や切り欠きはNCルーターで加工します。</p><div class="spec">南興 NPC330 パネルソー<br>南興 NCルーター</div></div>
+        <div class="cap"><img class="render" src="../img/nx-nd712dt.jpg" width="1600" height="869" loading="lazy" decoding="async" alt="南興ND712DT ダブルステーション六面NC穴あけ加工機（南興製品写真）"><span class="k">03 · 穴あけ</span><h3>NC穴あけ</h3><p>偏心金具、ダボ、棚ダボの穴を図面どおり一度で加工します。</p><div class="spec">南興 NCボーリング<br>南興 NC加工センター</div></div>
+        <div class="cap"><img src="../img/nx-edge-sample.jpg" width="1397" height="775" loading="lazy" decoding="async" alt="木目エッジ材を貼ったパーティクルボードのサンプル（南興製品写真）"><span class="k">04 · エッジ</span><h3>エッジ貼り・溝加工</h3><p>直線の木口は自動エッジバンダーと両端エッジバンダーで、曲線の木口は倣いエッジ機で巻き付けます。</p><div class="spec">PVCエッジ材（同色）</div></div>
         <div class="cap"><img src="../img/stock-cartons.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="積み重ねた段ボール出荷箱"><span class="k">05 · 梱包</span><h3>RTA梱包</h3><p>部材・金具セット・説明書をセットごとに箱詰めし、発泡スチロールで保護します。</p><div class="spec">お客様指定の箱・ラベル<br>パレット積みでコンテナ出荷</div></div>
       </div>
     </div>
@@ -347,15 +350,17 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <p class="lede">裁断から木口仕上げまで、生産ラインの大半に南興（Nanxing）のNC設備を導入しています。以下はハイフォン工場で稼働中の機械です。</p>
       </div>
       <div class="equip">
-        <figure class="eq"><figcaption><span class="k">裁断</span><h3>自動供給付きパネルソー</h3><p class="model">南興 NPC330S · ZGSL2512R ローダー</p><p>2440 × 1220 mmの板を重ねて直線部材に裁断します。ガントリーローダーがパレットから1枚ずつ供給します。</p></figcaption></figure>
-        <figure class="eq"><figcaption><span class="k">ネスティング</span><h3>NCルーター</h3><p class="model">南興 · 自動ローディング／アンローディング</p><p>異形天板、配線穴、切り欠きを定尺板から1プログラムで加工。コンベヤーで板を供給し、加工済み部材を搬出します。</p></figcaption></figure>
-        <figure class="eq"><figcaption><span class="k">PTP</span><h3>NCポイント・トゥ・ポイント加工機</h3><p class="model">南興 NCPシリーズ</p><p>バキュームポッドで部材を1枚ずつ固定し、側面穴あけやポケット加工など平板ルーターでは難しい加工を行います。</p></figcaption></figure>
-        <figure class="eq"><figcaption><span class="k">エッジ</span><h3>自動エッジバンダー</h3><p class="model">南興 · ローラー返送コンベヤー</p><p>PVCエッジの接着・トリム・スクレーパー・バフを一工程で行い、返送コンベヤーで次の辺の作業へ戻します。</p></figcaption></figure>
-        <figure class="eq"><figcaption><span class="k">両端</span><h3>両端エッジバンダー</h3><p class="model">床レールで幅調整</p><p>部材の長辺2辺を一度にエッジ貼りします。片側の機体がレール上を移動して板幅に合わせます。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nx-npc330.jpg" width="1487" height="682" loading="lazy" decoding="async" alt="南興NPC330 パネルソー（南興製品写真）"><figcaption><span class="k">裁断</span><h3>自動供給付きパネルソー</h3><p class="model">南興 NPC330 · ZGSL2512 ローダー</p><p>2440 × 1220 mmの板を重ねて直線部材に裁断します。ガントリーローダーがパレットから1枚ずつ供給します。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nx-ncg2812le.jpg" width="1563" height="627" loading="lazy" decoding="async" alt="供給・搬出コンベヤー付き南興NCG2812LE NCルーターライン（南興製品写真）"><figcaption><span class="k">ネスティング</span><h3>NCルーター</h3><p class="model">南興 NCG2812E · NCG2812LE ライン</p><p>異形天板、配線穴、切り欠きを定尺板から1プログラムで加工。コンベヤーで板を供給し、加工済み部材を搬出します。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nx-ncp3312z2.jpg" width="554" height="295" loading="lazy" decoding="async" alt="南興NCP3312Z2 NCポイント・トゥ・ポイント加工機（南興製品写真）"><figcaption><span class="k">PTP</span><h3>NCポイント・トゥ・ポイント加工機</h3><p class="model">南興 NCP3312Z2</p><p>バキュームポッドで部材を1枚ずつ固定し、側面穴あけやポケット加工など平板ルーターでは難しい加工を行います。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nx-nd712dtl.jpg" width="1600" height="859" loading="lazy" decoding="async" alt="南興ND712DTL ダブルステーション六面NC穴あけ加工機（南興製品写真）"><figcaption><span class="k">穴あけ</span><h3>六面NC穴あけ加工機</h3><p class="model">南興 ND712DT · ND712DTL ×2</p><p>図面データから、部材の表面・裏面・四辺の穴あけを行います。うち2台はコンベヤーと組み合わせ、自動穴あけステーションとして稼働しています。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nx-nb7x.jpg" width="1526" height="432" loading="lazy" decoding="async" alt="南興NB7X 自動エッジバンダー（南興製品写真）"><figcaption><span class="k">エッジ</span><h3>自動エッジバンダー</h3><p class="model">南興 NB577DP · NB7X · NB6JN</p><p>PVCエッジの接着・トリム・スクレーパー・バフを一工程で行い、返送コンベヤーで次の辺の作業へ戻します。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nx-nb6s2ii.jpg" width="669" height="305" loading="lazy" decoding="async" alt="南興NB6S2II 両端エッジバンダー（南興製品写真）"><figcaption><span class="k">両端</span><h3>両端エッジバンダー</h3><p class="model">南興 NB6S2II</p><p>部材の長辺2辺を一度にエッジ貼りします。片側の機体がレール上を移動して板幅に合わせます。</p></figcaption></figure>
         <figure class="eq"><figcaption><span class="k">巻き</span><h3>倣いエッジ巻き</h3><p class="model">MF120 自動注入式エッジ巻き機</p><p>曲線や異形の輪郭に沿って、角丸天板や切り欠き部材にPVCエッジを巻き付けます。</p></figcaption></figure>
         <figure class="eq"><figcaption><span class="k">異形</span><h3>異形エッジバンダー</h3><p class="model">回転テーブル・圧送タンク</p><p>異形部材の曲線や不規則な木口をエッジ貼りします。回転テーブルで部材を回し、一度の固定で外周全体を仕上げます。</p></figcaption></figure>
         <figure class="eq"><figcaption><span class="k">プレス</span><h3>糊付け機・コールドプレス</h3><p class="model">信俊成 MH3248 × 60 t</p><p>ローラー糊付け機と60トン油圧コールドプレスで、フィルムを板材に貼り合わせるほか、パーティクルボード同士・MDF同士を接着して厚物の天板や部材を製作します。</p></figcaption></figure>
       </div>
+      <p class="eq-credit">機械の画像：南興（Nanxing）の製品写真を許可を得て使用しています。</p>
     </div>
   </section>
 
@@ -470,7 +475,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <details><summary>環貿国際は何を製造していますか？</summary><p>メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドボード、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。</p></details>
         <details><summary>OEMとODMの両方に対応していますか？</summary><p>はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。</p></details>
         <details><summary>主な販売先はどこですか？</summary><p>主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。</p></details>
-        <details><summary>環貿国際はどのような設備を使っていますか？</summary><p>生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330Sパネルソー、自動搬入出付きNCルーター、NC加工センター、NCボーリングマシンを備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。</p></details>
+        <details><summary>環貿国際はどのような設備を使っていますか？</summary><p>生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NC加工センター、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。</p></details>
         <details><summary>環貿国際はどのような認証を取得していますか？</summary><p>ISO 9001（品質マネジメント）とISO 14001（環境マネジメント）の認証を取得しています。ご要望に応じて、FSC認証サプライヤーからFSC認証材を調達できます。</p></details>
         <details><summary>板材は米国のホルムアルデヒド規制に適合していますか？</summary><p>はい。CARB Phase 2 / TSCA Title VI 認証を受けたサプライヤーの板材を使用しています。ホルムアルデヒドの証明書は板材サプライヤーに発行されたもので、ご要望に応じて写しを提出できます。</p></details>
         <details><summary>主な取引先はどこですか？</summary><p>米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は守秘としています。年間売上は約1,000万米ドルです。</p></details>
