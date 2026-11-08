@@ -66,7 +66,7 @@
     {"@type": "Question", "name": "環貿國際生產哪些產品？", "acceptedAnswer": {"@type": "Answer", "text": "我們以三聚氰胺貼面塑合板與 MDF 生產板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃及升降桌桌板，連同五金包平板包裝出貨。"}},
     {"@type": "Question", "name": "有提供 OEM 和 ODM 嗎？", "acceptedAnswer": {"@type": "Answer", "text": "有。我們的訂單以 OEM 為主，依客戶的圖面與 BOM 生產；也為需要現成產品線的客戶提出自有設計方案（ODM）。"}},
     {"@type": "Question", "name": "主要市場在哪裡？", "acceptedAnswer": {"@type": "Answer", "text": "主要市場為美國。產品以組裝式（RTA）平板包裝，以貨櫃出口。"}},
-    {"@type": "Question", "name": "環貿國際使用哪些生產設備？", "acceptedAnswer": {"@type": "Answer", "text": "生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 加工中心與六面數控鑽孔中心。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。"}},
+    {"@type": "Question", "name": "環貿國際使用哪些生產設備？", "acceptedAnswer": {"@type": "Answer", "text": "生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 點對點加工中心與六面數控鑽孔中心。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。"}},
     {"@type": "Question", "name": "環貿國際有哪些認證？", "acceptedAnswer": {"@type": "Answer", "text": "環貿國際已取得 ISO 9001（品質管理）與 ISO 14001（環境管理）認證。如有需要，可透過具 FSC 認證的供應商提供 FSC 認證板材。"}},
     {"@type": "Question", "name": "板材符合美國甲醛法規嗎？", "acceptedAnswer": {"@type": "Answer", "text": "符合。我們使用通過 CARB Phase 2 / TSCA Title VI 認證之供應商的板材；甲醛證書由板材供應商出具，可依需求提供副本。"}},
     {"@type": "Question", "name": "主要客戶有哪些？", "acceptedAnswer": {"@type": "Answer", "text": "我們為美國教育家具與辦公家具市場的知名品牌供貨，客戶名稱依約保密。年營業額約 1,000 萬美元。"}},
@@ -183,6 +183,8 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 .eq{margin:0;display:grid;gap:10px;align-content:start;min-width:0;padding:18px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
 .eq img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#fff;border-radius:4px}
 .cap img.render{object-fit:contain;background:#fff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .eq img,:root:not([data-theme="light"]) .cap img.render{filter:brightness(.88)}}
+:root[data-theme="dark"] .eq img,:root[data-theme="dark"] .cap img.render{filter:brightness(.88)}
 .eq-credit{margin-top:18px;color:var(--muted);font-size:.8rem}
 .eq figcaption{display:grid;gap:5px}
 .eq .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;color:var(--accent)}
@@ -350,7 +352,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <p class="lede">從開料到封邊，我們的生產線大多採用南興裝備的 CNC 設備。以下是海防工廠現場的機台。</p>
       </div>
       <div class="equip">
-        <figure class="eq"><img src="../img/nx-npc330.jpg" width="1487" height="682" loading="lazy" decoding="async" alt="南興 NPC330 高速電腦裁板鋸（南興產品照）"><figcaption><span class="k">裁板</span><h3>電腦裁板鋸（自動上料）</h3><p class="model">南興 NPC330 · ZGSL2512 上料機</p><p>將 2440 × 1220 mm 板材疊板裁成直料，龍門上料機自動把板材從棧板送上鋸台。</p></figcaption></figure>
+        <figure class="eq"><img src="../img/nx-npc330.jpg" width="1487" height="682" loading="lazy" decoding="async" alt="南興 NPC330 電腦裁板鋸（南興產品照）"><figcaption><span class="k">裁板</span><h3>電腦裁板鋸（自動上料）</h3><p class="model">南興 NPC330 · ZGSL2512 上料機</p><p>將 2440 × 1220 mm 板材疊板裁成直料，龍門上料機自動把板材從棧板送上鋸台。</p></figcaption></figure>
         <figure class="eq"><img src="../img/nx-ncg2812le.jpg" width="1563" height="627" loading="lazy" decoding="async" alt="南興 NCG2812LE CNC 開料生產線，含進出料輸送帶（南興產品照）"><figcaption><span class="k">開料</span><h3>CNC 開料中心</h3><p class="model">南興 NCG2812E · NCG2812LE 生產線</p><p>整張板一次加工異形桌板、走線孔與開孔，輸送帶自動上料並送出成品。</p></figcaption></figure>
         <figure class="eq"><img src="../img/nx-ncp3312z2.jpg" width="554" height="295" loading="lazy" decoding="async" alt="南興 NCP3312Z2 CNC 點對點加工中心（南興產品照）"><figcaption><span class="k">加工中心</span><h3>CNC 點對點加工中心</h3><p class="model">南興 NCP3312Z2</p><p>以真空吸盤固定單件，進行側孔、銑槽等平台式開料機做不到的加工。</p></figcaption></figure>
         <figure class="eq"><img src="../img/nx-nd712dtl.jpg" width="1600" height="859" loading="lazy" decoding="async" alt="南興 ND712DTL 雙工位六面數控鑽孔中心（南興產品照）"><figcaption><span class="k">鑽孔</span><h3>六面數控鑽孔中心</h3><p class="model">南興 ND712DT · ND712DTL ×2</p><p>依圖檔一次完成板件正面、背面與四邊側孔加工。其中兩台搭配輸送線，組成自動鑽孔工作站。</p></figcaption></figure>
@@ -475,7 +477,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <details><summary>環貿國際生產哪些產品？</summary><p>我們以三聚氰胺貼面塑合板與 MDF 生產板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃及升降桌桌板，連同五金包平板包裝出貨。</p></details>
         <details><summary>有提供 OEM 和 ODM 嗎？</summary><p>有。我們的訂單以 OEM 為主，依客戶的圖面與 BOM 生產；也為需要現成產品線的客戶提出自有設計方案（ODM）。</p></details>
         <details><summary>主要市場在哪裡？</summary><p>主要市場為美國。產品以組裝式（RTA）平板包裝，以貨櫃出口。</p></details>
-        <details><summary>環貿國際使用哪些生產設備？</summary><p>生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 加工中心與六面數控鑽孔中心。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。</p></details>
+        <details><summary>環貿國際使用哪些生產設備？</summary><p>生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 點對點加工中心與六面數控鑽孔中心。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。</p></details>
         <details><summary>環貿國際有哪些認證？</summary><p>環貿國際已取得 ISO 9001（品質管理）與 ISO 14001（環境管理）認證。如有需要，可透過具 FSC 認證的供應商提供 FSC 認證板材。</p></details>
         <details><summary>板材符合美國甲醛法規嗎？</summary><p>符合。我們使用通過 CARB Phase 2 / TSCA Title VI 認證之供應商的板材；甲醛證書由板材供應商出具，可依需求提供副本。</p></details>
         <details><summary>主要客戶有哪些？</summary><p>我們為美國教育家具與辦公家具市場的知名品牌供貨，客戶名稱依約保密。年營業額約 1,000 萬美元。</p></details>

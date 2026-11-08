@@ -286,8 +286,8 @@ T += [
 # FAQ
 ("What equipment does Huan Mao International use?", "環貿國際使用哪些生產設備？", "環貿国際はどのような設備を使っていますか？", "Huan Mao International sử dụng những thiết bị nào?"),
 ("Most of our line is Nanxing Machinery CNC equipment: NPC330 computer panel saws with automatic loaders, CNC nesting centres with automatic loading and unloading, a CNC point-to-point machining centre and six-sided CNC drilling centres. Edges are finished on automatic and double-end edge banders and profile edge wrapping machines, and we also run a glue spreader with a 60-ton hydraulic cold press.",
- "生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 加工中心與六面數控鑽孔中心。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。",
- "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NC加工センター、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。",
+ "生產線以南興裝備的 CNC 設備為主：附自動上料的 NPC330 電腦裁板鋸、自動上下料的 CNC 開料中心、CNC 點對點加工中心與六面數控鑽孔中心。封邊使用全自動封邊機、雙端封邊機與仿形包邊機，另有過膠機搭配 60 噸油壓冷壓機。",
+ "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NCポイント・トゥ・ポイント加工機、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。",
  "Phần lớn dây chuyền là thiết bị CNC của Nanxing Machinery: máy cưa panel NPC330 có cấp liệu tự động, máy CNC nesting tự động nạp xả liệu, trung tâm gia công CNC điểm-điểm và trung tâm khoan CNC sáu mặt. Cạnh được hoàn thiện trên máy dán cạnh tự động, máy dán cạnh hai đầu và máy bọc cạnh định hình; ngoài ra còn có máy lăn keo và máy ép nguội thủy lực 60 tấn."),
 ]
 
@@ -369,7 +369,7 @@ T += [
 ('alt="Suction cups and dust hoods moving a panel on a Nanxing NCG2812E CNC router (Nanxing product photo)"', 'alt="南興 NCG2812E CNC 開料機以吸盤推送板材，附吸塵罩（南興產品照）"', 'alt="南興NCG2812E NCルーターの吸着カップと集じんフードによる板材の搬送（南興製品写真）"', 'alt="Giác hút và chụp hút bụi đẩy tấm ván trên máy CNC Nanxing NCG2812E (ảnh sản phẩm Nanxing)"'),
 ('alt="Nanxing ND712DT double-station six-sided CNC drilling centre (Nanxing product photo)"', 'alt="南興 ND712DT 雙工位六面數控鑽孔中心（南興產品照）"', 'alt="南興ND712DT ダブルステーション六面NC穴あけ加工機（南興製品写真）"', 'alt="Trung tâm khoan CNC sáu mặt hai trạm Nanxing ND712DT (ảnh sản phẩm Nanxing)"'),
 ('alt="Particleboard sample with a woodgrain edge band applied (Nanxing product photo)"', 'alt="貼上木紋封邊條的塑合板樣品（南興產品照）"', 'alt="木目エッジ材を貼ったパーティクルボードのサンプル（南興製品写真）"', 'alt="Mẫu ván dăm đã dán nẹp cạnh vân gỗ (ảnh sản phẩm Nanxing)"'),
-('alt="Nanxing NPC330 computer panel saw (Nanxing product photo)"', 'alt="南興 NPC330 高速電腦裁板鋸（南興產品照）"', 'alt="南興NPC330 パネルソー（南興製品写真）"', 'alt="Máy cưa panel Nanxing NPC330 (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing NPC330 computer panel saw (Nanxing product photo)"', 'alt="南興 NPC330 電腦裁板鋸（南興產品照）"', 'alt="南興NPC330 パネルソー（南興製品写真）"', 'alt="Máy cưa panel Nanxing NPC330 (ảnh sản phẩm Nanxing)"'),
 ('alt="Nanxing NCG2812LE CNC nesting line with infeed and outfeed conveyors (Nanxing product photo)"', 'alt="南興 NCG2812LE CNC 開料生產線，含進出料輸送帶（南興產品照）"', 'alt="供給・搬出コンベヤー付き南興NCG2812LE NCルーターライン（南興製品写真）"', 'alt="Dây chuyền CNC nesting Nanxing NCG2812LE có băng tải nạp và xả liệu (ảnh sản phẩm Nanxing)"'),
 ('alt="Nanxing NCP3312Z2 CNC point-to-point machining centre (Nanxing product photo)"', 'alt="南興 NCP3312Z2 CNC 點對點加工中心（南興產品照）"', 'alt="南興NCP3312Z2 NCポイント・トゥ・ポイント加工機（南興製品写真）"', 'alt="Trung tâm gia công CNC điểm-điểm Nanxing NCP3312Z2 (ảnh sản phẩm Nanxing)"'),
 ('alt="Nanxing ND712DTL double-station six-sided CNC drilling centre (Nanxing product photo)"', 'alt="南興 ND712DTL 雙工位六面數控鑽孔中心（南興產品照）"', 'alt="南興ND712DTL ダブルステーション六面NC穴あけ加工機（南興製品写真）"', 'alt="Trung tâm khoan CNC sáu mặt hai trạm Nanxing ND712DTL (ảnh sản phẩm Nanxing)"'),

@@ -66,7 +66,7 @@
     {"@type": "Question", "name": "環貿国際は何を製造していますか？", "acceptedAnswer": {"@type": "Answer", "text": "メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドボード、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。"}},
     {"@type": "Question", "name": "OEMとODMの両方に対応していますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。"}},
     {"@type": "Question", "name": "主な販売先はどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。"}},
-    {"@type": "Question", "name": "環貿国際はどのような設備を使っていますか？", "acceptedAnswer": {"@type": "Answer", "text": "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NC加工センター、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。"}},
+    {"@type": "Question", "name": "環貿国際はどのような設備を使っていますか？", "acceptedAnswer": {"@type": "Answer", "text": "生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NCポイント・トゥ・ポイント加工機、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。"}},
     {"@type": "Question", "name": "環貿国際はどのような認証を取得していますか？", "acceptedAnswer": {"@type": "Answer", "text": "ISO 9001（品質マネジメント）とISO 14001（環境マネジメント）の認証を取得しています。ご要望に応じて、FSC認証サプライヤーからFSC認証材を調達できます。"}},
     {"@type": "Question", "name": "板材は米国のホルムアルデヒド規制に適合していますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。CARB Phase 2 / TSCA Title VI 認証を受けたサプライヤーの板材を使用しています。ホルムアルデヒドの証明書は板材サプライヤーに発行されたもので、ご要望に応じて写しを提出できます。"}},
     {"@type": "Question", "name": "主な取引先はどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は守秘としています。年間売上は約1,000万米ドルです。"}},
@@ -183,6 +183,8 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:co
 .eq{margin:0;display:grid;gap:10px;align-content:start;min-width:0;padding:18px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
 .eq img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:contain;background:#fff;border-radius:4px}
 .cap img.render{object-fit:contain;background:#fff}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .eq img,:root:not([data-theme="light"]) .cap img.render{filter:brightness(.88)}}
+:root[data-theme="dark"] .eq img,:root[data-theme="dark"] .cap img.render{filter:brightness(.88)}
 .eq-credit{margin-top:18px;color:var(--muted);font-size:.8rem}
 .eq figcaption{display:grid;gap:5px}
 .eq .k{font:500 .7rem/1 var(--mono);letter-spacing:.12em;color:var(--accent)}
@@ -475,7 +477,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
         <details><summary>環貿国際は何を製造していますか？</summary><p>メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドボード、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。</p></details>
         <details><summary>OEMとODMの両方に対応していますか？</summary><p>はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。</p></details>
         <details><summary>主な販売先はどこですか？</summary><p>主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。</p></details>
-        <details><summary>環貿国際はどのような設備を使っていますか？</summary><p>生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NC加工センター、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。</p></details>
+        <details><summary>環貿国際はどのような設備を使っていますか？</summary><p>生産ラインの中心は南興（Nanxing）のNC設備です。自動供給付きNPC330パネルソー、自動搬入出付きNCルーター、NCポイント・トゥ・ポイント加工機、六面NC穴あけ加工機を備えています。木口は自動エッジバンダー、両端エッジバンダー、倣いエッジ巻き機で仕上げ、糊付け機と60トン油圧コールドプレスも稼働しています。</p></details>
         <details><summary>環貿国際はどのような認証を取得していますか？</summary><p>ISO 9001（品質マネジメント）とISO 14001（環境マネジメント）の認証を取得しています。ご要望に応じて、FSC認証サプライヤーからFSC認証材を調達できます。</p></details>
         <details><summary>板材は米国のホルムアルデヒド規制に適合していますか？</summary><p>はい。CARB Phase 2 / TSCA Title VI 認証を受けたサプライヤーの板材を使用しています。ホルムアルデヒドの証明書は板材サプライヤーに発行されたもので、ご要望に応じて写しを提出できます。</p></details>
         <details><summary>主な取引先はどこですか？</summary><p>米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は守秘としています。年間売上は約1,000万米ドルです。</p></details>
