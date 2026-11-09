@@ -253,8 +253,8 @@ section{padding-block:72px}
 .faq details{border-bottom:1px solid var(--line);padding:18px 0}
 .faq summary{cursor:pointer;font:600 1.08rem/1.35 var(--display);list-style:none;display:flex;justify-content:space-between;gap:16px}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary::after{content:"+";font-family:var(--mono);color:var(--accent)}
-.faq details[open] summary::after{content:"−"}
+.faq summary::after{content:"+";content:"+"/"";font-family:var(--mono);color:var(--accent)}
+.faq details[open] summary::after{content:"−";content:"−"/""}
 .faq details p{color:var(--muted);margin-top:10px;max-width:68ch}
 
 /* contact */

@@ -303,8 +303,8 @@ _REMOVED2 = {
 T = [r for r in T if r[0] not in _REMOVED2]
 T += [
 ("We supply established U.S. furniture brands in the education and office furniture markets. Customer names are kept confidential. Annual sales are around US$10 million.",
- "我們為美國教育家具與辦公家具市場的知名品牌供貨，客戶名稱依約保密。年營業額約 1,000 萬美元。",
- "米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は守秘としています。年間売上は約1,000万米ドルです。",
+ "我們為美國教育家具與辦公家具市場的知名品牌供貨，客戶名稱恕不公開。年營業額約 1,000 萬美元。",
+ "米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は非公開としています。年間売上は約1,000万米ドルです。",
  "Chúng tôi cung cấp cho các thương hiệu nội thất Mỹ uy tín trong thị trường nội thất giáo dục và văn phòng. Tên khách hàng được bảo mật. Doanh thu hằng năm khoảng 10 triệu USD."),
 ('<span class="k">Formaldehyde</span><span>Board from suppliers certified to CARB Phase 2 / TSCA Title VI; supplier certificates available on request</span>',
  '<span class="k">甲醛</span><span>板材來自通過 CARB Phase 2 / TSCA Title VI 認證的供應商，可依需求提供供應商證書</span>',
