@@ -61,7 +61,7 @@ T = [
  "環貿國際於 2024 年在越南成立，由台灣籍經營團隊管理，員工約 100 人。",
  "環貿国際は2024年にベトナムで設立され、台湾人経営陣のもと約100名の従業員が働いています。",
  "Huan Mao International được thành lập tại Việt Nam năm 2024, do đội ngũ quản lý người Đài Loan điều hành, với khoảng 100 nhân viên."),
-("What is your minimum order and lead time?", "最小訂購量與交期是多少？", "最小発注数量と納期を教えてください。", "Số lượng đặt hàng tối thiểu và thời gian giao hàng?"),
+("What is your minimum order and lead time?", "最小訂購量與交期是多少？", "最小発注数量と納期を教えてください。", "Số lượng đặt hàng tối thiểu và thời gian giao hàng như thế nào?"),
 # ---------- nav ----------
 ("Skip to main content", "跳至主要內容", "本文へスキップ", "Chuyển đến nội dung chính"),
 ('aria-label="Page sections"', 'aria-label="頁面導覽"', 'aria-label="ページ内メニュー"', 'aria-label="Các mục trên trang"'),
@@ -252,7 +252,7 @@ T += [
 ("<h3>Panel saw &amp; CNC nesting</h3>", "<h3>電腦裁板鋸與 CNC 開料</h3>", "<h3>パネルソー・NCルーター</h3>", "<h3>Cưa panel &amp; cắt CNC</h3>"),
 ("Straight parts are cut in stacks on computer panel saws; shaped parts and cut-outs go to CNC nesting.", "直料以電腦裁板鋸疊板裁切；異形件與開孔交給 CNC 開料中心。", "直線部材はパネルソーで重ね切りし、異形部材や切り欠きはNCルーターで加工します。", "Chi tiết thẳng được cưa theo chồng trên máy cưa panel; chi tiết định hình và lỗ khoét chuyển sang máy CNC nesting."),
 ("Nanxing NPC330 panel saws<br>Nanxing CNC nesting centres", "南興 NPC330 電腦裁板鋸<br>南興 CNC 開料中心", "南興 NPC330 パネルソー<br>南興 NCルーター", "Cưa panel Nanxing NPC330<br>Máy CNC nesting Nanxing"),
-("Nanxing CNC boring<br>Nanxing CNC PTP centre", "南興 CNC 鑽孔機<br>南興 CNC 加工中心", "南興 NCボーリング<br>南興 NC加工センター", "Máy khoan CNC Nanxing<br>Trung tâm gia công CNC Nanxing"),
+("Nanxing CNC boring<br>Nanxing CNC PTP centre", "南興 CNC 鑽孔機<br>南興 CNC 點對點加工中心", "南興 NCボーリング<br>南興 NCポイント・トゥ・ポイント加工機", "Máy khoan CNC Nanxing<br>Trung tâm gia công CNC điểm-điểm Nanxing"),
 ("Straight edges run through automatic and double-end edge banders; curved edges are wrapped on profile machines.", "直邊以全自動封邊機與雙端封邊機加工；弧邊與異形邊以仿形包邊機處理。", "直線の木口は自動エッジバンダーと両端エッジバンダーで、曲線の木口は倣いエッジ機で巻き付けます。", "Cạnh thẳng chạy qua máy dán cạnh tự động và máy dán cạnh hai đầu; cạnh cong được bọc trên máy dán cạnh định hình."),
 ('<span class="eyebrow">Equipment</span>', '<span class="eyebrow">生產設備</span>', '<span class="eyebrow">設備</span>', '<span class="eyebrow">Thiết bị</span>'),
 ("CNC panel lines, mostly from Nanxing Machinery", "以南興裝備為主的 CNC 板式生產線", "南興製を中心としたNC板材加工ライン", "Dây chuyền CNC chủ yếu của Nanxing Machinery"),
