@@ -275,6 +275,8 @@ textarea{min-height:110px;resize:vertical}
 footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;color:var(--muted)}
 .foot{display:flex;flex-wrap:wrap;gap:16px 40px;justify-content:space-between}
 .foot b{color:var(--ink)}
+.foot a{text-underline-offset:3px}
+.foot a:hover{color:var(--ink)}
 @media (prefers-reduced-motion:no-preference){.pt{transition:fill .2s}.sheet g:hover .pt{fill:color-mix(in srgb,var(--maple) 70%,var(--accent))}}
 :root{--display:"Noto Serif JP", "Yu Mincho", serif;--body:"Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif}
 </style>
@@ -521,7 +523,7 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.85rem;colo
 <footer>
   <div class="wrap foot">
     <div><b>Huan Mao International Company Limited</b><br><span lang="zh-Hant">環貿國際有限公司</span><br>Quan Goi Quarter, Thuong Khuong Hamlet, Ke Sat Commune, Hai Phong City, Vietnam</div>
-    <div class="mono">税番号（MST）0801449372<br>sales@huanmao.co<br>+84 369 686 820<br>© 2026 Huan Mao International</div>
+    <div class="mono">税番号（MST）0801449372<br><a href="mailto:sales@huanmao.co">sales@huanmao.co</a><br><a href="tel:+84369686820">+84 369 686 820</a><br>© 2026 Huan Mao International</div>
   </div>
 </footer>
 <script>
