@@ -374,7 +374,7 @@ T += [
 ('alt="Nanxing NCP3312Z2 CNC point-to-point machining centre (Nanxing product photo)"', 'alt="南興 NCP3312Z2 CNC 點對點加工中心（南興產品照）"', 'alt="南興NCP3312Z2 NCポイント・トゥ・ポイント加工機（南興製品写真）"', 'alt="Trung tâm gia công CNC điểm-điểm Nanxing NCP3312Z2 (ảnh sản phẩm Nanxing)"'),
 ('alt="Nanxing ND712DTL double-station six-sided CNC drilling centre (Nanxing product photo)"', 'alt="南興 ND712DTL 雙工位六面數控鑽孔中心（南興產品照）"', 'alt="南興ND712DTL ダブルステーション六面NC穴あけ加工機（南興製品写真）"', 'alt="Trung tâm khoan CNC sáu mặt hai trạm Nanxing ND712DTL (ảnh sản phẩm Nanxing)"'),
 ('alt="Nanxing NB7X automatic edge banding machine (Nanxing product photo)"', 'alt="南興 NB7X 全自動封邊機（南興產品照）"', 'alt="南興NB7X 自動エッジバンダー（南興製品写真）"', 'alt="Máy dán cạnh tự động Nanxing NB7X (ảnh sản phẩm Nanxing)"'),
-('alt="Nanxing NB6S2II double-end edge banding machine (Nanxing product photo)"', 'alt="南興 NB6S2II 雙端自動封邊機（南興產品照）"', 'alt="南興NB6S2II 両端エッジバンダー（南興製品写真）"', 'alt="Máy dán cạnh hai đầu Nanxing NB6S2II (ảnh sản phẩm Nanxing)"'),
+('alt="Nanxing NB6S2II double-end edge banding machine (Nanxing product photo)"', 'alt="南興 NB6S2II 雙端封邊機（南興產品照）"', 'alt="南興NB6S2II 両端エッジバンダー（南興製品写真）"', 'alt="Máy dán cạnh hai đầu Nanxing NB6S2II (ảnh sản phẩm Nanxing)"'),
 ('<span class="k">DRILL</span><h3>Six-sided CNC drilling centres</h3>', '<span class="k">鑽孔</span><h3>六面數控鑽孔中心</h3>', '<span class="k">穴あけ</span><h3>六面NC穴あけ加工機</h3>', '<span class="k">KHOAN</span><h3>Trung tâm khoan CNC sáu mặt</h3>'),
 ("Nanxing ND712DT · ND712DTL ×2", "南興 ND712DT · ND712DTL ×2", "南興 ND712DT · ND712DTL ×2", "Nanxing ND712DT · ND712DTL ×2"),
 ("Drill the face, back and all four edges of each panel from the drawing file. Two machines work as an automatic drilling station with conveyors.",
