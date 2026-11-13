@@ -11,7 +11,7 @@ T = [
  "Huan Mao International là nhà sản xuất đồ nội thất OEM/ODM tại Hải Phòng, Việt Nam, sản xuất tủ kệ lớp học và văn phòng bằng ván dăm phủ melamine và MDF cho các thương hiệu Mỹ."),
 ("ISO 9001 and ISO 14001 certified OEM and ODM manufacturer of melamine particleboard and MDF furniture in Hai Phong, Vietnam, supplying classroom storage, office credenzas, consoles and ready-to-assemble furniture to U.S. brands.",
  "通過 ISO 9001 與 ISO 14001 認證的越南海防 OEM/ODM 家具製造商，以三聚氰胺貼面塑合板與 MDF 為美國品牌生產教室收納、辦公邊櫃、矮櫃及組裝式（RTA）家具。",
- "ISO 9001・ISO 14001認証取得。ベトナム・ハイフォンのOEM/ODM家具メーカーとして、メラミン化粧パーティクルボードとMDFで、米国ブランド向けに教室用収納、オフィス用サイドボード、キャビネット、組立式（RTA）家具を製造しています。",
+ "ISO 9001・ISO 14001認証取得。ベトナム・ハイフォンのOEM/ODM家具メーカーとして、メラミン化粧パーティクルボードとMDFで、米国ブランド向けに教室用収納、オフィス用サイドボード、コンソール、組立式（RTA）家具を製造しています。",
  "Nhà sản xuất OEM/ODM đạt chứng nhận ISO 9001 và ISO 14001 tại Hải Phòng, Việt Nam, sản xuất tủ kệ lớp học, tủ văn phòng, tủ console và đồ nội thất lắp ráp (RTA) bằng ván dăm phủ melamine và MDF cho các thương hiệu Mỹ."),
 # Stock photos (Unsplash License) — alt text
 ('alt="CNC router head cutting a wood-based panel"', 'alt="CNC 雕銑機切割木質板材"', 'alt="木質パネルを切削するNCルーターのヘッド"', 'alt="Đầu máy CNC router đang cắt tấm ván gỗ"'),
