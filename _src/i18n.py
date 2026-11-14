@@ -378,7 +378,7 @@ T += [
 ('<span class="k">DRILL</span><h3>Six-sided CNC drilling centres</h3>', '<span class="k">鑽孔</span><h3>六面數控鑽孔中心</h3>', '<span class="k">穴あけ</span><h3>六面NC穴あけ加工機</h3>', '<span class="k">KHOAN</span><h3>Trung tâm khoan CNC sáu mặt</h3>'),
 ("Nanxing ND712DT · ND712DTL ×2", "南興 ND712DT · ND712DTL ×2", "南興 ND712DT · ND712DTL ×2", "Nanxing ND712DT · ND712DTL ×2"),
 ("Drill the face, back and all four edges of each panel from the drawing file. Two machines work as an automatic drilling station with conveyors.",
- "依圖檔一次完成板件正面、背面與四邊側孔加工。其中兩台搭配輸送線，組成自動鑽孔工作站。",
+ "依圖檔完成板件正面、背面與四邊的鑽孔加工。其中兩台搭配輸送線，組成自動鑽孔工作站。",
  "図面データから、部材の表面・裏面・四辺の穴あけを行います。うち2台はコンベヤーと組み合わせ、自動穴あけステーションとして稼働しています。",
  "Khoan mặt trước, mặt sau và cả bốn cạnh của tấm ván theo file bản vẽ. Hai máy kết hợp băng tải thành trạm khoan tự động."),
 ("Machine images: Nanxing Machinery product photos, used with permission.", "機台圖片：南興裝備產品照，經授權使用。", "機械の画像：南興（Nanxing）の製品写真を許可を得て使用しています。", "Hình ảnh máy: ảnh sản phẩm của Nanxing Machinery, được sử dụng với sự cho phép."),
