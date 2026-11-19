@@ -24,6 +24,7 @@ T = [
  "Huan Mao International – Nhà sản xuất nội thất OEM/ODM tại Hải Phòng"),
 ('<meta property="og:url" content="https://huanmao.co/">', '<meta property="og:url" content="https://huanmao.co/zh/">', '<meta property="og:url" content="https://huanmao.co/ja/">', '<meta property="og:url" content="https://huanmao.co/vi/">'),
 ('<meta property="og:locale" content="en_US">', '<meta property="og:locale" content="zh_TW">', '<meta property="og:locale" content="ja_JP">', '<meta property="og:locale" content="vi_VN">'),
+('<meta property="og:locale:alternate" content="zh_TW"><meta property="og:locale:alternate" content="ja_JP"><meta property="og:locale:alternate" content="vi_VN">', '<meta property="og:locale:alternate" content="en_US"><meta property="og:locale:alternate" content="ja_JP"><meta property="og:locale:alternate" content="vi_VN">', '<meta property="og:locale:alternate" content="en_US"><meta property="og:locale:alternate" content="zh_TW"><meta property="og:locale:alternate" content="vi_VN">', '<meta property="og:locale:alternate" content="en_US"><meta property="og:locale:alternate" content="zh_TW"><meta property="og:locale:alternate" content="ja_JP">'),
 # FAQ (JSON-LD + visible)
 ("Where is Huan Mao International&#x27;s factory?", "環貿國際的工廠在哪裡？", "環貿国際の工場はどこにありますか？", "Nhà máy của Huan Mao International ở đâu?"),
 ("Where is Huan Mao International's factory?", "環貿國際的工廠在哪裡？", "環貿国際の工場はどこにありますか？", "Nhà máy của Huan Mao International ở đâu?"),
@@ -274,7 +275,7 @@ T += [
 ("Nanxing NB6S2II", "南興 NB6S2II", "南興 NB6S2II", "Nanxing NB6S2II"),
 ("Bands both long edges of a panel in one pass. One side travels on rails to match the panel width.", "一次封好板件兩條長邊，一側機身沿地軌移動以配合板寬。", "部材の長辺2辺を一度にエッジ貼りします。片側の機体がレール上を移動して板幅に合わせます。", "Dán hai cạnh dài của tấm ván trong một lần. Một bên máy chạy trên ray để khớp bề rộng ván."),
 ('<span class="k">WRAP</span><h3>Profile edge wrapping</h3>', '<span class="k">包邊</span><h3>仿形包邊</h3>', '<span class="k">巻き</span><h3>倣いエッジ巻き</h3>', '<span class="k">BỌC CẠNH</span><h3>Bọc cạnh định hình</h3>'),
-("MF120 automatic glue-injection wrapper", "MF120 自動注膠包邊機", "MF120 自動注入式エッジ巻き機", "Máy bọc cạnh bơm keo tự động MF120"),
+("MF120 automatic glue-injection wrapper", "MF120 自動注膠包邊機", "MF120 接着剤自動注入式エッジ巻き機", "Máy bọc cạnh bơm keo tự động MF120"),
 ("Follows curved and shaped outlines to wrap PVC edging around rounded tabletops and cut-out parts.", "沿弧形與異形輪廓走刀，替圓角桌板與開孔件包上 PVC 封邊。", "曲線や異形の輪郭に沿って、角丸天板や切り欠き部材にPVCエッジを巻き付けます。", "Chạy theo đường cong và đường định hình để bọc nẹp PVC quanh mặt bàn bo góc và chi tiết khoét."),
 ('alt="Rotary-table profile edge wrapping machine with glue tank"', 'alt="附壓力膠桶的轉盤式包邊機"', 'alt="圧送接着剤タンク付きの回転テーブル式エッジ巻き機"', 'alt="Máy bọc cạnh bàn xoay có bình keo"'),
 ('<span class="k">WRAP</span><h3>Rotary-table edge wrapper</h3>', '<span class="k">包邊</span><h3>轉盤式包邊機</h3>', '<span class="k">巻き</span><h3>回転テーブル式エッジ巻き機</h3>', '<span class="k">BỌC CẠNH</span><h3>Máy bọc cạnh bàn xoay</h3>'),
