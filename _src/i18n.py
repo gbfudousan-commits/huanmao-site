@@ -227,16 +227,16 @@ T = [
 LANGS = {
   "zh": {"idx": 1, "html": "zh-Hant", "name": "中文",
          "title": "環貿國際 Huan Mao International｜越南海防 OEM/ODM 板式家具製造",
-         "fonts": "family=Noto+Serif+TC:wght@600;700&family=Noto+Sans+TC:wght@400;500;600",
-         "display": '"Noto Serif TC", "PMingLiU", serif', "body": '"Noto Sans TC", "Microsoft JhengHei", sans-serif'},
+         "fonts": "family=Noto+Sans+TC:wght@400;500;600;700;800",
+         "display": '"Plus Jakarta Sans", "Noto Sans TC", "Microsoft JhengHei", sans-serif', "body": '"Noto Sans TC", "Microsoft JhengHei", sans-serif'},
   "ja": {"idx": 2, "html": "ja", "name": "日本語",
          "title": "環貿国際 Huan Mao International｜ベトナム・ハイフォンのOEM/ODM家具メーカー",
-         "fonts": "family=Noto+Serif+JP:wght@600;700&family=Noto+Sans+JP:wght@400;500;600",
-         "display": '"Noto Serif JP", "Yu Mincho", serif', "body": '"Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif'},
+         "fonts": "family=Noto+Sans+JP:wght@400;500;600;700;800",
+         "display": '"Plus Jakarta Sans", "Noto Sans JP", "Yu Gothic", sans-serif', "body": '"Noto Sans JP", "Yu Gothic", "Meiryo", sans-serif'},
   "vi": {"idx": 3, "html": "vi", "name": "Tiếng Việt",
          "title": "Huan Mao International – Nhà sản xuất nội thất OEM/ODM tại Hải Phòng",
-         "fonts": "family=Roboto+Slab:wght@500;600;700&family=Be+Vietnam+Pro:wght@400;500;600",
-         "display": '"Roboto Slab", Georgia, serif', "body": '"Be Vietnam Pro", "Segoe UI", sans-serif'},
+         "fonts": "family=Be+Vietnam+Pro:wght@400;500;600;700;800",
+         "display": '"Be Vietnam Pro", "Segoe UI", sans-serif', "body": '"Be Vietnam Pro", "Segoe UI", sans-serif'},
 }
 
 # ---------- 2026-10-24: equipment update ----------
@@ -383,4 +383,9 @@ T += [
  "図面データから、部材の表面・裏面・四辺の穴あけを行います。うち2台はコンベヤーと組み合わせ、自動穴あけステーションとして稼働しています。",
  "Khoan mặt trước, mặt sau và cả bốn cạnh của tấm ván theo file bản vẽ. Hai máy kết hợp băng tải thành trạm khoan tự động."),
 ("Machine images: Nanxing Machinery product photos, used with permission.", "機台圖片：南興裝備產品照，經授權使用。", "機械の画像：南興（Nanxing）の製品写真を許可を得て使用しています。", "Hình ảnh máy: ảnh sản phẩm của Nanxing Machinery, được sử dụng với sự cho phép."),
+]
+
+# ---------- 2026-11-21: owner asked for a layout like the Tang Zhou (Top Performance Vietnam) site ----------
+T += [
+('aria-label="Back to top"', 'aria-label="回到頁首"', 'aria-label="ページの先頭へ"', 'aria-label="Lên đầu trang"'),
 ]
