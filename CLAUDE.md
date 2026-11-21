@@ -31,4 +31,14 @@ Red dashed `.note` boxes mark items waiting for the owner; leave them until he a
 3. Fix any bug found. Then make **one** small, safe improvement (SEO/GEO wording, an extra FAQ that only
    uses the facts above, accessibility, performance such as image size, layout polish). Small diffs only;
    no redesigns, no new sections without facts from the owner.
+   **Owner priority (2026-11-21): SEO/GEO first** — help buyers find us and help AI assistants recommend us.
+   Choose the daily improvement from SEO/GEO whenever a safe one is left; read recent `CHANGELOG.md` entries
+   first so work is not repeated. Ideas (only facts above or text already on the site): titles, meta
+   descriptions, headings and alt text that use the words buyers search for (OEM/ODM furniture manufacturer
+   Vietnam, RTA furniture, classroom storage, melamine particleboard, Hai Phong) and natural zh/ja/vi
+   equivalents; clear, quotable answer sentences AI can cite; an extra FAQ whose visible text matches its
+   FAQPage JSON-LD exactly; more precise JSON-LD for existing facts. No keyword stuffing, hidden text, fake
+   reviews, customer names or unstated claims. In the report, list SEO/GEO steps only the owner can do
+   (going live: domain + STAGING; Google Search Console / Bing Webmaster; Google Business Profile;
+   LinkedIn or B2B directory pages to link via `sameAs`; updating the `llms.txt` text in build.py).
 4. Rebuild, re-check, append a dated entry to `CHANGELOG.md` (Traditional Chinese, 1–3 lines), commit, push to `main`.
