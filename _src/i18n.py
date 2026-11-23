@@ -78,7 +78,7 @@ T = [
 ("Request a quote", "索取報價", "見積もり依頼", "Yêu cầu báo giá"),
 # ---------- hero ----------
 ("OEM / ODM · Hai Phong, Vietnam", "OEM / ODM · 越南海防", "OEM / ODM · ベトナム・ハイフォン", "OEM / ODM · Hải Phòng, Việt Nam"),
-("Wood panel furniture, cut and finished in Vietnam for U.S. brands", "越南製造的板式家具，為美國品牌量產", "ベトナムで加工・仕上げる、米国ブランド向けの板材家具", "Nội thất gỗ ván sản xuất tại Việt Nam cho các thương hiệu Mỹ"),
+("Wood panel furniture, cut and finished in Vietnam for U.S. brands", "在越南開料與加工完成的板式家具，供應美國品牌", "ベトナムで加工・仕上げる、米国ブランド向けの板材家具", "Nội thất gỗ ván sản xuất tại Việt Nam cho các thương hiệu Mỹ"),
 ("Huan Mao International manufactures melamine particleboard and MDF furniture to your drawings: classroom cubbies and storage carts, office credenzas, consoles and shelving, packed flat with hardware for container shipping.",
  "環貿國際依照您的圖面，以三聚氰胺貼面塑合板與 MDF 生產家具：教室置物格櫃與收納推車、辦公邊櫃、矮櫃與層架，連同五金平板包裝，以貨櫃出口。",
  "環貿国際は、お客様の図面に基づきメラミン化粧パーティクルボードとMDFで家具を製造します。教室用の小分け収納棚や収納ワゴン、オフィス用サイドキャビネット、コンソール、シェルフを、金具と一緒にフラットパックしてコンテナで出荷します。",
