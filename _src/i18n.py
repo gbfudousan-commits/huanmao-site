@@ -278,7 +278,7 @@ T += [
 ("Bands both long edges of a panel in one pass. One side travels on rails to match the panel width.", "一次封好板件兩條長邊，一側機身沿地軌移動以配合板寬。", "部材の長辺2辺を一度にエッジ貼りします。片側の機体がレール上を移動して板幅に合わせます。", "Dán hai cạnh dài của tấm ván trong một lần. Một bên máy chạy trên ray để khớp bề rộng ván."),
 ('<span class="k">WRAP</span><h3>Profile edge wrapping</h3>', '<span class="k">包邊</span><h3>仿形包邊</h3>', '<span class="k">巻き</span><h3>倣いエッジ巻き</h3>', '<span class="k">BỌC CẠNH</span><h3>Bọc cạnh định hình</h3>'),
 ("MF120 automatic glue-injection wrapper", "MF120 自動注膠包邊機", "MF120 接着剤自動注入式エッジ巻き機", "Máy bọc cạnh bơm keo tự động MF120"),
-("Follows curved and shaped outlines to wrap PVC edging around rounded tabletops and cut-out parts.", "沿弧形與異形輪廓走刀，替圓角桌板與開孔件包上 PVC 封邊。", "曲線や異形の輪郭に沿って、角丸天板や切り欠き部材にPVCエッジを巻き付けます。", "Chạy theo đường cong và đường định hình để bọc nẹp PVC quanh mặt bàn bo góc và chi tiết khoét."),
+("Follows curved and shaped outlines to wrap PVC edging around rounded tabletops and cut-out parts.", "沿弧形與異形輪廓移動，替圓角桌板與開孔件包上 PVC 封邊。", "曲線や異形の輪郭に沿って、角丸天板や切り欠き部材にPVCエッジを巻き付けます。", "Chạy theo đường cong và đường định hình để bọc nẹp PVC quanh mặt bàn bo góc và chi tiết khoét."),
 ('alt="Rotary-table profile edge wrapping machine with glue tank"', 'alt="附壓力膠桶的轉盤式包邊機"', 'alt="圧送接着剤タンク付きの回転テーブル式エッジ巻き機"', 'alt="Máy bọc cạnh bàn xoay có bình keo"'),
 ('<span class="k">WRAP</span><h3>Rotary-table edge wrapper</h3>', '<span class="k">包邊</span><h3>轉盤式包邊機</h3>', '<span class="k">巻き</span><h3>回転テーブル式エッジ巻き機</h3>', '<span class="k">BỌC CẠNH</span><h3>Máy bọc cạnh bàn xoay</h3>'),
 ("Turntable with pressure glue tank", "轉盤 + 壓力膠桶", "回転テーブル・圧送タンク", "Bàn xoay · bình keo áp lực"),
@@ -306,8 +306,8 @@ _REMOVED2 = {
 T = [r for r in T if r[0] not in _REMOVED2]
 T += [
 ("We supply established U.S. furniture brands in the education and office furniture markets. Customer names are kept confidential. Annual sales are around US$10 million.",
- "我們為美國教育家具與辦公家具市場的知名品牌供貨，客戶名稱恕不公開。年營業額約 1,000 萬美元。",
- "米国の教育用家具・オフィス家具市場の有力ブランドに供給しています。取引先名は非公開としています。年間売上は約1,000万米ドルです。",
+ "我們為美國教育家具與辦公家具市場的成熟品牌供貨，客戶名稱恕不公開。年營業額約 1,000 萬美元。",
+ "米国の教育用家具・オフィス家具市場で実績のあるブランドに供給しています。取引先名は非公開としています。年間売上は約1,000万米ドルです。",
  "Chúng tôi cung cấp cho các thương hiệu nội thất Mỹ uy tín trong thị trường nội thất giáo dục và văn phòng. Tên khách hàng được bảo mật. Doanh thu hằng năm khoảng 10 triệu USD."),
 ('<span class="k">Formaldehyde</span><span>Board from suppliers certified to CARB Phase 2 / TSCA Title VI; supplier certificates available on request</span>',
  '<span class="k">甲醛</span><span>板材來自通過 CARB Phase 2 / TSCA Title VI 認證的供應商，可依需求提供供應商證書</span>',
@@ -394,5 +394,10 @@ T += [
 
 # ---------- 2026-11-21: owner asked for a layout like the Tang Zhou (Top Performance Vietnam) site ----------
 T += [
+("Do you make ready-to-assemble (RTA) furniture?", "有生產組裝式（RTA）家具嗎？", "組立式（RTA）家具に対応していますか？", "Công ty có sản xuất đồ nội thất lắp ráp (RTA) không?"),
+("Yes. Our furniture is made as ready-to-assemble (RTA) flat-pack kits. Panels, hardware kit and assembly instructions are boxed per set with EPS protection, in the customer's cartons and labels, then palletised for container shipping from Hai Phong.",
+ "有。我們的家具以組裝式（RTA）平板包裝套件生產。板件、五金包與組裝說明書按套裝箱，以保麗龍保護，使用客戶指定的紙箱與標籤，再打板以貨櫃從海防出口。",
+ "はい。当社の家具は組立式（RTA）のフラットパックキットとして製造しています。部材・金具セット・組立説明書をセットごとに箱詰めして発泡スチロールで保護し、お客様指定の箱とラベルを使用したうえで、パレット積みにしてハイフォンからコンテナで出荷します。",
+ "Có. Đồ nội thất của chúng tôi được sản xuất dưới dạng bộ lắp ráp (RTA) đóng gói phẳng. Ván, bộ phụ kiện và hướng dẫn lắp ráp được đóng thùng theo bộ, bảo vệ bằng xốp EPS, dùng thùng và nhãn theo khách hàng, rồi xếp pallet để xuất container từ Hải Phòng."),
 ('aria-label="Back to top"', 'aria-label="回到頁首"', 'aria-label="ページの先頭へ"', 'aria-label="Lên đầu trang"'),
 ]
