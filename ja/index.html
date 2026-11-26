@@ -67,7 +67,9 @@
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Classroom and daycare storage furniture", "description": "Cubby units, mobile carts on casters, coat lockers, book displays and lockable storage cabinets."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Consoles and sideboards", "description": "Two-door consoles with open centre shelving."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Office credenzas", "description": "Drawer, locking door and adjustable shelf in one unit."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}}
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Electric standing desks", "description": "Dual-motor height-adjustable desks with MDF tops from 1200 × 600 to 1800 × 800 mm."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Collaborative, training and whiteboard desks", "description": "Mobile collaborative and flip-top training desks with 25 mm MDF tops, and tilting and modular whiteboard desks."}}
     ]
   },
   "hasCertification": [
@@ -94,7 +96,7 @@
   "@type": "FAQPage",
   "mainEntity": [
     {"@type": "Question", "name": "環貿国際の工場はどこにありますか？", "acceptedAnswer": {"@type": "Answer", "text": "工場はベトナム北部ハイフォン市ケーサット（Ke Sat）社にあり、ハイフォン港の近くです。"}},
-    {"@type": "Question", "name": "環貿国際は何を製造していますか？", "acceptedAnswer": {"@type": "Answer", "text": "メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドキャビネット、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。"}},
+    {"@type": "Question", "name": "環貿国際は何を製造していますか？", "acceptedAnswer": {"@type": "Answer", "text": "メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドキャビネット、コンソール、引き戸キャビネット、電動昇降デスク、コラボレーションデスク・研修用デスク・ホワイトボードデスク、サイドテーブル、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。"}},
     {"@type": "Question", "name": "どのような板材・表面仕上げを使っていますか？", "acceptedAnswer": {"@type": "Answer", "text": "厚さ9〜18 mmのメラミン化粧パーティクルボードとMDFを使用しています。両面メラミン化粧は白、単色、メープル・オーク木目で、木口は同色のPVCエッジ材、組立には偏心金具、ダボ、鬼目ナット、棚ダボを使います。"}},
     {"@type": "Question", "name": "OEMとODMの両方に対応していますか？", "acceptedAnswer": {"@type": "Answer", "text": "はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。"}},
     {"@type": "Question", "name": "主な販売先はどこですか？", "acceptedAnswer": {"@type": "Answer", "text": "主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。"}},
@@ -111,7 +113,7 @@
 }
 </script>
 <style>
-/* Layout (2026-11-21, owner request): modelled on the Tang Zhou / Top Performance Vietnam site —
+/* Layout (2026-11-21, owner request): full-bleed hero, centred headings, white cards —
    full-bleed dark photo hero with stat cards, centred section heads, white rounded cards on
    alternating light backgrounds, Inter / Plus Jakarta Sans. Copper from the Huan Mao logo stays the accent. */
 :root{
@@ -259,6 +261,9 @@ section.alt{background:var(--alt)}
 .prods > .prod:nth-child(2) img{aspect-ratio:1/1}
 .also{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--surface);align-self:start;display:grid;gap:8px;color:var(--muted);font-size:.95rem;box-shadow:var(--shadow)}
 .also b{color:var(--ink);font:700 1.15rem/1.2 var(--display)}
+.sub-head{margin-top:64px}
+.sub-head h3{font:700 clamp(1.4rem,2.4vw,1.8rem)/1.2 var(--display);color:var(--ink)}
+.prods.desks > .prod:nth-child(2) img{aspect-ratio:4/3}
 @media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img,.prods > .prod:nth-child(2) img{aspect-ratio:4/3}}
 @media (max-width:480px){.prods{grid-template-columns:1fr}}
 
@@ -464,6 +469,20 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
         <figure class="prod"><img src="../img/sliding-cabinet.jpg" width="1600" height="720" loading="lazy" decoding="async" alt="アルミレール付き引き戸のロータイプキャビネット"><figcaption><h3>引き戸キャビネット</h3><p>アルミレールと配線穴付きのロータイプ収納。</p></figcaption></figure>
         <div class="also"><b>その他の製品</b><span>コートロッカー · ブックディスプレイ · オープンシェルフ · 上置き付きデスク · 昇降デスク天板 · 図面どおりの特注部材</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">製品について問い合わせる</a></div>
       </div>
+      <div class="sec-head sub-head">
+        <h3>デスク・テーブル・キャビネット</h3>
+        <p class="lede">電動昇降デスク、ホワイトボードデスク、コラボレーションデスク・研修用デスク、サイドテーブル、キャビネットを、当社のMDF・メラミン化粧板を中心に製作しています。このグループの画像は製品イメージです。</p>
+      </div>
+      <div class="prods desks">
+        <figure class="prod big"><img src="../img/standing-desk.jpg" width="1480" height="992" loading="lazy" decoding="async" alt="黒のデュアルモーター脚とオーク木目MDF天板の電動昇降デスク（製品イメージ）"><figcaption><h3>電動昇降デスク</h3><p>衝突防止機能付きのデュアルモーター昇降デスク。角型・長方形・丸型の2段・3段昇降脚から選べます。MDF天板は1200 × 600～1800 × 800 mmで木目と単色があり、耐荷重はモデルにより100～140 kgです。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/standing-desk-drawer.jpg" width="1492" height="942" loading="lazy" decoding="async" alt="内蔵引き出しを開けたウォールナット木目の昇降デスク（製品イメージ）"><figcaption><h3>引き出し付き昇降デスク</h3><p>引き出しとUSB充電ポートを内蔵したデュアルモーターデスク。耐荷重140 kg。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/tilting-whiteboard-desk.jpg" width="1492" height="980" loading="lazy" decoding="async" alt="製図用に傾けたホワイトボード天板の白いデスク（ロック付きキャスター）（製品イメージ）"><figcaption><h3>チルト式ホワイトボードデスク</h3><p>天板がホワイトボードで0°～90°に傾けられるデュアルモーターデスク。固定脚またはロック付きキャスター仕様です。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/collaborative-desk.jpg" width="1492" height="1052" loading="lazy" decoding="async" alt="積層エッジのセージグリーンのカプセル形コラボレーションデスク（キャスター付き）（製品イメージ）"><figcaption><h3>移動式コラボレーションデスク・研修用デスク</h3><p>25 mm MDF天板で、角丸のカプセル形と跳ね上げ式があり、炭素鋼フレームとブレーキ付きキャスターを備えます。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/modular-whiteboard-desks.jpg" width="1492" height="992" loading="lazy" decoding="async" alt="4台の白い曲線形ホワイトボードデスク（キャスター付き）を組み合わせたグループ（製品イメージ）"><figcaption><h3>連結式ホワイトボードデスク</h3><p>曲線形のホワイトボード天板を組み合わせてグループ配置ができ、高さは552～857 mmで手動調整、ロック付きキャスター付きです。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/sliding-door-cabinets.jpg" width="1340" height="880" loading="lazy" decoding="async" alt="高・中・低の3サイズのアッシュ木目引き戸キャビネット（製品イメージ）"><figcaption><h3>モジュール式引き戸キャビネット</h3><p>アッシュ木目のメラミン化粧キャビネット。2本レールの引き戸と45°留め加工のフレームで、1190 × 400 mm、高さは1200・800・600 mmの3種類です。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/side-table.jpg" width="1164" height="780" loading="lazy" decoding="async" alt="黒のヘアピン脚を備えたウォールナット木目の三角形サイドテーブル（製品イメージ）"><figcaption><h3>サイドテーブル</h3><p>25 mmのウォールナット木目天板とスチール製ヘアピン脚の三角形サイドテーブル。555 × 555 × 390 mm。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/custom-credenzas.jpg" width="785" height="588" loading="lazy" decoding="async" alt="引き出しとオープン棚付きのライトオーク色サイドキャビネットと、クッション天板付きの引き戸収納ベンチ（製品イメージ）"><figcaption><h3>特注サイドキャビネット・収納ベンチ</h3><p>お客様の設計どおりに製作：引き出し・鍵付き扉・配線穴付きのサイドキャビネットや、クッション天板付きの引き戸収納ベンチ。</p></figcaption></figure>
+      </div>
     </div>
   </section>
 
@@ -520,7 +539,7 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
       <div class="sec-head"><span class="eyebrow">よくある質問</span><h2>バイヤーからよくいただく質問</h2></div>
       <div class="faq">
         <details open><summary>環貿国際の工場はどこにありますか？</summary><p>工場はベトナム北部ハイフォン市ケーサット（Ke Sat）社にあり、ハイフォン港の近くです。</p></details>
-        <details><summary>環貿国際は何を製造していますか？</summary><p>メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドキャビネット、コンソール、引き戸キャビネット、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。</p></details>
+        <details><summary>環貿国際は何を製造していますか？</summary><p>メラミン化粧パーティクルボードとMDFによる板材家具を製造しています。教室用の小分け収納棚、キャスター付き収納ワゴン、コートロッカー、ブックディスプレイ、収納キャビネット、オフィス用サイドキャビネット、コンソール、引き戸キャビネット、電動昇降デスク、コラボレーションデスク・研修用デスク・ホワイトボードデスク、サイドテーブル、昇降デスク天板などを、金具セットと一緒にフラットパックで出荷します。</p></details>
         <details><summary>どのような板材・表面仕上げを使っていますか？</summary><p>厚さ9〜18 mmのメラミン化粧パーティクルボードとMDFを使用しています。両面メラミン化粧は白、単色、メープル・オーク木目で、木口は同色のPVCエッジ材、組立には偏心金具、ダボ、鬼目ナット、棚ダボを使います。</p></details>
         <details><summary>OEMとODMの両方に対応していますか？</summary><p>はい。主にOEMとして、お客様の図面と部品表（BOM）どおりに生産しています。開発済みの製品をお求めのお客様には、当社独自のデザイン（ODM）もご提案します。</p></details>
         <details><summary>主な販売先はどこですか？</summary><p>主な市場は米国です。製品は組立式（RTA）のフラットパックで、コンテナ輸送されます。</p></details>

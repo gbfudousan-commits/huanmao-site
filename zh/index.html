@@ -67,7 +67,9 @@
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Classroom and daycare storage furniture", "description": "Cubby units, mobile carts on casters, coat lockers, book displays and lockable storage cabinets."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Consoles and sideboards", "description": "Two-door consoles with open centre shelving."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Office credenzas", "description": "Drawer, locking door and adjustable shelf in one unit."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}}
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Electric standing desks", "description": "Dual-motor height-adjustable desks with MDF tops from 1200 × 600 to 1800 × 800 mm."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Collaborative, training and whiteboard desks", "description": "Mobile collaborative and flip-top training desks with 25 mm MDF tops, and tilting and modular whiteboard desks."}}
     ]
   },
   "hasCertification": [
@@ -94,7 +96,7 @@
   "@type": "FAQPage",
   "mainEntity": [
     {"@type": "Question", "name": "環貿國際的工廠在哪裡？", "acceptedAnswer": {"@type": "Answer", "text": "工廠位於越南北部海防市 Ke Sat 社，鄰近海防港。"}},
-    {"@type": "Question", "name": "環貿國際生產哪些產品？", "acceptedAnswer": {"@type": "Answer", "text": "我們以三聚氰胺貼面塑合板與 MDF 生產板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃及升降桌桌板，連同五金包平板包裝出貨。"}},
+    {"@type": "Question", "name": "環貿國際生產哪些產品？", "acceptedAnswer": {"@type": "Answer", "text": "我們以三聚氰胺貼面塑合板與 MDF 生產板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃、電動升降桌、協作桌、培訓桌與白板桌、邊几及升降桌桌板，連同五金包平板包裝出貨。"}},
     {"@type": "Question", "name": "使用哪些板材與表面處理？", "acceptedAnswer": {"@type": "Answer", "text": "我們使用 9 至 18 mm 厚的三聚氰胺貼面塑合板與 MDF，雙面三聚氰胺貼面有白色、素色、楓木與橡木木紋，搭配同色 PVC 封邊條，組裝則使用三合一偏心件、木榫、預埋螺母與層板粒。"}},
     {"@type": "Question", "name": "有提供 OEM 和 ODM 嗎？", "acceptedAnswer": {"@type": "Answer", "text": "有。我們的訂單以 OEM 為主，依客戶的圖面與 BOM 生產；也為需要現成產品線的客戶提出自有設計方案（ODM）。"}},
     {"@type": "Question", "name": "主要市場在哪裡？", "acceptedAnswer": {"@type": "Answer", "text": "主要市場為美國。產品以組裝式（RTA）平板包裝，以貨櫃出口。"}},
@@ -111,7 +113,7 @@
 }
 </script>
 <style>
-/* Layout (2026-11-21, owner request): modelled on the Tang Zhou / Top Performance Vietnam site —
+/* Layout (2026-11-21, owner request): full-bleed hero, centred headings, white cards —
    full-bleed dark photo hero with stat cards, centred section heads, white rounded cards on
    alternating light backgrounds, Inter / Plus Jakarta Sans. Copper from the Huan Mao logo stays the accent. */
 :root{
@@ -259,6 +261,9 @@ section.alt{background:var(--alt)}
 .prods > .prod:nth-child(2) img{aspect-ratio:1/1}
 .also{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--surface);align-self:start;display:grid;gap:8px;color:var(--muted);font-size:.95rem;box-shadow:var(--shadow)}
 .also b{color:var(--ink);font:700 1.15rem/1.2 var(--display)}
+.sub-head{margin-top:64px}
+.sub-head h3{font:700 clamp(1.4rem,2.4vw,1.8rem)/1.2 var(--display);color:var(--ink)}
+.prods.desks > .prod:nth-child(2) img{aspect-ratio:4/3}
 @media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img,.prods > .prod:nth-child(2) img{aspect-ratio:4/3}}
 @media (max-width:480px){.prods{grid-template-columns:1fr}}
 
@@ -464,6 +469,20 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
         <figure class="prod"><img src="../img/sliding-cabinet.jpg" width="1600" height="720" loading="lazy" decoding="async" alt="鋁軌推拉門矮櫃"><figcaption><h3>推拉門櫃</h3><p>鋁軌推拉門矮櫃，附走線孔。</p></figcaption></figure>
         <div class="also"><b>其他產品</b><span>衣帽櫃 · 書架 · 開放層架 · 附上櫃書桌 · 升降桌桌板 · 依圖面訂製板件</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">詢問您的產品</a></div>
       </div>
+      <div class="sec-head sub-head">
+        <h3>桌類、邊几與櫃類</h3>
+        <p class="lede">電動升降桌、白板桌、協作桌與培訓桌、邊几及櫃類，皆以我們的 MDF 與三聚氰胺板材為核心。本組圖片為產品示意圖。</p>
+      </div>
+      <div class="prods desks">
+        <figure class="prod big"><img src="../img/standing-desk.jpg" width="1480" height="992" loading="lazy" decoding="async" alt="黑色雙馬達桌架搭配橡木紋 MDF 桌板的電動升降桌（產品示意圖）"><figcaption><h3>電動升降桌</h3><p>雙馬達升降桌，具防碰撞保護，可選方形、矩形或圓形二節與三節立柱。MDF 桌板尺寸從 1200 × 600 到 1800 × 800 mm，有木紋與素色，承重依型號為 100 至 140 kg。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/standing-desk-drawer.jpg" width="1492" height="942" loading="lazy" decoding="async" alt="胡桃木紋升降桌，內建抽屜拉開（產品示意圖）"><figcaption><h3>附抽屜升降桌</h3><p>雙馬達升降桌，內建抽屜與 USB 充電孔，承重 140 kg。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/tilting-whiteboard-desk.jpg" width="1492" height="980" loading="lazy" decoding="async" alt="白板桌面傾斜成繪圖角度、附煞車腳輪的白色桌（產品示意圖）"><figcaption><h3>可傾斜白板桌</h3><p>雙馬達升降桌，白板桌面可在 0° 至 90° 之間傾斜，可選固定腳座或附煞車腳輪。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/collaborative-desk.jpg" width="1492" height="1052" loading="lazy" decoding="async" alt="鼠尾草綠膠囊形協作桌，層次封邊，附腳輪（產品示意圖）"><figcaption><h3>移動式協作桌與培訓桌</h3><p>25 mm MDF 桌板，有圓角膠囊形與可翻轉桌面款式，搭配碳鋼桌架與附煞車腳輪。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/modular-whiteboard-desks.jpg" width="1492" height="992" loading="lazy" decoding="async" alt="四張附腳輪的白色弧形白板桌拼成一組（產品示意圖）"><figcaption><h3>拼接式白板桌</h3><p>弧形白板桌面可拼接成多種分組排列，手動調高 552 至 857 mm，附煞車腳輪。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/sliding-door-cabinets.jpg" width="1340" height="880" loading="lazy" decoding="async" alt="高、中、矮三種高度的白蠟木紋推拉門櫃（產品示意圖）"><figcaption><h3>模組化推拉門櫃</h3><p>白蠟木紋三聚氰胺貼面櫃，雙軌推拉門搭配 45° 斜接框，1190 × 400 mm，高度有 1200、800、600 mm 三種。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/side-table.jpg" width="1164" height="780" loading="lazy" decoding="async" alt="黑色髮夾腳的胡桃木紋三角邊几（產品示意圖）"><figcaption><h3>邊几</h3><p>三角形邊几，25 mm 胡桃木紋桌板搭配鋼製髮夾腳，555 × 555 × 390 mm。</p></figcaption></figure>
+        <figure class="prod"><img src="../img/custom-credenzas.jpg" width="785" height="588" loading="lazy" decoding="async" alt="附抽屜與開放層架的淺橡木邊櫃，以及附坐墊的推拉門收納長凳（產品示意圖）"><figcaption><h3>訂製邊櫃與收納長凳</h3><p>依客戶設計生產：附抽屜、鎖門與走線孔的邊櫃，以及附坐墊的推拉門收納長凳。</p></figcaption></figure>
+      </div>
     </div>
   </section>
 
@@ -520,7 +539,7 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
       <div class="sec-head"><span class="eyebrow">常見問題</span><h2>採購常問的問題</h2></div>
       <div class="faq">
         <details open><summary>環貿國際的工廠在哪裡？</summary><p>工廠位於越南北部海防市 Ke Sat 社，鄰近海防港。</p></details>
-        <details><summary>環貿國際生產哪些產品？</summary><p>我們以三聚氰胺貼面塑合板與 MDF 生產板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃及升降桌桌板，連同五金包平板包裝出貨。</p></details>
+        <details><summary>環貿國際生產哪些產品？</summary><p>我們以三聚氰胺貼面塑合板與 MDF 生產板式家具：教室置物格櫃、移動收納推車、衣帽櫃、書架、收納櫃、辦公邊櫃、矮櫃、推拉門櫃、電動升降桌、協作桌、培訓桌與白板桌、邊几及升降桌桌板，連同五金包平板包裝出貨。</p></details>
         <details><summary>使用哪些板材與表面處理？</summary><p>我們使用 9 至 18 mm 厚的三聚氰胺貼面塑合板與 MDF，雙面三聚氰胺貼面有白色、素色、楓木與橡木木紋，搭配同色 PVC 封邊條，組裝則使用三合一偏心件、木榫、預埋螺母與層板粒。</p></details>
         <details><summary>有提供 OEM 和 ODM 嗎？</summary><p>有。我們的訂單以 OEM 為主，依客戶的圖面與 BOM 生產；也為需要現成產品線的客戶提出自有設計方案（ODM）。</p></details>
         <details><summary>主要市場在哪裡？</summary><p>主要市場為美國。產品以組裝式（RTA）平板包裝，以貨櫃出口。</p></details>

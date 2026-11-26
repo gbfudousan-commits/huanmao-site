@@ -86,7 +86,8 @@ open(f'{ROOT}/sitemap.xml', 'w').write('<?xml version="1.0" encoding="UTF-8"?>\n
 open(f'{ROOT}/llms.txt', 'w', encoding='utf-8').write(
     "# Huan Mao International Company Limited (環貿國際有限公司)\n\n"
     "> ISO 9001 and ISO 14001 certified OEM/ODM manufacturer of melamine particleboard and MDF furniture in Hai Phong, Vietnam. "
-    "Supplies U.S. furniture brands with classroom storage, office credenzas, consoles and ready-to-assemble (RTA) furniture.\n\n"
+    "Supplies U.S. furniture brands with classroom storage, office credenzas, consoles, sliding-door cabinets, electric standing desks, "
+    "collaborative, training and whiteboard desks, side tables and ready-to-assemble (RTA) furniture.\n\n"
     "- Established: 2024, Taiwanese management, about 100 employees\n- Annual sales: about US$10 million\n"
     "- Factory: Quan Goi Quarter, Thuong Khuong Hamlet, Ke Sat Commune, Hai Phong City, Vietnam\n"
     "- Equipment: Nanxing computer panel saws with automatic loaders, Nanxing CNC nesting centres with automatic loading/unloading, "

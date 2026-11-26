@@ -67,7 +67,9 @@
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Classroom and daycare storage furniture", "description": "Cubby units, mobile carts on casters, coat lockers, book displays and lockable storage cabinets."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Consoles and sideboards", "description": "Two-door consoles with open centre shelving."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Office credenzas", "description": "Drawer, locking door and adjustable shelf in one unit."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}}
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Electric standing desks", "description": "Dual-motor height-adjustable desks with MDF tops from 1200 × 600 to 1800 × 800 mm."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Collaborative, training and whiteboard desks", "description": "Mobile collaborative and flip-top training desks with 25 mm MDF tops, and tilting and modular whiteboard desks."}}
     ]
   },
   "hasCertification": [
@@ -94,7 +96,7 @@
   "@type": "FAQPage",
   "mainEntity": [
     {"@type": "Question", "name": "Nhà máy của Huan Mao International ở đâu?", "acceptedAnswer": {"@type": "Answer", "text": "Nhà máy đặt tại xã Kẻ Sặt, thành phố Hải Phòng, miền Bắc Việt Nam, gần cảng Hải Phòng."}},
-    {"@type": "Question", "name": "Huan Mao International sản xuất những sản phẩm gì?", "acceptedAnswer": {"@type": "Answer", "text": "Chúng tôi sản xuất đồ nội thất từ ván dăm phủ melamine và MDF: kệ ô lớp học, xe đẩy lưu trữ, tủ để áo, kệ sách, tủ lưu trữ, tủ văn phòng, tủ console, tủ cửa lùa và mặt bàn nâng hạ, đóng gói phẳng kèm bộ phụ kiện."}},
+    {"@type": "Question", "name": "Huan Mao International sản xuất những sản phẩm gì?", "acceptedAnswer": {"@type": "Answer", "text": "Chúng tôi sản xuất đồ nội thất từ ván dăm phủ melamine và MDF: kệ ô lớp học, xe đẩy lưu trữ, tủ để áo, kệ sách, tủ lưu trữ, tủ văn phòng, tủ console, tủ cửa lùa, bàn nâng hạ điện, bàn làm việc nhóm, bàn đào tạo và bàn bảng trắng, bàn bên và mặt bàn nâng hạ, đóng gói phẳng kèm bộ phụ kiện."}},
     {"@type": "Question", "name": "Các bạn dùng loại ván và bề mặt hoàn thiện nào?", "acceptedAnswer": {"@type": "Answer", "text": "Chúng tôi dùng ván dăm phủ melamine và MDF dày từ 9 đến 18 mm, phủ melamine hai mặt màu trắng, màu trơn, vân gỗ phong và sồi, nẹp cạnh PVC cùng màu, cùng ốc cam, chốt gỗ, tán cấy và chốt đỡ kệ để lắp ráp."}},
     {"@type": "Question", "name": "Công ty có nhận OEM và ODM không?", "acceptedAnswer": {"@type": "Answer", "text": "Có. Phần lớn đơn hàng là OEM, sản xuất theo bản vẽ và BOM của khách hàng. Chúng tôi cũng đề xuất thiết kế riêng (ODM) cho khách hàng cần dòng sản phẩm có sẵn."}},
     {"@type": "Question", "name": "Thị trường chính của công ty là đâu?", "acceptedAnswer": {"@type": "Answer", "text": "Thị trường chính là Hoa Kỳ. Sản phẩm được đóng gói phẳng dạng lắp ráp (RTA) và xuất khẩu bằng container."}},
@@ -111,7 +113,7 @@
 }
 </script>
 <style>
-/* Layout (2026-11-21, owner request): modelled on the Tang Zhou / Top Performance Vietnam site —
+/* Layout (2026-11-21, owner request): full-bleed hero, centred headings, white cards —
    full-bleed dark photo hero with stat cards, centred section heads, white rounded cards on
    alternating light backgrounds, Inter / Plus Jakarta Sans. Copper from the Huan Mao logo stays the accent. */
 :root{
@@ -259,6 +261,9 @@ section.alt{background:var(--alt)}
 .prods > .prod:nth-child(2) img{aspect-ratio:1/1}
 .also{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--surface);align-self:start;display:grid;gap:8px;color:var(--muted);font-size:.95rem;box-shadow:var(--shadow)}
 .also b{color:var(--ink);font:700 1.15rem/1.2 var(--display)}
+.sub-head{margin-top:64px}
+.sub-head h3{font:700 clamp(1.4rem,2.4vw,1.8rem)/1.2 var(--display);color:var(--ink)}
+.prods.desks > .prod:nth-child(2) img{aspect-ratio:4/3}
 @media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img,.prods > .prod:nth-child(2) img{aspect-ratio:4/3}}
 @media (max-width:480px){.prods{grid-template-columns:1fr}}
 
@@ -464,6 +469,20 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
         <figure class="prod"><img src="../img/sliding-cabinet.jpg" width="1600" height="720" loading="lazy" decoding="async" alt="Tủ thấp cửa lùa trên ray nhôm"><figcaption><h3>Tủ cửa lùa</h3><p>Tủ thấp ray nhôm, có lỗ đi dây.</p></figcaption></figure>
         <div class="also"><b>Sản phẩm khác</b><span>Tủ để áo · kệ sách · kệ mở · bàn có giá trên · mặt bàn nâng hạ · chi tiết ván theo bản vẽ</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">Hỏi về sản phẩm của bạn</a></div>
       </div>
+      <div class="sec-head sub-head">
+        <h3>Bàn và tủ</h3>
+        <p class="lede">Bàn nâng hạ điện, bàn bảng trắng, bàn làm việc nhóm và bàn đào tạo, bàn bên và tủ, làm từ ván MDF và melamine của chúng tôi. Hình ảnh trong nhóm này là ảnh minh họa sản phẩm.</p>
+      </div>
+      <div class="prods desks">
+        <figure class="prod big"><img src="../img/standing-desk.jpg" width="1480" height="992" loading="lazy" decoding="async" alt="Bàn nâng hạ điện mặt MDF vân sồi trên khung hai động cơ màu đen (ảnh minh họa sản phẩm)"><figcaption><h3>Bàn nâng hạ điện</h3><p>Bàn nâng hạ hai động cơ có chống va chạm, chân vuông, chữ nhật hoặc tròn loại hai và ba tầng. Mặt bàn MDF từ 1200 × 600 đến 1800 × 800 mm, vân gỗ và màu trơn, tải trọng 100 đến 140 kg tùy mẫu.</p></figcaption></figure>
+        <figure class="prod"><img src="../img/standing-desk-drawer.jpg" width="1492" height="942" loading="lazy" decoding="async" alt="Bàn nâng hạ vân óc chó với ngăn kéo tích hợp đang mở (ảnh minh họa sản phẩm)"><figcaption><h3>Bàn nâng hạ có ngăn kéo</h3><p>Bàn hai động cơ có ngăn kéo tích hợp và cổng sạc USB, tải trọng 140 kg.</p></figcaption></figure>
+        <figure class="prod"><img src="../img/tilting-whiteboard-desk.jpg" width="1492" height="980" loading="lazy" decoding="async" alt="Bàn trắng mặt bảng trắng nghiêng để vẽ, bánh xe có khóa (ảnh minh họa sản phẩm)"><figcaption><h3>Bàn bảng trắng nghiêng</h3><p>Bàn hai động cơ có mặt bảng trắng nghiêng từ 0° đến 90°, chân cố định hoặc bánh xe có khóa.</p></figcaption></figure>
+        <figure class="prod"><img src="../img/collaborative-desk.jpg" width="1492" height="1052" loading="lazy" decoding="async" alt="Bàn làm việc nhóm hình con nhộng màu xanh xô thơm, cạnh nhiều lớp, có bánh xe (ảnh minh họa sản phẩm)"><figcaption><h3>Bàn làm việc nhóm &amp; bàn đào tạo di động</h3><p>Mặt bàn MDF 25 mm dạng con nhộng bo tròn hoặc mặt lật, khung thép carbon và bánh xe có phanh khóa.</p></figcaption></figure>
+        <figure class="prod"><img src="../img/modular-whiteboard-desks.jpg" width="1492" height="992" loading="lazy" decoding="async" alt="Bốn bàn bảng trắng cong có bánh xe ghép thành nhóm (ảnh minh họa sản phẩm)"><figcaption><h3>Bàn bảng trắng ghép module</h3><p>Mặt bàn bảng trắng dạng cong ghép thành nhóm, chỉnh cao thủ công từ 552 đến 857 mm, bánh xe có khóa.</p></figcaption></figure>
+        <figure class="prod"><img src="../img/sliding-door-cabinets.jpg" width="1340" height="880" loading="lazy" decoding="async" alt="Ba tủ cửa lùa vân gỗ tần bì cao, vừa và thấp (ảnh minh họa sản phẩm)"><figcaption><h3>Tủ cửa lùa module</h3><p>Tủ melamine vân gỗ tần bì, cửa lùa ray đôi và khung ghép góc 45°, kích thước 1190 × 400 mm với ba chiều cao 1200, 800 và 600 mm.</p></figcaption></figure>
+        <figure class="prod"><img src="../img/side-table.jpg" width="1164" height="780" loading="lazy" decoding="async" alt="Bàn bên tam giác vân óc chó chân kẹp tóc màu đen (ảnh minh họa sản phẩm)"><figcaption><h3>Bàn bên</h3><p>Bàn bên hình tam giác, mặt bàn vân óc chó 25 mm, chân thép kiểu kẹp tóc, 555 × 555 × 390 mm.</p></figcaption></figure>
+        <figure class="prod"><img src="../img/custom-credenzas.jpg" width="785" height="588" loading="lazy" decoding="async" alt="Tủ văn phòng màu sồi sáng có ngăn kéo và kệ mở, cùng ghế băng lưu trữ cửa lùa có đệm ngồi (ảnh minh họa sản phẩm)"><figcaption><h3>Tủ văn phòng &amp; ghế băng lưu trữ theo yêu cầu</h3><p>Sản xuất theo thiết kế của khách hàng: tủ có ngăn kéo, cửa khóa và lỗ đi dây, cùng ghế băng cửa lùa có đệm ngồi.</p></figcaption></figure>
+      </div>
     </div>
   </section>
 
@@ -520,7 +539,7 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
       <div class="sec-head"><span class="eyebrow">Hỏi đáp</span><h2>Câu hỏi thường gặp từ khách hàng</h2></div>
       <div class="faq">
         <details open><summary>Nhà máy của Huan Mao International ở đâu?</summary><p>Nhà máy đặt tại xã Kẻ Sặt, thành phố Hải Phòng, miền Bắc Việt Nam, gần cảng Hải Phòng.</p></details>
-        <details><summary>Huan Mao International sản xuất những sản phẩm gì?</summary><p>Chúng tôi sản xuất đồ nội thất từ ván dăm phủ melamine và MDF: kệ ô lớp học, xe đẩy lưu trữ, tủ để áo, kệ sách, tủ lưu trữ, tủ văn phòng, tủ console, tủ cửa lùa và mặt bàn nâng hạ, đóng gói phẳng kèm bộ phụ kiện.</p></details>
+        <details><summary>Huan Mao International sản xuất những sản phẩm gì?</summary><p>Chúng tôi sản xuất đồ nội thất từ ván dăm phủ melamine và MDF: kệ ô lớp học, xe đẩy lưu trữ, tủ để áo, kệ sách, tủ lưu trữ, tủ văn phòng, tủ console, tủ cửa lùa, bàn nâng hạ điện, bàn làm việc nhóm, bàn đào tạo và bàn bảng trắng, bàn bên và mặt bàn nâng hạ, đóng gói phẳng kèm bộ phụ kiện.</p></details>
         <details><summary>Các bạn dùng loại ván và bề mặt hoàn thiện nào?</summary><p>Chúng tôi dùng ván dăm phủ melamine và MDF dày từ 9 đến 18 mm, phủ melamine hai mặt màu trắng, màu trơn, vân gỗ phong và sồi, nẹp cạnh PVC cùng màu, cùng ốc cam, chốt gỗ, tán cấy và chốt đỡ kệ để lắp ráp.</p></details>
         <details><summary>Công ty có nhận OEM và ODM không?</summary><p>Có. Phần lớn đơn hàng là OEM, sản xuất theo bản vẽ và BOM của khách hàng. Chúng tôi cũng đề xuất thiết kế riêng (ODM) cho khách hàng cần dòng sản phẩm có sẵn.</p></details>
         <details><summary>Thị trường chính của công ty là đâu?</summary><p>Thị trường chính là Hoa Kỳ. Sản phẩm được đóng gói phẳng dạng lắp ráp (RTA) và xuất khẩu bằng container.</p></details>

@@ -20,6 +20,10 @@ Established 2024 · ~100 employees · Taiwanese management · annual sales ~US$1
 ISO 14001 · FSC board only via FSC-certified suppliers (no own FSC CoC) · formaldehyde certificates come from board suppliers, not our own · MOQ and lead time depend on the product · customer names are confidential
 (customer names must NEVER appear on the site) · phone +84 369 686 820 ·
 email sales@huanmao.co · tax code 0801449372. Never publish bank accounts.
+Products (owner, 2026-11-26, from the exhibition catalogue): besides classroom/office storage, we sell electric standing desks,
+standing desk with drawer, tilting whiteboard desks, mobile collaborative/training desks, modular whiteboard desks, sliding-door
+cabinets, side tables and custom credenzas/benches. Their images are product renderings (labelled so). Never show the
+catalogue company name, logo or TP-TZ model codes.
 Do not invent capacities, MOQ, lead times, certifications, machine counts or customer names.
 Red dashed `.note` boxes mark items waiting for the owner; leave them until he answers.
 

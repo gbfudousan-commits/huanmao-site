@@ -67,7 +67,9 @@
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Classroom and daycare storage furniture", "description": "Cubby units, mobile carts on casters, coat lockers, book displays and lockable storage cabinets."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Consoles and sideboards", "description": "Two-door consoles with open centre shelving."}},
       {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Office credenzas", "description": "Drawer, locking door and adjustable shelf in one unit."}},
-      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}}
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Sliding-door cabinets", "description": "Low storage with aluminium track and cable cut-outs."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Electric standing desks", "description": "Dual-motor height-adjustable desks with MDF tops from 1200 × 600 to 1800 × 800 mm."}},
+      {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "Collaborative, training and whiteboard desks", "description": "Mobile collaborative and flip-top training desks with 25 mm MDF tops, and tilting and modular whiteboard desks."}}
     ]
   },
   "hasCertification": [
@@ -94,7 +96,7 @@
   "@type": "FAQPage",
   "mainEntity": [
     {"@type": "Question", "name": "Where is Huan Mao International's factory?", "acceptedAnswer": {"@type": "Answer", "text": "Our factory is in Ke Sat Commune, Hai Phong City, northern Vietnam, close to the port of Hai Phong."}},
-    {"@type": "Question", "name": "What does Huan Mao International manufacture?", "acceptedAnswer": {"@type": "Answer", "text": "We manufacture wood panel furniture from melamine-faced particleboard and MDF: classroom cubby storage, mobile storage carts, coat lockers, book displays, storage cabinets, office credenzas, consoles, sliding-door cabinets and standing-desk tops, packed flat with hardware kits."}},
+    {"@type": "Question", "name": "What does Huan Mao International manufacture?", "acceptedAnswer": {"@type": "Answer", "text": "We manufacture wood panel furniture from melamine-faced particleboard and MDF: classroom cubby storage, mobile storage carts, coat lockers, book displays, storage cabinets, office credenzas, consoles, sliding-door cabinets, electric standing desks, collaborative, training and whiteboard desks, side tables and standing-desk tops, packed flat with hardware kits."}},
     {"@type": "Question", "name": "What board materials and finishes do you use?", "acceptedAnswer": {"@type": "Answer", "text": "We use melamine-faced particleboard and MDF from 9 to 18 mm thick, with two-side melamine faces in white, solid colours, maple and oak woodgrains, colour-matched PVC edge banding, and cam locks, dowels, insert nuts and shelf pins for assembly."}},
     {"@type": "Question", "name": "Do you offer OEM and ODM?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Most of our work is OEM, built to the customer's drawings and bill of materials. We also propose our own designs (ODM) for customers who want a ready-developed product range."}},
     {"@type": "Question", "name": "Which markets do you supply?", "acceptedAnswer": {"@type": "Answer", "text": "Our main market is the United States. Products are packed flat as ready-to-assemble kits for container shipping."}},
@@ -111,7 +113,7 @@
 }
 </script>
 <style>
-/* Layout (2026-11-21, owner request): modelled on the Tang Zhou / Top Performance Vietnam site —
+/* Layout (2026-11-21, owner request): full-bleed hero, centred headings, white cards —
    full-bleed dark photo hero with stat cards, centred section heads, white rounded cards on
    alternating light backgrounds, Inter / Plus Jakarta Sans. Copper from the Huan Mao logo stays the accent. */
 :root{
@@ -259,6 +261,9 @@ section.alt{background:var(--alt)}
 .prods > .prod:nth-child(2) img{aspect-ratio:1/1}
 .also{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--surface);align-self:start;display:grid;gap:8px;color:var(--muted);font-size:.95rem;box-shadow:var(--shadow)}
 .also b{color:var(--ink);font:700 1.15rem/1.2 var(--display)}
+.sub-head{margin-top:64px}
+.sub-head h3{font:700 clamp(1.4rem,2.4vw,1.8rem)/1.2 var(--display);color:var(--ink)}
+.prods.desks > .prod:nth-child(2) img{aspect-ratio:4/3}
 @media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img,.prods > .prod:nth-child(2) img{aspect-ratio:4/3}}
 @media (max-width:480px){.prods{grid-template-columns:1fr}}
 
@@ -463,6 +468,20 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
         <figure class="prod"><img src="img/sliding-cabinet.jpg" width="1600" height="720" loading="lazy" decoding="async" alt="Low cabinet with a sliding door on an aluminium track"><figcaption><h3>Sliding-door cabinets</h3><p>Low storage with aluminium track and cable cut-outs.</p></figcaption></figure>
         <div class="also"><b>We also make</b><span>Coat lockers · book displays · open shelving · desks with hutches · standing-desk tops · custom panel parts to your drawing</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">Ask about your product</a></div>
       </div>
+      <div class="sec-head sub-head">
+        <h3>Desks, tables and cabinets</h3>
+        <p class="lede">Electric standing desks, whiteboard, collaborative and training desks, side tables and cabinets, built around our MDF and melamine panels. Images in this group are product renderings.</p>
+      </div>
+      <div class="prods desks">
+        <figure class="prod big"><img src="img/standing-desk.jpg" width="1480" height="992" loading="lazy" decoding="async" alt="Electric standing desk with an oak-woodgrain MDF top on a black dual-motor frame (product rendering)"><figcaption><h3>Electric standing desks</h3><p>Dual-motor height-adjustable desks with anti-collision protection, on square, rectangular or round two- and three-stage columns. MDF tops from 1200 × 600 to 1800 × 800 mm in woodgrain and solid colours, rated 100 to 140 kg depending on the model.</p></figcaption></figure>
+        <figure class="prod"><img src="img/standing-desk-drawer.jpg" width="1492" height="942" loading="lazy" decoding="async" alt="Walnut-woodgrain standing desk with an open built-in drawer (product rendering)"><figcaption><h3>Standing desk with drawer</h3><p>Dual-motor desk with a built-in drawer and USB charging ports, rated to 140 kg.</p></figcaption></figure>
+        <figure class="prod"><img src="img/tilting-whiteboard-desk.jpg" width="1492" height="980" loading="lazy" decoding="async" alt="White whiteboard-top desk tilted for drafting, on lockable casters (product rendering)"><figcaption><h3>Tilting whiteboard desks</h3><p>Dual-motor desks with a dry-erase whiteboard top that tilts from 0° to 90°, on fixed feet or lockable casters.</p></figcaption></figure>
+        <figure class="prod"><img src="img/collaborative-desk.jpg" width="1492" height="1052" loading="lazy" decoding="async" alt="Sage-green capsule-shaped collaborative desk with a layered edge, on casters (product rendering)"><figcaption><h3>Mobile collaborative &amp; training desks</h3><p>25 mm MDF tops in rounded capsule shapes or flip-top versions, on carbon-steel frames with lockable brake casters.</p></figcaption></figure>
+        <figure class="prod"><img src="img/modular-whiteboard-desks.jpg" width="1492" height="992" loading="lazy" decoding="async" alt="Four white curved whiteboard desks on casters joined into a group (product rendering)"><figcaption><h3>Modular whiteboard desks</h3><p>Curved whiteboard tops that join into group layouts, with manual height adjustment from 552 to 857 mm and lockable casters.</p></figcaption></figure>
+        <figure class="prod"><img src="img/sliding-door-cabinets.jpg" width="1340" height="880" loading="lazy" decoding="async" alt="Three ash-woodgrain sliding-door cabinets in tall, medium and low heights (product rendering)"><figcaption><h3>Modular sliding-door cabinets</h3><p>Ash-woodgrain melamine cabinets with dual-track sliding doors and 45° mitred frames, 1190 × 400 mm in 1200, 800 and 600 mm heights.</p></figcaption></figure>
+        <figure class="prod"><img src="img/side-table.jpg" width="1164" height="780" loading="lazy" decoding="async" alt="Walnut-woodgrain triangle side table on black hairpin legs (product rendering)"><figcaption><h3>Side tables</h3><p>Triangle side table with a 25 mm walnut-grain top on steel hairpin legs, 555 × 555 × 390 mm.</p></figcaption></figure>
+        <figure class="prod"><img src="img/custom-credenzas.jpg" width="785" height="588" loading="lazy" decoding="async" alt="Light-oak credenza with drawer and open shelves, and a sliding-door storage bench with a cushion top (product rendering)"><figcaption><h3>Custom credenzas &amp; bench storage</h3><p>Built to customer designs: credenzas with drawers, lockable doors and cable ports, and sliding-door benches with cushion tops.</p></figcaption></figure>
+      </div>
     </div>
   </section>
 
@@ -519,7 +538,7 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
       <div class="sec-head"><span class="eyebrow">FAQ</span><h2>Questions buyers ask us</h2></div>
       <div class="faq">
         <details open><summary>Where is Huan Mao International's factory?</summary><p>Our factory is in Ke Sat Commune, Hai Phong City, northern Vietnam, close to the port of Hai Phong.</p></details>
-        <details><summary>What does Huan Mao International manufacture?</summary><p>We manufacture wood panel furniture from melamine-faced particleboard and MDF: classroom cubby storage, mobile storage carts, coat lockers, book displays, storage cabinets, office credenzas, consoles, sliding-door cabinets and standing-desk tops, packed flat with hardware kits.</p></details>
+        <details><summary>What does Huan Mao International manufacture?</summary><p>We manufacture wood panel furniture from melamine-faced particleboard and MDF: classroom cubby storage, mobile storage carts, coat lockers, book displays, storage cabinets, office credenzas, consoles, sliding-door cabinets, electric standing desks, collaborative, training and whiteboard desks, side tables and standing-desk tops, packed flat with hardware kits.</p></details>
         <details><summary>What board materials and finishes do you use?</summary><p>We use melamine-faced particleboard and MDF from 9 to 18 mm thick, with two-side melamine faces in white, solid colours, maple and oak woodgrains, colour-matched PVC edge banding, and cam locks, dowels, insert nuts and shelf pins for assembly.</p></details>
         <details><summary>Do you offer OEM and ODM?</summary><p>Yes. Most of our work is OEM, built to the customer's drawings and bill of materials. We also propose our own designs (ODM) for customers who want a ready-developed product range.</p></details>
         <details><summary>Which markets do you supply?</summary><p>Our main market is the United States. Products are packed flat as ready-to-assemble kits for container shipping.</p></details>
