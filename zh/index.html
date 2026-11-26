@@ -258,13 +258,13 @@ section.alt{background:var(--alt)}
 .prod p{color:var(--muted);font-size:.9rem}
 .prod.big{grid-column:span 2}
 .prod.big img{aspect-ratio:16/9}
-.prods > .prod:nth-child(2) img{aspect-ratio:1/1}
 .also{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--surface);align-self:start;display:grid;gap:8px;color:var(--muted);font-size:.95rem;box-shadow:var(--shadow)}
 .also b{color:var(--ink);font:700 1.15rem/1.2 var(--display)}
+.prods > .also{grid-column:1/-1}
 .sub-head{margin-top:64px}
 .sub-head h3{font:700 clamp(1.4rem,2.4vw,1.8rem)/1.2 var(--display);color:var(--ink)}
 .prods.desks > .prod:nth-child(2) img{aspect-ratio:4/3}
-@media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img,.prods > .prod:nth-child(2) img{aspect-ratio:4/3}}
+@media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img{aspect-ratio:4/3}}
 @media (max-width:480px){.prods{grid-template-columns:1fr}}
 
 /* OEM / ODM */
@@ -463,11 +463,10 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
         <p class="lede">提供楓木、橡木木紋與素色三聚氰胺貼面，可做固定底座或附煞車腳輪。以下產品皆由本廠生產。</p>
       </div>
       <div class="prods">
-        <figure class="prod big"><img src="../img/classroom-range.jpg" width="1600" height="900" loading="lazy" decoding="async" alt="環貿生產的三台楓木色附輪置物推車"><figcaption><h3>教室與幼兒園收納</h3><p>置物格櫃、附輪推車、衣帽櫃、書架與附鎖收納櫃。</p></figcaption></figure>
         <figure class="prod"><img src="../img/console.jpg" width="1200" height="1200" loading="lazy" decoding="async" alt="橡木紋雙門開放層架矮櫃"><figcaption><h3>矮櫃與餐邊櫃</h3><p>雙門設計，中間為開放層架。</p></figcaption></figure>
         <figure class="prod"><img src="../img/credenza.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="附抽屜、鎖門與活動層板的辦公邊櫃"><figcaption><h3>辦公邊櫃</h3><p>抽屜、附鎖門片與活動層板集於一櫃。</p></figcaption></figure>
         <figure class="prod"><img src="../img/sliding-cabinet.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="鋁軌推拉門矮櫃"><figcaption><h3>推拉門櫃</h3><p>鋁軌推拉門矮櫃，附走線孔。</p></figcaption></figure>
-        <div class="also"><b>其他產品</b><span>衣帽櫃 · 書架 · 開放層架 · 附上櫃書桌 · 升降桌桌板 · 依圖面訂製板件</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">詢問您的產品</a></div>
+        <div class="also"><b>其他產品</b><span>教室置物格櫃 · 移動收納推車 · 附鎖收納櫃 · 衣帽櫃 · 書架 · 開放層架 · 附上櫃書桌 · 升降桌桌板 · 依圖面訂製板件</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">詢問您的產品</a></div>
       </div>
       <div class="sec-head sub-head">
         <h3>桌類、邊几與櫃類</h3>

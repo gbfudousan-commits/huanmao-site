@@ -258,13 +258,13 @@ section.alt{background:var(--alt)}
 .prod p{color:var(--muted);font-size:.9rem}
 .prod.big{grid-column:span 2}
 .prod.big img{aspect-ratio:16/9}
-.prods > .prod:nth-child(2) img{aspect-ratio:1/1}
 .also{border:1px solid var(--line);border-radius:14px;padding:22px;background:var(--surface);align-self:start;display:grid;gap:8px;color:var(--muted);font-size:.95rem;box-shadow:var(--shadow)}
 .also b{color:var(--ink);font:700 1.15rem/1.2 var(--display)}
+.prods > .also{grid-column:1/-1}
 .sub-head{margin-top:64px}
 .sub-head h3{font:700 clamp(1.4rem,2.4vw,1.8rem)/1.2 var(--display);color:var(--ink)}
 .prods.desks > .prod:nth-child(2) img{aspect-ratio:4/3}
-@media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img,.prods > .prod:nth-child(2) img{aspect-ratio:4/3}}
+@media (max-width:980px){.prods{grid-template-columns:1fr 1fr}.prod.big{grid-column:1/-1}.prod.big img{aspect-ratio:4/3}}
 @media (max-width:480px){.prods{grid-template-columns:1fr}}
 
 /* OEM / ODM */
@@ -463,11 +463,10 @@ footer{background:#151A21;color:rgba(255,255,255,.72);padding-block:44px;font-si
         <p class="lede">メープル、オーク木目、単色メラミンに対応し、固定脚またはロック付きキャスター仕様で製作します。掲載製品はすべて当社工場で製造したものです。</p>
       </div>
       <div class="prods">
-        <figure class="prod big"><img src="../img/classroom-range.jpg" width="1600" height="900" loading="lazy" decoding="async" alt="環貿国際製のメープル色キャスター付き小分け収納ワゴン3台"><figcaption><h3>教室・保育園用収納</h3><p>小分け収納棚、キャスター付きワゴン、コートロッカー、ブックディスプレイ、鍵付き収納キャビネット。</p></figcaption></figure>
         <figure class="prod"><img src="../img/console.jpg" width="1200" height="1200" loading="lazy" decoding="async" alt="オーク木目の両開き扉付きオープン棚コンソール"><figcaption><h3>コンソール・サイドボード</h3><p>両開き扉と中央オープン棚の構成です。</p></figcaption></figure>
         <figure class="prod"><img src="../img/credenza.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="引き出し、鍵付き扉、可動棚付きのオフィス用サイドキャビネット"><figcaption><h3>オフィス用サイドキャビネット</h3><p>引き出し、鍵付き扉、可動棚を1台に。</p></figcaption></figure>
         <figure class="prod"><img src="../img/sliding-cabinet.jpg" width="1600" height="1200" loading="lazy" decoding="async" alt="アルミレール付き引き戸のロータイプキャビネット"><figcaption><h3>引き戸キャビネット</h3><p>アルミレールと配線穴付きのロータイプ収納。</p></figcaption></figure>
-        <div class="also"><b>その他の製品</b><span>コートロッカー · ブックディスプレイ · オープンシェルフ · 上置き付きデスク · 昇降デスク天板 · 図面どおりの特注部材</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">製品について問い合わせる</a></div>
+        <div class="also"><b>その他の製品</b><span>教室用小分け収納棚 · キャスター付き収納ワゴン · 鍵付き収納キャビネット · コートロッカー · ブックディスプレイ · オープンシェルフ · 上置き付きデスク · 昇降デスク天板 · 図面どおりの特注部材</span><a class="btn ghost" href="#contact" style="justify-self:start;margin-top:6px">製品について問い合わせる</a></div>
       </div>
       <div class="sec-head sub-head">
         <h3>デスク・テーブル・キャビネット</h3>
